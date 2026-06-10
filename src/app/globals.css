@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215 32% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 32% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 32% 14%;
+
+    /* Brand primary — Deep Navy Blue (#0b2545) */
+    --primary: 214 73% 16%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Brand secondary — Emerald Green (#0e7a57) */
+    --secondary: 158 79% 27%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Neutral surfaces */
+    --muted: 214 24% 96%;
+    --muted-foreground: 215 16% 42%;
+
+    /* Subtle interactive surface (menus, hovers) */
+    --accent: 214 30% 95%;
+    --accent-foreground: 214 73% 16%;
+
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 22% 90%;
+    --input: 214 22% 88%;
+    --ring: 214 73% 30%;
+
+    --radius: 0.6rem;
+  }
+
+  .dark {
+    --background: 215 40% 9%;
+    --foreground: 210 30% 96%;
+    --card: 215 38% 12%;
+    --card-foreground: 210 30% 96%;
+    --popover: 215 38% 12%;
+    --popover-foreground: 210 30% 96%;
+    --primary: 210 90% 64%;
+    --primary-foreground: 215 40% 9%;
+    --secondary: 158 64% 42%;
+    --secondary-foreground: 215 40% 9%;
+    --muted: 215 30% 18%;
+    --muted-foreground: 214 16% 66%;
+    --accent: 215 30% 20%;
+    --accent-foreground: 210 30% 96%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 28% 22%;
+    --input: 215 28% 24%;
+    --ring: 210 90% 64%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1,
+      'ss01' 1;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-pretty;
+  }
+
+  /* Visible, accessible focus styles everywhere. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  ::selection {
+    @apply bg-primary/90 text-primary-foreground;
+  }
+
+  /* Refined custom scrollbar (non-intrusive). */
+  @media (min-width: 768px) {
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: hsl(var(--border)) transparent;
+    }
+    *::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    *::-webkit-scrollbar-thumb {
+      background-color: hsl(var(--border));
+      border-radius: 9999px;
+      border: 2px solid hsl(var(--background));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Vertical rhythm for full-bleed sections. */
+  .section {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+
+  .section-sm {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  /* Small uppercase label used above section headings. */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-secondary;
+  }
+
+  /* Premium link underline animation. */
+  .link-underline {
+    @apply relative inline-block;
+  }
+  .link-underline::after {
+    content: '';
+    @apply absolute -bottom-0.5 left-0 h-px w-0 bg-current transition-all duration-300 ease-premium;
+  }
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+
+  /* Editorial gradient overlay for hero/photographic sections. */
+  .overlay-navy {
+    background: linear-gradient(
+      180deg,
+      hsl(214 73% 10% / 0.2) 0%,
+      hsl(214 73% 10% / 0.55) 55%,
+      hsl(214 73% 8% / 0.85) 100%
+    );
+  }
+
+  .overlay-navy-side {
+    background: linear-gradient(
+      100deg,
+      hsl(214 73% 9% / 0.92) 0%,
+      hsl(214 73% 11% / 0.78) 42%,
+      hsl(214 73% 12% / 0.35) 100%
+    );
+  }
+
+  .glass {
+    @apply bg-white/80 backdrop-blur-md supports-[backdrop-filter]:bg-white/65;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Hide scrollbar but keep scroll (mobile carousels). */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, hsl(var(--border) / 0.6) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border) / 0.6) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  }
+}

@@ -1,0 +1,399 @@
+// Specialist Group — Prisma schema
+// Licensed international labour migration & recruitment platform.
+// Database: PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ----------------------------------------------------------------------------
+// Enums
+// ----------------------------------------------------------------------------
+
+enum UserRole {
+  ADMIN
+  STAFF
+  EMPLOYER
+}
+
+enum RequestStatus {
+  NEW
+  IN_REVIEW
+  CONTACTED
+  IN_PROGRESS
+  SHORTLISTED
+  FULFILLED
+  ON_HOLD
+  CLOSED
+  REJECTED
+}
+
+enum InquiryStatus {
+  NEW
+  READ
+  REPLIED
+  ARCHIVED
+}
+
+enum IndustryType {
+  CONSTRUCTION
+  INDUSTRIAL
+  AGRICULTURE
+  FOOD_PRODUCTION
+  HOSPITALITY
+  SERVICE
+  TRADE
+  HEALTHCARE
+  TEXTILE
+  OTHER
+}
+
+enum CandidateStatus {
+  AVAILABLE
+  IN_TRAINING
+  SHORTLISTED
+  DEPLOYED
+  UNAVAILABLE
+}
+
+enum NotificationType {
+  REQUEST_UPDATE
+  MESSAGE
+  SYSTEM
+  CANDIDATE
+}
+
+enum MessageDirection {
+  INBOUND
+  OUTBOUND
+}
+
+// ----------------------------------------------------------------------------
+// Auth & Users
+// ----------------------------------------------------------------------------
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  role          UserRole  @default(EMPLOYER)
+  locale        String    @default("en")
+  isActive      Boolean   @default(true)
+  lastLoginAt   DateTime?
+
+  employer   Employer? @relation(fields: [employerId], references: [id], onDelete: SetNull)
+  employerId String?
+
+  accounts            Account[]
+  sessions            Session[]
+  notifications       Notification[]
+  authoredMessages    Message[]      @relation("MessageAuthor")
+  communicationLogs   CommunicationLog[]
+  savedCandidates     SavedCandidate[]
+  auditLogs           AuditLog[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([role])
+  @@index([employerId])
+}
+
+// Standard Auth.js models (reserved for future OAuth providers).
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ----------------------------------------------------------------------------
+// Employers (clients) & portal
+// ----------------------------------------------------------------------------
+
+model Employer {
+  id            String  @id @default(cuid())
+  companyName   String
+  contactPerson String?
+  country       String
+  city          String?
+  email         String  @unique
+  phone         String?
+  website       String?
+  industry      IndustryType?
+  vatNumber     String?
+  notes         String? @db.Text
+  isVerified    Boolean @default(false)
+
+  users    User[]
+  requests EmployerRequest[]
+  messages Message[]
+  savedCandidates SavedCandidate[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([country])
+  @@index([industry])
+}
+
+model EmployerRequest {
+  id             String        @id @default(cuid())
+  trackingNumber String        @unique
+  status         RequestStatus @default(NEW)
+
+  // Snapshot of submitted contact data (request may precede an Employer account)
+  companyName    String
+  contactPerson  String
+  country        String
+  email          String
+  phone          String
+  industry       IndustryType
+  workersCount   Int
+  requiredSkills String        @db.Text
+  deploymentDate DateTime?
+  additionalNotes String?      @db.Text
+  attachmentUrl  String?
+  attachmentName String?
+
+  locale         String        @default("en")
+  source         String?       // utm / referral
+  ipHash         String?       // hashed for abuse prevention, never raw IP
+
+  employer   Employer? @relation(fields: [employerId], references: [id], onDelete: SetNull)
+  employerId String?
+
+  assignedTo String?   // User id of staff owner
+  messages   Message[]
+  logs       CommunicationLog[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([industry])
+  @@index([createdAt])
+  @@index([employerId])
+}
+
+model ContactMessage {
+  id        String        @id @default(cuid())
+  name      String
+  email     String
+  company   String?
+  country   String?
+  subject   String?
+  message   String        @db.Text
+  status    InquiryStatus @default(NEW)
+  locale    String        @default("en")
+  ipHash    String?
+  createdAt DateTime      @default(now())
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+// ----------------------------------------------------------------------------
+// Candidates (workforce pool)
+// ----------------------------------------------------------------------------
+
+model Candidate {
+  id            String          @id @default(cuid())
+  reference     String          @unique
+  firstName     String
+  lastName      String
+  age           Int?
+  gender        String?
+  industry      IndustryType
+  profession    String
+  yearsOfExp    Int             @default(0)
+  languages     String[]        // ISO codes or labels
+  certifications String[]
+  status        CandidateStatus @default(AVAILABLE)
+  photoUrl      String?
+  bio           String?         @db.Text
+  isFeatured    Boolean         @default(false)
+
+  savedBy SavedCandidate[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([industry])
+  @@index([status])
+}
+
+model SavedCandidate {
+  id          String    @id @default(cuid())
+  employer    Employer  @relation(fields: [employerId], references: [id], onDelete: Cascade)
+  employerId  String
+  candidate   Candidate @relation(fields: [candidateId], references: [id], onDelete: Cascade)
+  candidateId String
+  savedBy     User?     @relation(fields: [savedById], references: [id], onDelete: SetNull)
+  savedById   String?
+  note        String?   @db.Text
+  createdAt   DateTime  @default(now())
+
+  @@unique([employerId, candidateId])
+  @@index([candidateId])
+}
+
+// ----------------------------------------------------------------------------
+// Messaging, notifications, audit
+// ----------------------------------------------------------------------------
+
+model Message {
+  id         String           @id @default(cuid())
+  body       String           @db.Text
+  direction  MessageDirection @default(OUTBOUND)
+  isRead     Boolean          @default(false)
+
+  request    EmployerRequest? @relation(fields: [requestId], references: [id], onDelete: Cascade)
+  requestId  String?
+  employer   Employer?        @relation(fields: [employerId], references: [id], onDelete: Cascade)
+  employerId String?
+  author     User?            @relation("MessageAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+  authorId   String?
+
+  createdAt DateTime @default(now())
+
+  @@index([requestId])
+  @@index([employerId])
+}
+
+model Notification {
+  id        String           @id @default(cuid())
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  type      NotificationType @default(SYSTEM)
+  title     String
+  body      String?          @db.Text
+  href      String?
+  isRead    Boolean          @default(false)
+  createdAt DateTime         @default(now())
+
+  @@index([userId, isRead])
+}
+
+model CommunicationLog {
+  id         String           @id @default(cuid())
+  request    EmployerRequest? @relation(fields: [requestId], references: [id], onDelete: SetNull)
+  requestId  String?
+  author     User?            @relation(fields: [authorId], references: [id], onDelete: SetNull)
+  authorId   String?
+  channel    String           // email | phone | meeting | note
+  summary    String           @db.Text
+  createdAt  DateTime         @default(now())
+
+  @@index([requestId])
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  actor     User?    @relation(fields: [actorId], references: [id], onDelete: SetNull)
+  actorId   String?
+  action    String
+  entity    String
+  entityId  String?
+  metadata  Json?
+  createdAt DateTime @default(now())
+
+  @@index([entity, entityId])
+  @@index([createdAt])
+}
+
+// ----------------------------------------------------------------------------
+// Content management (testimonials, news)
+// ----------------------------------------------------------------------------
+
+model Testimonial {
+  id           String   @id @default(cuid())
+  authorName   String
+  authorTitle  String?
+  company      String?
+  country      String?
+  industry     IndustryType?
+  quote        String   @db.Text
+  rating       Int      @default(5)
+  avatarUrl    String?
+  isPublished  Boolean  @default(true)
+  sortOrder    Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([isPublished])
+}
+
+model NewsPost {
+  id           String    @id @default(cuid())
+  slug         String    @unique
+  locale       String    @default("en")
+  title        String
+  excerpt      String    @db.Text
+  body         String    @db.Text
+  category     String?
+  coverImage   String?
+  author       String?
+  isPublished  Boolean   @default(false)
+  publishedAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@index([isPublished, publishedAt])
+  @@index([locale])
+}
+
+model CompanyLicense {
+  id                 String   @id @default(cuid())
+  licenseNumber      String
+  registerNumber     String
+  tin                String
+  registrationNumber String
+  issuingAuthority   String
+  issuedAt           DateTime?
+  validUntil         DateTime?
+  documentUrl        String?
+  isActive           Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+}
