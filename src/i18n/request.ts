@@ -1,22 +1,23 @@
 import { getRequestConfig } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { routing } from './routing';
+import { deepMerge } from './deep-merge';
 
 export default getRequestConfig(async ({ requestLocale }) => {
   const requested = await requestLocale;
   const locale = hasLocale(routing.locales, requested) ? requested : routing.defaultLocale;
 
-  // English is always loaded as the fallback catalog so that any key missing
-  // from a translation gracefully resolves instead of throwing.
-  const messages = (await import(`../../messages/${locale}.json`)).default;
-  const fallback =
+  // English is always loaded as the base catalog so that any key missing from a
+  // translation gracefully resolves (deep-merged, including nested keys).
+  const base = (await import(`../../messages/${routing.defaultLocale}.json`)).default;
+  const messages =
     locale === routing.defaultLocale
-      ? messages
-      : (await import(`../../messages/${routing.defaultLocale}.json`)).default;
+      ? base
+      : deepMerge(base, (await import(`../../messages/${locale}.json`)).default);
 
   return {
     locale,
-    messages: { ...fallback, ...messages },
+    messages,
     now: new Date(),
     timeZone: 'Asia/Tashkent',
   };

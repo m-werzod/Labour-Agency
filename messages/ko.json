@@ -1,0 +1,151 @@
+{
+  "Meta": {
+    "home": {
+      "title": "우즈베키스탄의 합법 인력 솔루션",
+      "description": "Specialist Group은 우즈베키스탄 타슈켄트에 위치한 정부 인가 민간 고용 기관입니다. 검증된 인력을 채용·교육하여 국제 고용주에게 합법적으로 파견합니다."
+    }
+  },
+  "Common": {
+    "skipToContent": "본문으로 이동",
+    "home": "홈",
+    "menu": "메뉴",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "닫기",
+    "licensedBadge": "정부 인가",
+    "licenseNo": "라이선스 번호",
+    "requestWorkforce": "인력 요청",
+    "contactUs": "문의하기",
+    "viewLicense": "라이선스 보기",
+    "learnMore": "자세히 보기",
+    "readMore": "더 읽기",
+    "viewAll": "모두 보기",
+    "viewDetails": "상세 보기",
+    "getInTouch": "문의하기",
+    "getStarted": "시작하기",
+    "exploreServices": "서비스",
+    "talkToUs": "팀에 문의",
+    "submit": "제출",
+    "sending": "전송 중…",
+    "backToHome": "홈으로",
+    "required": "필수",
+    "optional": "선택",
+    "loading": "로딩 중…",
+    "all": "전체",
+    "previous": "이전",
+    "next": "다음",
+    "page": "페이지"
+  },
+  "Nav": {
+    "home": "홈",
+    "about": "회사 소개",
+    "services": "서비스",
+    "industries": "산업 분야",
+    "whyUzbekistan": "우즈베키스탄을 선택하는 이유",
+    "license": "라이선스",
+    "news": "뉴스",
+    "contact": "문의",
+    "portal": "고용주 포털",
+    "track": "요청 조회",
+    "testimonials": "고객 후기",
+    "faq": "자주 묻는 질문",
+    "employerRequest": "인력 요청",
+    "requestWorkforce": "인력 요청"
+  },
+  "Footer": {
+    "about": "Specialist Group은 우즈베키스탄 타슈켄트의 인가받은 민간 고용 기관으로, 검증된 인력을 채용·교육하여 전 세계 고용주에게 합법적으로 파견합니다.",
+    "columns": { "company": "회사", "solutions": "솔루션", "forEmployers": "고용주" },
+    "licenseNote": "우즈베키스탄 공화국 해외노동이주청의 인가를 받았습니다.",
+    "licenseNumber": "라이선스 번호",
+    "registerNumber": "등록부 번호",
+    "tin": "납세자 번호",
+    "registrationNumber": "등록 번호",
+    "rights": "모든 권리 보유.",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관"
+  },
+  "Home": {
+    "hero": {
+      "badge": "정부 인가 채용 기관 · 우즈베키스탄",
+      "title": "우즈베키스탄에서 전 세계로, 합법 인력 솔루션",
+      "subtitle": "우즈베키스탄의 검증되고 즉시 투입 가능한 전문 인력을 채용·교육하여 국제 고용주에게 합법적으로 파견합니다. 모든 단계에서 정부 라이선스와 법규 준수를 보장합니다.",
+      "ctaPrimary": "인력 요청",
+      "ctaSecondary": "문의하기",
+      "ctaTertiary": "라이선스 보기",
+      "scroll": "더 알아보기"
+    },
+    "logos": { "title": "다음 국가로 인력을 파견하는 고용주들이 신뢰합니다" },
+    "introCta": {
+      "eyebrow": "법규 준수 기반",
+      "title": "국제 고용주가 신뢰할 수 있는 파트너",
+      "body": "최초 요청부터 도착 후 지원까지, Specialist Group은 우즈베키스탄과 파견국 법률에 따라 전 과정을 관리합니다. 법적 위험 없이 자격을 갖춘 인력을 제공합니다."
+    },
+    "ctaBanner": {
+      "title": "우즈베키스탄 인력으로 팀을 구성할 준비가 되셨나요?",
+      "subtitle": "필요 사항을 알려주세요. 전문가가 1영업일 이내에 맞춤 제안을 드립니다.",
+      "primary": "인력 요청",
+      "secondary": "상담 예약"
+    }
+  },
+  "TrustBadges": {
+    "eyebrow": "고용주가 신뢰하는 이유",
+    "items": {
+      "governmentLicensed": { "title": "정부 인가", "description": "우즈베키스탄 해외노동이주청 인가 — 라이선스 번호 0078." },
+      "legalRecruitment": { "title": "합법 채용", "description": "모든 채용은 완전히 문서화되고 법규를 준수합니다." },
+      "preScreened": { "title": "사전 검증된 후보자", "description": "파견 전 역량 평가, 건강 검진, 신원 확인." },
+      "internationalCooperation": { "title": "국제 협력", "description": "18개 파견국과의 양자 협약." }
+    }
+  },
+  "Stats": {
+    "eyebrow": "검증된 실적",
+    "title": "성과로 증명합니다",
+    "subtitle": "거의 10년에 걸친 합법적 국제 파견 실적.",
+    "items": { "workersDeployed": "파견 인력", "partnerEmployers": "파트너 고용주", "countries": "파견 국가", "yearsExperience": "업력(년)" }
+  },
+  "Industries": {
+    "eyebrow": "서비스 산업 분야",
+    "title": "모든 분야를 위한 숙련 인력",
+    "subtitle": "인력 부족이 가장 큰 산업 분야에 검증되고 교육된 인력을 공급합니다.",
+    "viewAll": "모든 산업 보기",
+    "rolesLabel": "주요 직무",
+    "items": {
+      "construction": { "title": "건설" },
+      "industrial": { "title": "제조·산업" },
+      "agriculture": { "title": "농업" },
+      "foodProduction": { "title": "식품 생산" },
+      "hospitality": { "title": "숙박·접객" },
+      "service": { "title": "서비스" },
+      "trade": { "title": "기능직" },
+      "healthcare": { "title": "간호·요양" },
+      "textile": { "title": "재봉·섬유" },
+      "other": { "title": "기타 전문 인력" }
+    }
+  },
+  "Services": {
+    "eyebrow": "원스톱 채용",
+    "title": "노동 이주의 전 과정을 위한 단일 파트너",
+    "subtitle": "모든 단계를 관리합니다 — 준비되고 서류가 완비된 인력을 받으십시오."
+  },
+  "WhyUzbekistan": {
+    "eyebrow": "우즈베키스탄을 선택하는 이유",
+    "title": "신뢰할 수 있는 인력의 새로운 글로벌 공급원",
+    "subtitle": "젊고 의욕적인 인력과 합법 이주에 대한 정부 지원."
+  },
+  "License": {
+    "eyebrow": "라이선스 및 규정 준수",
+    "title": "완전한 인가, 완전한 준수.",
+    "subtitle": "Specialist Group은 공식 정부 허가에 따라 운영됩니다.",
+    "verifiedBadge": "공식 인증",
+    "credentials": { "licenseNumber": "라이선스 번호", "registerNumber": "등록부 번호", "tin": "납세자 번호", "registrationNumber": "등록 번호" },
+    "authorityLabel": "발급 기관"
+  },
+  "Contact": {
+    "eyebrow": "문의",
+    "title": "함께 팀을 구성합시다",
+    "subtitle": "타슈켄트의 채용팀에 문의하세요. 1영업일 이내에 답변드립니다.",
+    "info": { "addressTitle": "본사", "phoneTitle": "전화 및 WhatsApp", "emailTitle": "이메일", "hoursTitle": "운영 시간" }
+  },
+  "Auth": {
+    "login": { "title": "로그인", "subtitle": "Specialist Group 계정에 접속합니다.", "email": "이메일", "password": "비밀번호", "submit": "로그인", "submitting": "로그인 중…", "error": "이메일 또는 비밀번호가 올바르지 않습니다." }
+  },
+  "NotFound": { "title": "페이지를 찾을 수 없습니다", "subtitle": "찾으시는 페이지가 존재하지 않거나 이동되었습니다.", "home": "홈으로", "contact": "문의하기" }
+}

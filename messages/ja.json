@@ -1,0 +1,151 @@
+{
+  "Meta": {
+    "home": {
+      "title": "ウズベキスタンからのライセンス取得済み人材ソリューション",
+      "description": "Specialist Groupはウズベキスタン・タシケントの政府認可を受けた民間職業紹介機関です。審査済みの人材を採用・訓練し、国際的な雇用主へ合法的に派遣します。"
+    }
+  },
+  "Common": {
+    "skipToContent": "本文へスキップ",
+    "home": "ホーム",
+    "menu": "メニュー",
+    "openMenu": "メニューを開く",
+    "closeMenu": "閉じる",
+    "licensedBadge": "政府認可",
+    "licenseNo": "ライセンス番号",
+    "requestWorkforce": "人材を依頼",
+    "contactUs": "お問い合わせ",
+    "viewLicense": "ライセンスを見る",
+    "learnMore": "詳しく見る",
+    "readMore": "続きを読む",
+    "viewAll": "すべて見る",
+    "viewDetails": "詳細",
+    "getInTouch": "お問い合わせ",
+    "getStarted": "始める",
+    "exploreServices": "サービス",
+    "talkToUs": "担当チームに相談",
+    "submit": "送信",
+    "sending": "送信中…",
+    "backToHome": "ホームへ",
+    "required": "必須",
+    "optional": "任意",
+    "loading": "読み込み中…",
+    "all": "すべて",
+    "previous": "前へ",
+    "next": "次へ",
+    "page": "ページ"
+  },
+  "Nav": {
+    "home": "ホーム",
+    "about": "会社概要",
+    "services": "サービス",
+    "industries": "対応業種",
+    "whyUzbekistan": "なぜウズベキスタンか",
+    "license": "ライセンス",
+    "news": "ニュース",
+    "contact": "お問い合わせ",
+    "portal": "雇用主ポータル",
+    "track": "依頼状況の確認",
+    "testimonials": "お客様の声",
+    "faq": "よくある質問",
+    "employerRequest": "人材を依頼",
+    "requestWorkforce": "人材を依頼"
+  },
+  "Footer": {
+    "about": "Specialist Groupはウズベキスタン・タシケントの認可を受けた民間職業紹介機関であり、審査済みの人材を採用・訓練し、世界中の雇用主へ合法的に派遣しています。",
+    "columns": { "company": "会社", "solutions": "ソリューション", "forEmployers": "雇用主の皆様へ" },
+    "licenseNote": "ウズベキスタン共和国・対外労働移住庁により認可されています。",
+    "licenseNumber": "ライセンス番号",
+    "registerNumber": "登録簿番号",
+    "tin": "納税者番号",
+    "registrationNumber": "登録番号",
+    "rights": "無断転載を禁じます。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "Home": {
+    "hero": {
+      "badge": "政府認可の人材紹介機関 · ウズベキスタン",
+      "title": "ウズベキスタンから世界へ、ライセンス取得済みの人材ソリューション",
+      "subtitle": "ウズベキスタンの審査済みで即戦力となる人材を採用・訓練し、国際的な雇用主へ合法的に派遣します。すべての工程で政府ライセンスと法令順守を徹底します。",
+      "ctaPrimary": "人材を依頼",
+      "ctaSecondary": "お問い合わせ",
+      "ctaTertiary": "ライセンスを見る",
+      "scroll": "さらに見る"
+    },
+    "logos": { "title": "次の国々へ人材を派遣する雇用主に信頼されています" },
+    "introCta": {
+      "eyebrow": "コンプライアンスを基盤に",
+      "title": "国際的な雇用主が信頼できるパートナー",
+      "body": "最初のご依頼から到着後のサポートまで、Specialist Groupはウズベキスタンおよび派遣先国の法律に基づき全工程を管理します。法的リスクなく、資格を備えた人材をお届けします。"
+    },
+    "ctaBanner": {
+      "title": "ウズベキスタンの人材でチームを構築しませんか？",
+      "subtitle": "ご要望をお聞かせください。専門スタッフが1営業日以内にご提案いたします。",
+      "primary": "人材を依頼",
+      "secondary": "相談を予約"
+    }
+  },
+  "TrustBadges": {
+    "eyebrow": "雇用主に信頼される理由",
+    "items": {
+      "governmentLicensed": { "title": "政府認可", "description": "ウズベキスタン対外労働移住庁による認可 — ライセンス番号 0078。" },
+      "legalRecruitment": { "title": "合法的な採用", "description": "すべての派遣は完全に文書化され、法令を順守します。" },
+      "preScreened": { "title": "審査済みの候補者", "description": "派遣前のスキル評価、健康診断、身元確認。" },
+      "internationalCooperation": { "title": "国際協力", "description": "18の派遣先国との二国間協定。" }
+    }
+  },
+  "Stats": {
+    "eyebrow": "確かな実績",
+    "title": "成果で評価されています",
+    "subtitle": "ほぼ10年にわたる合法的な国際人材派遣の実績。",
+    "items": { "workersDeployed": "派遣人材数", "partnerEmployers": "提携雇用主", "countries": "派遣先国数", "yearsExperience": "事業年数" }
+  },
+  "Industries": {
+    "eyebrow": "対応業種",
+    "title": "あらゆる業種に有資格人材を",
+    "subtitle": "人材不足が最も深刻な業種に、審査・訓練済みの人材を供給します。",
+    "viewAll": "すべての業種を見る",
+    "rolesLabel": "主な職種",
+    "items": {
+      "construction": { "title": "建設" },
+      "industrial": { "title": "製造・産業" },
+      "agriculture": { "title": "農業" },
+      "foodProduction": { "title": "食品製造" },
+      "hospitality": { "title": "ホスピタリティ" },
+      "service": { "title": "サービス" },
+      "trade": { "title": "技能職" },
+      "healthcare": { "title": "看護・介護" },
+      "textile": { "title": "縫製・繊維" },
+      "other": { "title": "その他の専門職" }
+    }
+  },
+  "Services": {
+    "eyebrow": "ワンストップの採用",
+    "title": "労働移住の全工程をひとつのパートナーで",
+    "subtitle": "すべての工程を管理します — 準備が整い、書類も完備した人材をお届けします。"
+  },
+  "WhyUzbekistan": {
+    "eyebrow": "なぜウズベキスタンか",
+    "title": "信頼できる人材の新たなグローバル供給源",
+    "subtitle": "若く意欲的な労働力と、合法的な移住への政府支援。"
+  },
+  "License": {
+    "eyebrow": "ライセンスとコンプライアンス",
+    "title": "完全に認可。完全に順守。",
+    "subtitle": "Specialist Groupは公的な政府認可に基づいて運営しています。",
+    "verifiedBadge": "公式認証済み",
+    "credentials": { "licenseNumber": "ライセンス番号", "registerNumber": "登録簿番号", "tin": "納税者番号", "registrationNumber": "登録番号" },
+    "authorityLabel": "発行機関"
+  },
+  "Contact": {
+    "eyebrow": "お問い合わせ",
+    "title": "あなたのチームを構築しましょう",
+    "subtitle": "タシケントの採用チームにご連絡ください。1営業日以内に返信します。",
+    "info": { "addressTitle": "本社", "phoneTitle": "電話・WhatsApp", "emailTitle": "メール", "hoursTitle": "営業時間" }
+  },
+  "Auth": {
+    "login": { "title": "ログイン", "subtitle": "Specialist Groupのアカウントにアクセスします。", "email": "メールアドレス", "password": "パスワード", "submit": "ログイン", "submitting": "ログイン中…", "error": "メールアドレスまたはパスワードが正しくありません。" }
+  },
+  "NotFound": { "title": "ページが見つかりません", "subtitle": "お探しのページは存在しないか、移動されました。", "home": "ホームへ", "contact": "お問い合わせ" }
+}
