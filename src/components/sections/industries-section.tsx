@@ -7,7 +7,13 @@ import { SectionHeader } from '@/components/shared/section-header';
 import { StaggerGroup, StaggerItem } from '@/components/shared/reveal';
 import { IndustryCard } from './industry-card';
 
-export function IndustriesSection({ limit }: { limit?: number }) {
+export function IndustriesSection({
+  limit,
+  withAnchors = false,
+}: {
+  limit?: number;
+  withAnchors?: boolean;
+}) {
   const t = useTranslations('Industries');
   const list = limit ? industries.slice(0, limit) : industries;
 
@@ -18,7 +24,11 @@ export function IndustriesSection({ limit }: { limit?: number }) {
 
         <StaggerGroup className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((industry) => (
-            <StaggerItem key={industry.slug} className="h-full">
+            <StaggerItem
+              key={industry.slug}
+              className="h-full scroll-mt-28"
+              id={withAnchors ? industry.slug : undefined}
+            >
               <IndustryCard industry={industry} className="h-full" />
             </StaggerItem>
           ))}

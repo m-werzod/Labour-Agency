@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import { siteConfig } from '@/config/site';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -81,4 +82,26 @@ export function buildMetadata({
       apple: '/icon.svg',
     },
   };
+}
+
+/** Convenience builder for inner pages reading from the `Meta` namespace. */
+export async function pageMetadata({
+  locale,
+  page,
+  path,
+  noIndex,
+}: {
+  locale: Locale;
+  page: string;
+  path: string;
+  noIndex?: boolean;
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: 'Meta' });
+  return buildMetadata({
+    locale,
+    title: t(`${page}.title`),
+    description: t(`${page}.description`),
+    path,
+    noIndex,
+  });
 }
