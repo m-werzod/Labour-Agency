@@ -3,7 +3,7 @@
 import { headers } from 'next/headers';
 import { createHash } from 'crypto';
 import type { Attachment } from 'nodemailer/lib/mailer';
-import { Prisma } from '@prisma/client';
+import type { Prisma } from '@prisma/client';
 import { prisma } from '@/lib/prisma';
 import { generateTrackingNumber } from '@/lib/utils';
 import {

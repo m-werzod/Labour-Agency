@@ -34,7 +34,7 @@ export function buildMetadata({
   keywords,
 }: BuildMetadataArgs): Metadata {
   const canonical = localizedUrl(locale, path);
-  const ogImage = image ?? '/og/opengraph-image';
+  const ogImage = image ?? '/og';
 
   const languages: Record<string, string> = {};
   routing.locales.forEach((l) => {

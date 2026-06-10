@@ -78,7 +78,17 @@
     "all": "All",
     "previous": "Previous",
     "next": "Next",
-    "page": "Page"
+    "page": "Page",
+    "viewSite": "View site",
+    "search": "Search",
+    "filter": "Filter",
+    "status": "Status",
+    "date": "Date",
+    "actions": "Actions",
+    "save": "Save",
+    "saving": "Saving…",
+    "noResults": "No results found",
+    "back": "Back"
   },
 
   "Nav": {
