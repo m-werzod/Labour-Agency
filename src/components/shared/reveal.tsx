@@ -67,13 +67,15 @@ export function StaggerGroup({
 export function StaggerItem({
   children,
   className,
+  id,
 }: {
   children: React.ReactNode;
   className?: string;
+  id?: string;
 }) {
   const reduce = useReducedMotion();
   return (
-    <motion.div className={cn(className)} variants={reduce ? undefined : itemVariants}>
+    <motion.div id={id} className={cn(className)} variants={reduce ? undefined : itemVariants}>
       {children}
     </motion.div>
   );
