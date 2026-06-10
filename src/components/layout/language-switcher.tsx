@@ -2,7 +2,6 @@
 
 import * as React from 'react';
 import { useLocale } from 'next-intl';
-import { useParams } from 'next/navigation';
 import { Check, Globe } from 'lucide-react';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { locales, localeMeta, type Locale } from '@/i18n/routing';
@@ -27,18 +26,13 @@ export function LanguageSwitcher({ variant = 'default', align = 'end' }: Languag
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const router = useRouter();
-  const params = useParams();
   const [isPending, startTransition] = React.useTransition();
 
   function onSelect(next: Locale) {
     if (next === locale) return;
     startTransition(() => {
-      // Preserve the current route and dynamic params; persists via cookie.
-      router.replace(
-        // @ts-expect-error -- params from current route are valid for the same pathname
-        { pathname, params },
-        { locale: next },
-      );
+      // Preserve the current route; the chosen locale persists via cookie.
+      router.replace(pathname, { locale: next });
     });
   }
 

@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Manrope } from 'next/font/google';
 import { notFound } from 'next/navigation';
-import { NextIntlClientProvider, hasLocale } from 'next-intl';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing, getDir, type Locale } from '@/i18n/routing';
 import { siteConfig } from '@/config/site';
 import { buildMetadata } from '@/lib/seo';
@@ -60,10 +60,11 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) {
+  if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
   setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
     <html
@@ -73,7 +74,7 @@ export default async function LocaleLayout({
       className={`${inter.variable} ${manrope.variable}`}
     >
       <body className="min-h-screen bg-background font-sans text-foreground">
-        <NextIntlClientProvider>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>{children}</Providers>
           <Toaster />
         </NextIntlClientProvider>

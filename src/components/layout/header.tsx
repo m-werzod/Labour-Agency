@@ -83,7 +83,7 @@ export function Header() {
             : 'border-b border-border/70 bg-background/90 shadow-soft backdrop-blur-md supports-[backdrop-filter]:bg-background/75',
         )}
       >
-        <nav className="container flex h-16 items-center justify-between gap-4 lg:h-18" aria-label="Primary">
+        <nav className="container flex h-16 items-center justify-between gap-4 lg:h-20" aria-label="Primary">
           <Link href="/" aria-label={`${tc('home')} — Specialist Group`} className="shrink-0">
             <Logo theme={transparent ? 'white' : 'default'} />
           </Link>
