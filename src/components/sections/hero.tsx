@@ -58,15 +58,16 @@ export function Hero() {
                   <ArrowRight className="size-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline-light" size="xl" className="w-full sm:w-auto">
+              <Button asChild variant="outline-light" size="xl" className="w-full border-white/50 sm:w-auto">
                 <Link href="/contact">{t('ctaSecondary')}</Link>
               </Button>
-              <Button asChild variant="link" size="xl" className="w-full text-white hover:text-secondary-300 sm:w-auto">
-                <Link href="/license">
-                  <ScrollText className="size-5" />
-                  {t('ctaTertiary')}
-                </Link>
-              </Button>
+              <Link
+                href="/license"
+                className="link-underline inline-flex h-14 items-center gap-2 px-2 text-base font-semibold text-white/85 transition-colors hover:text-white"
+              >
+                <ScrollText className="size-5 shrink-0" />
+                {t('ctaTertiary')}
+              </Link>
             </div>
           </Reveal>
         </div>
