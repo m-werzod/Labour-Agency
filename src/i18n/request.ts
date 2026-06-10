@@ -1,11 +1,13 @@
 import { getRequestConfig } from 'next-intl/server';
-import { hasLocale } from 'next-intl';
-import { routing } from './routing';
+import { routing, type Locale } from './routing';
 import { deepMerge } from './deep-merge';
 
 export default getRequestConfig(async ({ requestLocale }) => {
   const requested = await requestLocale;
-  const locale = hasLocale(routing.locales, requested) ? requested : routing.defaultLocale;
+  const locale: Locale =
+    requested && routing.locales.includes(requested as Locale)
+      ? (requested as Locale)
+      : routing.defaultLocale;
 
   // English is always loaded as the base catalog so that any key missing from a
   // translation gracefully resolves (deep-merged, including nested keys).
