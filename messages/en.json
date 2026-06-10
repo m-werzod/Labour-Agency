@@ -1,0 +1,749 @@
+{
+  "Meta": {
+    "home": {
+      "title": "Licensed Workforce Solutions from Uzbekistan",
+      "description": "Specialist Group is a government-licensed private employment agency in Tashkent, Uzbekistan. We recruit, train and legally deploy pre-screened workers to international employers across construction, industry, agriculture, healthcare and more."
+    },
+    "about": {
+      "title": "About Specialist Group",
+      "description": "A licensed Uzbek recruitment agency built on compliance, training and trust — connecting international employers with qualified, work-ready talent from Uzbekistan."
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "End-to-end international recruitment: sourcing, screening, vocational and language training, documentation, legal compliance, deployment and post-arrival support."
+    },
+    "industries": {
+      "title": "Industries We Serve",
+      "description": "Qualified workers from Uzbekistan for construction, industry, agriculture, food production, hospitality, healthcare, textile, trade and specialist roles."
+    },
+    "whyUzbekistan": {
+      "title": "Why Recruit from Uzbekistan",
+      "description": "A young, skilled and multilingual workforce, strong work ethic and government-backed labour migration — discover why employers choose Uzbekistan."
+    },
+    "license": {
+      "title": "License & Compliance",
+      "description": "Specialist Group operates under official government license No. 0078. View our licensing, registration and tax credentials and our compliance framework."
+    },
+    "employerRequest": {
+      "title": "Request Workforce",
+      "description": "Submit a workforce request and receive a tailored proposal from our recruitment specialists. Get a tracking number and a response within one business day."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Speak with our international recruitment team in Tashkent. Request workers, ask about compliance or arrange a partnership."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Answers to common questions from international employers about licensing, costs, timelines, training and legal deployment of Uzbek workers."
+    },
+    "news": {
+      "title": "News & Updates",
+      "description": "Insights, regulatory updates and announcements from Specialist Group on international labour migration from Uzbekistan."
+    },
+    "testimonials": {
+      "title": "Client Testimonials",
+      "description": "What international employers say about partnering with Specialist Group for licensed, reliable workforce solutions from Uzbekistan."
+    },
+    "track": {
+      "title": "Track Your Request",
+      "description": "Enter your tracking number to view the live status of your workforce request."
+    }
+  },
+
+  "Common": {
+    "skipToContent": "Skip to content",
+    "home": "Home",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "licensedBadge": "Government Licensed",
+    "licenseNo": "License No.",
+    "requestWorkforce": "Request Workforce",
+    "contactUs": "Contact Us",
+    "viewLicense": "View License",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "viewDetails": "View details",
+    "getInTouch": "Get in touch",
+    "getStarted": "Get started",
+    "exploreServices": "Explore services",
+    "talkToUs": "Talk to our team",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "backToHome": "Back to home",
+    "required": "Required",
+    "optional": "Optional",
+    "loading": "Loading…",
+    "all": "All",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+
+  "Nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "industries": "Industries",
+    "whyUzbekistan": "Why Uzbekistan",
+    "license": "License & Compliance",
+    "news": "News",
+    "contact": "Contact",
+    "portal": "Employer Portal",
+    "track": "Track Request",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "employerRequest": "Request Workforce",
+    "requestWorkforce": "Request Workforce"
+  },
+
+  "Footer": {
+    "about": "Specialist Group is a licensed private employment agency in Tashkent, Uzbekistan, recruiting, training and legally deploying pre-screened workers to international employers worldwide.",
+    "columns": {
+      "company": "Company",
+      "solutions": "Solutions",
+      "forEmployers": "For Employers"
+    },
+    "licenseNote": "Authorised by the Agency for External Labour Migration of the Republic of Uzbekistan.",
+    "licenseNumber": "License No.",
+    "registerNumber": "Register No.",
+    "tin": "TIN",
+    "registrationNumber": "Registration No.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+
+  "Home": {
+    "hero": {
+      "badge": "Government-Licensed Recruitment Agency · Uzbekistan",
+      "title": "Licensed Workforce Solutions from Uzbekistan to the World",
+      "subtitle": "We recruit, train and legally deploy pre-screened, work-ready professionals from Uzbekistan to international employers — with full government licensing and end-to-end compliance at every step.",
+      "ctaPrimary": "Request Workforce",
+      "ctaSecondary": "Contact Us",
+      "ctaTertiary": "View License",
+      "scroll": "Discover more"
+    },
+    "logos": {
+      "title": "Trusted by employers deploying talent across"
+    },
+    "introCta": {
+      "eyebrow": "Built on Compliance",
+      "title": "A recruitment partner international employers can rely on",
+      "body": "From the first request to post-arrival support, Specialist Group manages the entire labour migration process under Uzbek and destination-country law. You receive qualified, documented and prepared workers — without the legal risk."
+    },
+    "ctaBanner": {
+      "title": "Ready to build your workforce from Uzbekistan?",
+      "subtitle": "Tell us what you need. Our specialists will respond within one business day with a tailored proposal and timeline.",
+      "primary": "Request Workforce",
+      "secondary": "Book a consultation"
+    }
+  },
+
+  "TrustBadges": {
+    "eyebrow": "Why employers trust us",
+    "items": {
+      "governmentLicensed": {
+        "title": "Government Licensed",
+        "description": "Authorised by Uzbekistan's Agency for External Labour Migration — License No. 0078."
+      },
+      "legalRecruitment": {
+        "title": "Legal Recruitment",
+        "description": "Every placement is fully documented and compliant with Uzbek and destination-country law."
+      },
+      "preScreened": {
+        "title": "Pre-Screened Candidates",
+        "description": "Skills assessments, medical checks and background verification before deployment."
+      },
+      "internationalCooperation": {
+        "title": "International Cooperation",
+        "description": "Bilateral agreements and partnerships across 18 destination countries."
+      }
+    }
+  },
+
+  "Stats": {
+    "eyebrow": "Proven track record",
+    "title": "Measured by the outcomes we deliver",
+    "subtitle": "Nearly a decade of compliant international placements, backed by long-term employer partnerships.",
+    "items": {
+      "workersDeployed": "Workers deployed",
+      "partnerEmployers": "Partner employers",
+      "countries": "Destination countries",
+      "yearsExperience": "Years of experience"
+    }
+  },
+
+  "Industries": {
+    "eyebrow": "Industries we serve",
+    "title": "Qualified talent for every sector",
+    "subtitle": "We supply screened, trained workers across the industries where international employers face the greatest shortages.",
+    "viewAll": "View all industries",
+    "exploreCta": "Need talent for another sector? Talk to us.",
+    "rolesLabel": "Typical roles",
+    "items": {
+      "construction": {
+        "title": "Construction",
+        "description": "Masons, concrete workers, steel fixers, scaffolders, plasterers, general labourers and site supervisors.",
+        "roles": "Masons · Steel fixers · Scaffolders · Plasterers · Site labourers"
+      },
+      "industrial": {
+        "title": "Industrial & Manufacturing",
+        "description": "Machine operators, assembly line workers, warehouse staff, packers and production technicians.",
+        "roles": "Machine operators · Assemblers · Packers · Warehouse staff"
+      },
+      "agriculture": {
+        "title": "Agriculture",
+        "description": "Field workers, greenhouse operatives, harvesters, livestock handlers and farm machinery operators.",
+        "roles": "Harvesters · Greenhouse workers · Livestock handlers"
+      },
+      "foodProduction": {
+        "title": "Food Production",
+        "description": "Meat and poultry processing, packaging, food-grade cleaning and quality-control operatives.",
+        "roles": "Processing · Packaging · Quality control"
+      },
+      "hospitality": {
+        "title": "Hospitality",
+        "description": "Hotel staff, kitchen porters, cooks, housekeepers, waiters and food-service personnel.",
+        "roles": "Kitchen porters · Housekeepers · Waiters · Cooks"
+      },
+      "service": {
+        "title": "Service",
+        "description": "Cleaning, logistics support, retail assistants, drivers and facility-maintenance staff.",
+        "roles": "Cleaners · Drivers · Retail · Facilities"
+      },
+      "trade": {
+        "title": "Skilled Trades",
+        "description": "Welders, electricians, plumbers, carpenters, painters and HVAC technicians.",
+        "roles": "Welders · Electricians · Plumbers · Carpenters"
+      },
+      "healthcare": {
+        "title": "Nurses & Caregivers",
+        "description": "Registered nurses, elderly caregivers, home-care assistants and medical support staff.",
+        "roles": "Nurses · Caregivers · Home-care assistants"
+      },
+      "textile": {
+        "title": "Seamstresses & Textile",
+        "description": "Industrial sewing machine operators, seamstresses, cutters and garment-finishing staff.",
+        "roles": "Sewing operators · Seamstresses · Cutters"
+      },
+      "other": {
+        "title": "Other Specialists",
+        "description": "Bespoke recruitment for specialist and technical roles tailored to your operation.",
+        "roles": "Custom · Technical · Specialist"
+      }
+    }
+  },
+
+  "Services": {
+    "eyebrow": "End-to-end recruitment",
+    "title": "One partner for the entire labour migration journey",
+    "subtitle": "We manage every stage — so you receive prepared, documented and reliable workers without administrative burden or legal risk.",
+    "learnMore": "Learn more about our process",
+    "items": {
+      "recruitment": {
+        "title": "Recruitment & Sourcing",
+        "description": "We source candidates from a nationwide network of vocational colleges, training centres and verified regional partners."
+      },
+      "screening": {
+        "title": "Screening & Assessment",
+        "description": "Skills testing, medical examinations, document verification and background checks before any candidate is shortlisted."
+      },
+      "training": {
+        "title": "Vocational Training",
+        "description": "Role-specific upskilling at accredited centres to meet your technical standards and safety requirements."
+      },
+      "language": {
+        "title": "Language Preparation",
+        "description": "Targeted language training — including Korean, German, Japanese, Russian and English — for workplace readiness."
+      },
+      "documentation": {
+        "title": "Documentation & Visas",
+        "description": "Passports, work permits, visa processing and certified translations handled end-to-end by our legal team."
+      },
+      "compliance": {
+        "title": "Legal Compliance",
+        "description": "Full adherence to Uzbek labour-migration law and destination-country regulations, with transparent contracts."
+      },
+      "deployment": {
+        "title": "Deployment & Logistics",
+        "description": "Flights, airport transfers and coordinated arrival so your workforce is ready to start on schedule."
+      },
+      "aftercare": {
+        "title": "Post-Arrival Support",
+        "description": "Ongoing welfare monitoring and a dedicated account manager for both employer and worker after deployment."
+      }
+    }
+  },
+
+  "Process": {
+    "eyebrow": "How it works",
+    "title": "A clear, compliant six-step process",
+    "subtitle": "Transparent at every stage, with a single point of contact from request to deployment.",
+    "stepLabel": "Step",
+    "steps": {
+      "request": {
+        "title": "Workforce Request",
+        "description": "You submit role requirements, quantities and timelines. We confirm feasibility and provide a proposal within one business day."
+      },
+      "sourcing": {
+        "title": "Candidate Sourcing",
+        "description": "We identify suitable candidates from our verified national network and shortlist against your criteria."
+      },
+      "screening": {
+        "title": "Screening & Interviews",
+        "description": "Skills tests, medicals and background checks. You interview shortlisted candidates in person or online."
+      },
+      "training": {
+        "title": "Training & Preparation",
+        "description": "Selected workers complete vocational and language training tailored to your workplace."
+      },
+      "documentation": {
+        "title": "Documentation",
+        "description": "We process visas, work permits and all legal paperwork in full compliance with both countries."
+      },
+      "deployment": {
+        "title": "Deployment",
+        "description": "Coordinated travel and arrival, followed by continuous post-deployment support."
+      }
+    }
+  },
+
+  "Training": {
+    "eyebrow": "Workforce readiness",
+    "title": "Workers prepared before they arrive",
+    "subtitle": "Our training capabilities mean your new hires are productive from day one — technically skilled, safety-aware and able to communicate.",
+    "points": {
+      "vocational": {
+        "title": "Accredited vocational training",
+        "description": "Hands-on, role-specific instruction at partner centres aligned to international standards."
+      },
+      "language": {
+        "title": "Language & cultural readiness",
+        "description": "Practical language tuition and cultural orientation for the destination country."
+      },
+      "safety": {
+        "title": "Health & safety certification",
+        "description": "Workplace safety, hygiene and compliance training relevant to your sector."
+      },
+      "softSkills": {
+        "title": "Workplace integration",
+        "description": "Teamwork, discipline and professional conduct to ensure smooth integration."
+      }
+    }
+  },
+
+  "WhyUzbekistan": {
+    "eyebrow": "Why Uzbekistan",
+    "title": "A new global source of dependable talent",
+    "subtitle": "Uzbekistan combines a young, motivated workforce with strong government support for legal, ethical labour migration.",
+    "intro": "With a population over 36 million and a median age under 30, Uzbekistan offers one of the largest and youngest labour pools in the region — increasingly trained for international markets through state-backed programmes.",
+    "reasons": {
+      "youngWorkforce": {
+        "title": "Young, growing workforce",
+        "description": "A median age under 30 and hundreds of thousands of new labour-market entrants every year."
+      },
+      "workEthic": {
+        "title": "Strong work ethic",
+        "description": "A culture that values reliability, discipline and commitment — qualities employers consistently praise."
+      },
+      "multilingual": {
+        "title": "Multilingual aptitude",
+        "description": "Uzbek, Russian and a fast-growing capacity in English, Korean, German and Japanese."
+      },
+      "vocational": {
+        "title": "Vocational education",
+        "description": "An expanding network of technical colleges producing skilled trade and industrial workers."
+      },
+      "costEffective": {
+        "title": "Cost-effective hiring",
+        "description": "Competitive, transparent recruitment costs with no hidden fees and predictable timelines."
+      },
+      "governmentSupport": {
+        "title": "Government support",
+        "description": "State-backed labour-migration agreements and a clear legal framework protecting all parties."
+      }
+    },
+    "stats": {
+      "population": "Population",
+      "medianAge": "Median age",
+      "literacy": "Literacy rate",
+      "annualEntrants": "New workers / year"
+    }
+  },
+
+  "License": {
+    "eyebrow": "License & Compliance",
+    "title": "Fully licensed. Fully compliant.",
+    "subtitle": "Specialist Group operates under official government authorisation. Our credentials are public and verifiable.",
+    "verifiedBadge": "Officially Verified",
+    "credentials": {
+      "licenseNumber": "License Number",
+      "registerNumber": "Register Number",
+      "tin": "Taxpayer ID (TIN)",
+      "registrationNumber": "Registration Number"
+    },
+    "authorityLabel": "Issuing authority",
+    "certificate": {
+      "title": "Official License Certificate",
+      "caption": "Government-issued private employment agency license.",
+      "view": "View certificate",
+      "zoom": "Zoom",
+      "download": "Download PDF",
+      "alt": "Specialist Group official government license certificate"
+    },
+    "compliance": {
+      "title": "Our compliance framework",
+      "subtitle": "Protecting employers and workers at every stage.",
+      "points": {
+        "legal": {
+          "title": "Lawful recruitment",
+          "description": "Recruitment conducted strictly under the Law of the Republic of Uzbekistan on external labour migration."
+        },
+        "ethical": {
+          "title": "Ethical standards",
+          "description": "Zero recruitment fees charged to workers in line with international fair-recruitment principles."
+        },
+        "transparent": {
+          "title": "Transparent contracts",
+          "description": "Clear, bilingual employment contracts reviewed and approved before deployment."
+        },
+        "dataProtection": {
+          "title": "Data protection",
+          "description": "Candidate and employer data handled securely and confidentially."
+        }
+      }
+    }
+  },
+
+  "Testimonials": {
+    "eyebrow": "Client testimonials",
+    "title": "Trusted by employers worldwide",
+    "subtitle": "Long-term partnerships built on reliable people and transparent process.",
+    "ratingLabel": "Average partner rating"
+  },
+
+  "Faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Everything you need to know",
+    "subtitle": "Can't find your answer? Our team is ready to help.",
+    "stillHaveQuestions": "Still have questions?",
+    "contactPrompt": "Talk to our recruitment specialists",
+    "items": [
+      {
+        "question": "Is Specialist Group a licensed recruitment agency?",
+        "answer": "Yes. Specialist Group holds official government License No. 0078, issued by the Agency for External Labour Migration of the Republic of Uzbekistan. Our register number, TIN and registration number are published openly on our License & Compliance page."
+      },
+      {
+        "question": "Which countries do you deploy workers to?",
+        "answer": "We currently place workers across 18 destination countries, including South Korea, Germany, Japan, Poland, the UAE, Saudi Arabia, Qatar and the United Kingdom, under bilateral agreements and direct employer partnerships."
+      },
+      {
+        "question": "How long does the recruitment process take?",
+        "answer": "Timelines depend on role, country and documentation, but a typical placement runs from 6 to 12 weeks — from your initial request to worker arrival. We provide a precise timeline with every proposal."
+      },
+      {
+        "question": "Are the workers pre-screened and trained?",
+        "answer": "Every candidate undergoes skills assessment, medical examination and background verification. Where required, workers complete vocational and language training before deployment so they are productive from day one."
+      },
+      {
+        "question": "Do workers pay recruitment fees?",
+        "answer": "No. In line with international fair-recruitment principles, we do not charge recruitment fees to workers. Our service is contracted with and paid for by the employer."
+      },
+      {
+        "question": "Can we interview candidates before selection?",
+        "answer": "Absolutely. You can interview shortlisted candidates in person in Uzbekistan or remotely via video. You make the final selection — we simply present qualified, verified candidates."
+      },
+      {
+        "question": "What industries do you cover?",
+        "answer": "Construction, industrial and manufacturing, agriculture, food production, hospitality, healthcare (nurses and caregivers), textile, skilled trades and other specialist roles."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Submit a workforce request through our website or contact our team directly. You will receive a tracking number and a tailored proposal within one business day."
+      }
+    ]
+  },
+
+  "Contact": {
+    "eyebrow": "Contact us",
+    "title": "Let's build your workforce",
+    "subtitle": "Reach our international recruitment team in Tashkent. We respond to every enquiry within one business day.",
+    "info": {
+      "addressTitle": "Head office",
+      "phoneTitle": "Phone & WhatsApp",
+      "emailTitle": "Email",
+      "hoursTitle": "Working hours"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "country": "Country",
+      "countryPlaceholder": "Your country",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your workforce needs…",
+      "send": "Send message",
+      "sending": "Sending…",
+      "successTitle": "Message sent",
+      "successBody": "Thank you for contacting Specialist Group. Our team will respond within one business day.",
+      "errorTitle": "Something went wrong",
+      "errorBody": "Your message could not be sent. Please try again or email us directly."
+    }
+  },
+
+  "EmployerRequest": {
+    "eyebrow": "Request workforce",
+    "title": "Tell us what your operation needs",
+    "subtitle": "Complete the form below and our specialists will prepare a tailored proposal. You'll receive a tracking number immediately and a response within one business day.",
+    "asideTitle": "Why employers choose us",
+    "asideBody": "Licensed, compliant and proven — Specialist Group removes the risk from international hiring.",
+    "asidePoints": {
+      "one": "Response within one business day",
+      "two": "Pre-screened, trained candidates",
+      "three": "Full legal documentation handled",
+      "four": "Dedicated account manager"
+    },
+    "form": {
+      "sectionCompany": "Company details",
+      "sectionRequirements": "Workforce requirements",
+      "sectionAdditional": "Additional information",
+      "companyName": "Company name",
+      "companyNamePlaceholder": "Your company",
+      "contactPerson": "Contact person",
+      "contactPersonPlaceholder": "Full name",
+      "country": "Country",
+      "countryPlaceholder": "Select your country",
+      "email": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "phone": "Phone number",
+      "phonePlaceholder": "+1 234 567 8900",
+      "industry": "Industry",
+      "industryPlaceholder": "Select an industry",
+      "workersCount": "Number of workers",
+      "workersCountPlaceholder": "e.g. 25",
+      "requiredSkills": "Required skills & roles",
+      "requiredSkillsPlaceholder": "Describe the roles, skills, experience and any certifications required…",
+      "deploymentDate": "Preferred deployment date",
+      "attachment": "Attachment",
+      "attachmentHint": "Optional — job description or specification (PDF, DOC, max 5 MB)",
+      "attachmentChoose": "Choose file",
+      "attachmentNone": "No file selected",
+      "additionalNotes": "Additional notes",
+      "additionalNotesPlaceholder": "Anything else we should know?",
+      "consent": "I agree to the processing of this information in accordance with the Privacy Policy.",
+      "submit": "Submit request",
+      "submitting": "Submitting…"
+    },
+    "success": {
+      "title": "Request received",
+      "body": "Thank you. Your workforce request has been submitted to our recruitment team. Please keep your tracking number for reference.",
+      "trackingLabel": "Your tracking number",
+      "copied": "Copied",
+      "copy": "Copy",
+      "whatNextTitle": "What happens next",
+      "whatNext": {
+        "one": "Our specialists review your requirements.",
+        "two": "We prepare a tailored proposal and timeline.",
+        "three": "We contact you within one business day."
+      },
+      "trackCta": "Track your request",
+      "homeCta": "Back to home"
+    }
+  },
+
+  "Track": {
+    "eyebrow": "Track your request",
+    "title": "Check your request status",
+    "subtitle": "Enter the tracking number you received when you submitted your workforce request.",
+    "placeholder": "e.g. SG-2026-AB12CD",
+    "submit": "Track request",
+    "searching": "Searching…",
+    "notFoundTitle": "No request found",
+    "notFoundBody": "We couldn't find a request with that tracking number. Please check and try again.",
+    "statusLabel": "Current status",
+    "submittedLabel": "Submitted",
+    "industryLabel": "Industry",
+    "workersLabel": "Workers requested",
+    "status": {
+      "NEW": "Received",
+      "IN_REVIEW": "Under review",
+      "CONTACTED": "Contacted",
+      "IN_PROGRESS": "In progress",
+      "SHORTLISTED": "Candidates shortlisted",
+      "FULFILLED": "Fulfilled",
+      "ON_HOLD": "On hold",
+      "CLOSED": "Closed",
+      "REJECTED": "Closed"
+    }
+  },
+
+  "About": {
+    "hero": {
+      "eyebrow": "About us",
+      "title": "Connecting Uzbek talent with the world — lawfully and reliably",
+      "subtitle": "Since 2016, Specialist Group has been a trusted bridge between Uzbekistan's workforce and international employers, built on licensing, training and uncompromising compliance."
+    },
+    "mission": {
+      "eyebrow": "Our mission",
+      "title": "Ethical labour migration that works for everyone",
+      "body": "We exist to create life-changing opportunities for Uzbek workers while solving real labour shortages for international employers — always within the law, always with integrity. Every placement is a long-term relationship, not a transaction."
+    },
+    "vision": {
+      "title": "Our vision",
+      "body": "To be the most trusted recruitment partner from Central Asia — recognised globally for compliance, candidate quality and the success of the people and companies we connect."
+    },
+    "values": {
+      "eyebrow": "Our values",
+      "title": "Principles that guide every placement",
+      "items": {
+        "integrity": {
+          "title": "Integrity",
+          "description": "We operate transparently and lawfully, with zero fees charged to workers."
+        },
+        "quality": {
+          "title": "Quality",
+          "description": "Rigorous screening and training so employers receive truly work-ready people."
+        },
+        "compliance": {
+          "title": "Compliance",
+          "description": "Full adherence to the law in both Uzbekistan and the destination country."
+        },
+        "care": {
+          "title": "Duty of care",
+          "description": "We protect worker welfare before, during and after deployment."
+        },
+        "partnership": {
+          "title": "Partnership",
+          "description": "We build lasting relationships with employers and government bodies alike."
+        },
+        "reliability": {
+          "title": "Reliability",
+          "description": "We deliver on agreed timelines, quantities and standards — consistently."
+        }
+      }
+    },
+    "story": {
+      "eyebrow": "Our story",
+      "title": "Nearly a decade of trusted placements",
+      "body": "What began as a small Tashkent recruitment office has grown into one of Uzbekistan's most respected licensed employment agencies. Today our team manages recruitment, training, documentation and deployment for employers across 18 countries — handling thousands of placements while maintaining the personal service that defined us from day one."
+    }
+  },
+
+  "News": {
+    "eyebrow": "News & updates",
+    "title": "Insights & announcements",
+    "subtitle": "Regulatory updates, partnership news and perspectives on international labour migration.",
+    "readMore": "Read article",
+    "empty": "No articles published yet. Please check back soon.",
+    "backToNews": "Back to news",
+    "publishedOn": "Published on",
+    "categoryLabel": "Category"
+  },
+
+  "Newsletter": {
+    "title": "Stay informed",
+    "subtitle": "Occasional updates on regulations, destination markets and opportunities. No spam.",
+    "placeholder": "Your email address",
+    "submit": "Subscribe",
+    "success": "Thank you for subscribing.",
+    "disclaimer": "By subscribing you agree to our Privacy Policy."
+  },
+
+  "Validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "minLength": "Too short",
+    "maxLength": "Too long",
+    "min": "Value is too small",
+    "phone": "Please enter a valid phone number",
+    "consent": "You must accept the terms to continue",
+    "fileSize": "File is too large (max 5 MB)",
+    "fileType": "Unsupported file type",
+    "number": "Please enter a valid number"
+  },
+
+  "Auth": {
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Access your Specialist Group account.",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "error": "Invalid email or password.",
+      "forgot": "Forgot password?",
+      "noAccount": "Need an employer account?",
+      "contactUs": "Contact us"
+    }
+  },
+
+  "Portal": {
+    "title": "Employer Portal",
+    "welcome": "Welcome back",
+    "nav": {
+      "dashboard": "Dashboard",
+      "requests": "My Requests",
+      "messages": "Messages",
+      "candidates": "Saved Candidates",
+      "notifications": "Notifications",
+      "reports": "Reports",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "activeRequests": "Active requests",
+      "savedCandidates": "Saved candidates",
+      "unreadMessages": "Unread messages",
+      "recentActivity": "Recent activity"
+    },
+    "signOut": "Sign out"
+  },
+
+  "Admin": {
+    "title": "Admin Dashboard",
+    "nav": {
+      "overview": "Overview",
+      "requests": "Inquiries",
+      "employers": "Employers",
+      "candidates": "Candidates",
+      "messages": "Communications",
+      "content": "Content",
+      "testimonials": "Testimonials",
+      "news": "News",
+      "license": "License",
+      "users": "Users",
+      "reports": "Reports"
+    },
+    "overview": {
+      "totalRequests": "Total requests",
+      "newRequests": "New requests",
+      "employers": "Employers",
+      "candidates": "Candidates",
+      "recentRequests": "Recent requests",
+      "byIndustry": "Requests by industry",
+      "byStatus": "Requests by status"
+    },
+    "signOut": "Sign out"
+  },
+
+  "NotFound": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for doesn't exist or has been moved.",
+    "home": "Back to home",
+    "contact": "Contact us"
+  },
+
+  "Error": {
+    "title": "Something went wrong",
+    "subtitle": "An unexpected error occurred. Please try again.",
+    "retry": "Try again",
+    "home": "Back to home"
+  }
+}

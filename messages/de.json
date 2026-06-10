@@ -1,0 +1,151 @@
+{
+  "Meta": {
+    "home": {
+      "title": "Lizenzierte Personallösungen aus Usbekistan",
+      "description": "Specialist Group ist eine staatlich lizenzierte private Arbeitsvermittlung in Taschkent, Usbekistan. Wir rekrutieren, schulen und entsenden geprüfte Arbeitskräfte legal an internationale Arbeitgeber."
+    }
+  },
+  "Common": {
+    "skipToContent": "Zum Inhalt springen",
+    "home": "Startseite",
+    "menu": "Menü",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Schließen",
+    "licensedBadge": "Staatlich lizenziert",
+    "licenseNo": "Lizenz-Nr.",
+    "requestWorkforce": "Personal anfragen",
+    "contactUs": "Kontakt",
+    "viewLicense": "Lizenz ansehen",
+    "learnMore": "Mehr erfahren",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle ansehen",
+    "viewDetails": "Details",
+    "getInTouch": "Kontakt aufnehmen",
+    "getStarted": "Loslegen",
+    "exploreServices": "Leistungen",
+    "talkToUs": "Mit unserem Team sprechen",
+    "submit": "Senden",
+    "sending": "Wird gesendet…",
+    "backToHome": "Zur Startseite",
+    "required": "Pflichtfeld",
+    "optional": "Optional",
+    "loading": "Wird geladen…",
+    "all": "Alle",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "page": "Seite"
+  },
+  "Nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "industries": "Branchen",
+    "whyUzbekistan": "Warum Usbekistan",
+    "license": "Lizenz",
+    "news": "Aktuelles",
+    "contact": "Kontakt",
+    "portal": "Arbeitgeberportal",
+    "track": "Anfrage verfolgen",
+    "testimonials": "Referenzen",
+    "faq": "FAQ",
+    "employerRequest": "Personal anfragen",
+    "requestWorkforce": "Personal anfragen"
+  },
+  "Footer": {
+    "about": "Specialist Group ist eine lizenzierte private Arbeitsvermittlung in Taschkent, Usbekistan, die geprüfte Arbeitskräfte für internationale Arbeitgeber rekrutiert, schult und legal entsendet.",
+    "columns": { "company": "Unternehmen", "solutions": "Lösungen", "forEmployers": "Für Arbeitgeber" },
+    "licenseNote": "Autorisiert durch die Agentur für externe Arbeitsmigration der Republik Usbekistan.",
+    "licenseNumber": "Lizenz-Nr.",
+    "registerNumber": "Register-Nr.",
+    "tin": "Steuer-Nr.",
+    "registrationNumber": "Registrierungs-Nr.",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "Home": {
+    "hero": {
+      "badge": "Staatlich lizenzierte Arbeitsvermittlung · Usbekistan",
+      "title": "Lizenzierte Personallösungen aus Usbekistan für die ganze Welt",
+      "subtitle": "Wir rekrutieren, schulen und entsenden geprüfte, einsatzbereite Fachkräfte aus Usbekistan legal an internationale Arbeitgeber – mit vollständiger staatlicher Lizenz und Rechtskonformität in jedem Schritt.",
+      "ctaPrimary": "Personal anfragen",
+      "ctaSecondary": "Kontakt",
+      "ctaTertiary": "Lizenz ansehen",
+      "scroll": "Mehr entdecken"
+    },
+    "logos": { "title": "Arbeitgeber vertrauen uns bei Einsätzen in" },
+    "introCta": {
+      "eyebrow": "Auf Compliance gebaut",
+      "title": "Ein verlässlicher Partner für internationale Arbeitgeber",
+      "body": "Von der ersten Anfrage bis zur Betreuung nach der Ankunft steuert Specialist Group den gesamten Migrationsprozess nach usbekischem und Ziellandrecht. Sie erhalten qualifizierte, vorbereitete Arbeitskräfte – ohne rechtliches Risiko."
+    },
+    "ctaBanner": {
+      "title": "Bereit, Ihr Team aus Usbekistan aufzubauen?",
+      "subtitle": "Nennen Sie uns Ihren Bedarf. Unsere Spezialisten antworten innerhalb eines Werktags mit einem maßgeschneiderten Angebot.",
+      "primary": "Personal anfragen",
+      "secondary": "Beratung vereinbaren"
+    }
+  },
+  "TrustBadges": {
+    "eyebrow": "Warum Arbeitgeber uns vertrauen",
+    "items": {
+      "governmentLicensed": { "title": "Staatlich lizenziert", "description": "Autorisiert durch die usbekische Agentur für Arbeitsmigration – Lizenz-Nr. 0078." },
+      "legalRecruitment": { "title": "Legale Vermittlung", "description": "Jede Vermittlung ist vollständig dokumentiert und rechtskonform." },
+      "preScreened": { "title": "Geprüfte Kandidaten", "description": "Eignungstests, ärztliche Untersuchung und Überprüfung vor der Entsendung." },
+      "internationalCooperation": { "title": "Internationale Zusammenarbeit", "description": "Bilaterale Abkommen in 18 Zielländern." }
+    }
+  },
+  "Stats": {
+    "eyebrow": "Bewährte Erfolge",
+    "title": "Gemessen an den Ergebnissen",
+    "subtitle": "Fast ein Jahrzehnt rechtskonformer internationaler Vermittlungen.",
+    "items": { "workersDeployed": "Vermittelte Arbeitskräfte", "partnerEmployers": "Partner-Arbeitgeber", "countries": "Zielländer", "yearsExperience": "Jahre Erfahrung" }
+  },
+  "Industries": {
+    "eyebrow": "Branchen, die wir bedienen",
+    "title": "Qualifizierte Fachkräfte für jede Branche",
+    "subtitle": "Wir vermitteln geprüfte, geschulte Arbeitskräfte in Branchen mit dem größten Fachkräftemangel.",
+    "viewAll": "Alle Branchen",
+    "rolesLabel": "Typische Rollen",
+    "items": {
+      "construction": { "title": "Bauwesen" },
+      "industrial": { "title": "Industrie & Produktion" },
+      "agriculture": { "title": "Landwirtschaft" },
+      "foodProduction": { "title": "Lebensmittelproduktion" },
+      "hospitality": { "title": "Gastgewerbe" },
+      "service": { "title": "Dienstleistung" },
+      "trade": { "title": "Handwerk" },
+      "healthcare": { "title": "Pflegekräfte" },
+      "textile": { "title": "Näherinnen & Textil" },
+      "other": { "title": "Weitere Fachkräfte" }
+    }
+  },
+  "Services": {
+    "eyebrow": "Vermittlung aus einer Hand",
+    "title": "Ein Partner für den gesamten Migrationsweg",
+    "subtitle": "Wir steuern jede Phase – Sie erhalten vorbereitete, dokumentierte Arbeitskräfte ohne Aufwand."
+  },
+  "WhyUzbekistan": {
+    "eyebrow": "Warum Usbekistan",
+    "title": "Eine neue globale Quelle zuverlässiger Fachkräfte",
+    "subtitle": "Junge, motivierte Arbeitskräfte und staatliche Unterstützung legaler Migration."
+  },
+  "License": {
+    "eyebrow": "Lizenz & Compliance",
+    "title": "Vollständig lizenziert. Vollständig konform.",
+    "subtitle": "Specialist Group arbeitet auf Basis einer offiziellen staatlichen Genehmigung.",
+    "verifiedBadge": "Offiziell verifiziert",
+    "credentials": { "licenseNumber": "Lizenznummer", "registerNumber": "Registernummer", "tin": "Steuernummer", "registrationNumber": "Registrierungsnummer" },
+    "authorityLabel": "Ausstellende Behörde"
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Bauen wir Ihr Team auf",
+    "subtitle": "Erreichen Sie unser Team in Taschkent. Wir antworten innerhalb eines Werktags.",
+    "info": { "addressTitle": "Hauptsitz", "phoneTitle": "Telefon & WhatsApp", "emailTitle": "E-Mail", "hoursTitle": "Öffnungszeiten" }
+  },
+  "Auth": {
+    "login": { "title": "Anmelden", "subtitle": "Zugang zu Ihrem Specialist-Group-Konto.", "email": "E-Mail", "password": "Passwort", "submit": "Anmelden", "submitting": "Anmeldung…", "error": "Ungültige E-Mail oder Passwort." }
+  },
+  "NotFound": { "title": "Seite nicht gefunden", "subtitle": "Die gesuchte Seite existiert nicht oder wurde verschoben.", "home": "Zur Startseite", "contact": "Kontakt" }
+}

@@ -1,0 +1,185 @@
+{
+  "Meta": {
+    "home": {
+      "title": "O‘zbekistondan litsenziyalangan ishchi kuchi yechimlari",
+      "description": "Specialist Group — Toshkent shahridagi davlat litsenziyasiga ega xususiy bandlik agentligi. Biz tekshirilgan ishchilarni xalqaro ish beruvchilarga tanlaymiz, tayyorlaymiz va qonuniy ravishda yuboramiz."
+    },
+    "about": { "title": "Specialist Group haqida", "description": "Muvofiqlik, tayyorgarlik va ishonchga asoslangan litsenziyalangan o‘zbek ishga joylashtirish agentligi." },
+    "services": { "title": "Xizmatlarimiz", "description": "Xalqaro ishga tanlovning to‘liq sikli: tanlash, tekshirish, o‘qitish, hujjatlar va qonuniy joylashtirish." },
+    "industries": { "title": "Tarmoqlar", "description": "Qurilish, sanoat, qishloq xo‘jaligi, sog‘liqni saqlash va boshqa sohalar uchun malakali ishchilar." },
+    "whyUzbekistan": { "title": "Nega O‘zbekiston", "description": "Yosh, malakali va ko‘p tilli ishchi kuchi hamda davlat ko‘magi." },
+    "license": { "title": "Litsenziya va muvofiqlik", "description": "Specialist Group 0078-sonli davlat litsenziyasi asosida ishlaydi." },
+    "employerRequest": { "title": "Ishchi kuchini so‘rash", "description": "So‘rov yuboring va mutaxassislarimizdan moslashtirilgan taklif oling." },
+    "contact": { "title": "Aloqa", "description": "Toshkentdagi xalqaro ishga tanlash jamoamiz bilan bog‘laning." },
+    "faq": { "title": "Ko‘p so‘raladigan savollar", "description": "Litsenziya, muddatlar va tayyorgarlik bo‘yicha savollarga javoblar." },
+    "news": { "title": "Yangiliklar", "description": "Xalqaro mehnat migratsiyasi bo‘yicha yangiliklar." },
+    "testimonials": { "title": "Mijozlar fikrlari", "description": "Ish beruvchilar Specialist Group bilan hamkorlik haqida." },
+    "track": { "title": "So‘rovni kuzatish", "description": "So‘rovingiz holatini ko‘rish uchun raqamni kiriting." }
+  },
+  "Common": {
+    "skipToContent": "Mazmunga o‘tish",
+    "home": "Bosh sahifa",
+    "menu": "Menyu",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Yopish",
+    "licensedBadge": "Davlat litsenziyasi",
+    "licenseNo": "Litsenziya №",
+    "requestWorkforce": "Ishchi kuchini so‘rash",
+    "contactUs": "Biz bilan bog‘laning",
+    "viewLicense": "Litsenziyani ko‘rish",
+    "learnMore": "Batafsil",
+    "readMore": "Davomini o‘qish",
+    "viewAll": "Barchasini ko‘rish",
+    "viewDetails": "Batafsil",
+    "getInTouch": "Bog‘lanish",
+    "getStarted": "Boshlash",
+    "exploreServices": "Xizmatlar",
+    "talkToUs": "Jamoa bilan bog‘lanish",
+    "submit": "Yuborish",
+    "sending": "Yuborilmoqda…",
+    "backToHome": "Bosh sahifaga",
+    "required": "Majburiy",
+    "optional": "Ixtiyoriy",
+    "loading": "Yuklanmoqda…",
+    "all": "Barchasi",
+    "previous": "Oldingi",
+    "next": "Keyingi",
+    "page": "Sahifa"
+  },
+  "Nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "industries": "Tarmoqlar",
+    "whyUzbekistan": "Nega O‘zbekiston",
+    "license": "Litsenziya",
+    "news": "Yangiliklar",
+    "contact": "Aloqa",
+    "portal": "Ish beruvchi portali",
+    "track": "So‘rovni kuzatish",
+    "testimonials": "Fikrlar",
+    "faq": "Savollar",
+    "employerRequest": "Ishchi kuchini so‘rash",
+    "requestWorkforce": "Ishchi kuchini so‘rash"
+  },
+  "Footer": {
+    "about": "Specialist Group — Toshkentdagi litsenziyalangan xususiy bandlik agentligi bo‘lib, tekshirilgan ishchilarni xalqaro ish beruvchilarga tanlaydi, tayyorlaydi va qonuniy yuboradi.",
+    "columns": { "company": "Kompaniya", "solutions": "Yechimlar", "forEmployers": "Ish beruvchilarga" },
+    "licenseNote": "O‘zbekiston Respublikasi Tashqi mehnat migratsiyasi agentligi tomonidan vakolat berilgan.",
+    "licenseNumber": "Litsenziya №",
+    "registerNumber": "Reyestr №",
+    "tin": "STIR",
+    "registrationNumber": "Ro‘yxat №",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
+  },
+  "Home": {
+    "hero": {
+      "badge": "Litsenziyalangan ishga tanlash agentligi · O‘zbekiston",
+      "title": "O‘zbekistondan butun dunyoga litsenziyalangan ishchi kuchi yechimlari",
+      "subtitle": "Biz O‘zbekistondan tekshirilgan, ishga tayyor mutaxassislarni xalqaro ish beruvchilarga tanlaymiz, o‘qitamiz va qonuniy yuboramiz — har bir bosqichda to‘liq davlat litsenziyasi va muvofiqlik bilan.",
+      "ctaPrimary": "Ishchi kuchini so‘rash",
+      "ctaSecondary": "Biz bilan bog‘laning",
+      "ctaTertiary": "Litsenziyani ko‘rish",
+      "scroll": "Batafsil"
+    },
+    "logos": { "title": "Mutaxassislarni quyidagi mamlakatlarga yuboruvchilar bizga ishonadi" },
+    "introCta": {
+      "eyebrow": "Muvofiqlikka asoslangan",
+      "title": "Xalqaro ish beruvchilar ishonadigan hamkor",
+      "body": "Birinchi so‘rovdan kelgandan keyingi qo‘llab-quvvatlashgacha Specialist Group butun jarayonni qonun doirasida boshqaradi. Siz huquqiy xavfsiz malakali ishchilar olasiz."
+    },
+    "ctaBanner": {
+      "title": "O‘zbekistondan jamoa shakllantirishga tayyormisiz?",
+      "subtitle": "Ehtiyojlaringizni ayting. Mutaxassislarimiz bir ish kuni ichida moslashtirilgan taklif bilan javob beradi.",
+      "primary": "Ishchi kuchini so‘rash",
+      "secondary": "Maslahatga yozilish"
+    }
+  },
+  "TrustBadges": {
+    "eyebrow": "Nega bizga ishonishadi",
+    "items": {
+      "governmentLicensed": { "title": "Davlat litsenziyasi", "description": "Tashqi mehnat migratsiyasi agentligi tomonidan vakolat berilgan — Litsenziya № 0078." },
+      "legalRecruitment": { "title": "Qonuniy tanlov", "description": "Har bir joylashtirish to‘liq rasmiylashtirilgan va qonunga muvofiq." },
+      "preScreened": { "title": "Tekshirilgan nomzodlar", "description": "Malaka, tibbiy ko‘rik va tekshiruv yuborishdan oldin." },
+      "internationalCooperation": { "title": "Xalqaro hamkorlik", "description": "18 ta mamlakatda ikki tomonlama kelishuvlar." }
+    }
+  },
+  "Stats": {
+    "eyebrow": "Isbotlangan natija",
+    "title": "Bizni natijalar bilan baholashadi",
+    "subtitle": "Deyarli o‘n yillik qonuniy xalqaro joylashtirishlar.",
+    "items": { "workersDeployed": "Joylashtirilgan ishchilar", "partnerEmployers": "Hamkor ish beruvchilar", "countries": "Mamlakatlar", "yearsExperience": "Yillik tajriba" }
+  },
+  "Industries": {
+    "eyebrow": "Biz ishlaydigan tarmoqlar",
+    "title": "Har bir tarmoq uchun malakali kadrlar",
+    "subtitle": "Eng katta kadr tanqisligi bo‘lgan sohalarda tekshirilgan ishchilarni taqdim etamiz.",
+    "viewAll": "Barcha tarmoqlar",
+    "rolesLabel": "Tipik lavozimlar",
+    "items": {
+      "construction": { "title": "Qurilish" },
+      "industrial": { "title": "Sanoat" },
+      "agriculture": { "title": "Qishloq xo‘jaligi" },
+      "foodProduction": { "title": "Oziq-ovqat ishlab chiqarish" },
+      "hospitality": { "title": "Mehmonxona xizmati" },
+      "service": { "title": "Xizmat ko‘rsatish" },
+      "trade": { "title": "Malakali ishchilar" },
+      "healthcare": { "title": "Hamshira va parvarishchilar" },
+      "textile": { "title": "Tikuvchilar va to‘qimachilik" },
+      "other": { "title": "Boshqa mutaxassislar" }
+    }
+  },
+  "Services": {
+    "eyebrow": "To‘liq sikl",
+    "title": "Butun mehnat migratsiyasi uchun yagona hamkor",
+    "subtitle": "Biz har bir bosqichni boshqaramiz — siz tayyor va rasmiylashtirilgan ishchilarni olasiz."
+  },
+  "Process": { "eyebrow": "Qanday ishlaydi", "title": "Aniq olti bosqichli jarayon", "subtitle": "Har bir bosqichda shaffof.", "stepLabel": "Bosqich" },
+  "WhyUzbekistan": {
+    "eyebrow": "Nega O‘zbekiston",
+    "title": "Ishonchli kadrlarning yangi global manbai",
+    "subtitle": "Yosh va motivatsiyalangan ishchi kuchi hamda davlat ko‘magi."
+  },
+  "License": {
+    "eyebrow": "Litsenziya va muvofiqlik",
+    "title": "To‘liq litsenziyalangan. To‘liq shaffof.",
+    "subtitle": "Specialist Group rasmiy davlat ruxsatnomasi asosida ishlaydi.",
+    "verifiedBadge": "Rasman tasdiqlangan",
+    "credentials": { "licenseNumber": "Litsenziya raqami", "registerNumber": "Reyestr raqami", "tin": "STIR", "registrationNumber": "Ro‘yxat raqami" },
+    "authorityLabel": "Litsenziya bergan organ"
+  },
+  "Testimonials": { "eyebrow": "Mijozlar fikrlari", "title": "Dunyo bo‘ylab ish beruvchilar ishonadi", "subtitle": "Ishonchli odamlarga asoslangan uzoq muddatli hamkorlik." },
+  "Faq": { "eyebrow": "Ko‘p so‘raladigan savollar", "title": "Bilishingiz kerak bo‘lgan hamma narsa", "subtitle": "Javob topolmadingizmi? Jamoamiz yordam berishga tayyor." },
+  "Contact": {
+    "eyebrow": "Aloqa",
+    "title": "Keling, jamoangizni shakllantiramiz",
+    "subtitle": "Toshkentdagi jamoamiz bilan bog‘laning. Bir ish kuni ichida javob beramiz.",
+    "info": { "addressTitle": "Bosh ofis", "phoneTitle": "Telefon va WhatsApp", "emailTitle": "Email", "hoursTitle": "Ish vaqti" },
+    "form": {
+      "title": "Xabar yuboring",
+      "name": "To‘liq ism", "email": "Email", "company": "Kompaniya", "country": "Mamlakat",
+      "subject": "Mavzu", "message": "Xabar", "send": "Yuborish", "sending": "Yuborilmoqda…",
+      "successTitle": "Xabar yuborildi", "successBody": "Murojaatingiz uchun rahmat. Bir ish kuni ichida javob beramiz.",
+      "errorTitle": "Xatolik yuz berdi", "errorBody": "Xabar yuborilmadi. Qayta urinib ko‘ring."
+    }
+  },
+  "EmployerRequest": {
+    "eyebrow": "Ishchi kuchi so‘rovi",
+    "title": "Korxonangizga nima kerakligini ayting",
+    "subtitle": "Shaklni to‘ldiring, mutaxassislarimiz moslashtirilgan taklif tayyorlaydi. Darhol kuzatuv raqamini olasiz."
+  },
+  "Track": {
+    "eyebrow": "So‘rovni kuzatish",
+    "title": "So‘rov holatini tekshiring",
+    "subtitle": "So‘rov yuborganingizda olgan raqamni kiriting.",
+    "placeholder": "masalan SG-2026-AB12CD",
+    "submit": "Kuzatish",
+    "searching": "Qidirilmoqda…"
+  },
+  "Auth": {
+    "login": { "title": "Kirish", "subtitle": "Specialist Group hisobingizga kirish.", "email": "Email", "password": "Parol", "submit": "Kirish", "submitting": "Kirilmoqda…", "error": "Email yoki parol noto‘g‘ri." }
+  },
+  "NotFound": { "title": "Sahifa topilmadi", "subtitle": "So‘ralgan sahifa mavjud emas yoki ko‘chirilgan.", "home": "Bosh sahifaga", "contact": "Bog‘lanish" }
+}
