@@ -30,6 +30,7 @@ export function Header() {
     <header className="relative z-50">
       <a
         href="#main"
+        suppressHydrationWarning
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-primary-foreground"
       >
         {tc('skipToContent')}

@@ -73,7 +73,7 @@ export default async function LocaleLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${manrope.variable}`}
     >
-      <body className="min-h-screen bg-background font-sans text-foreground">
+      <body suppressHydrationWarning className="min-h-screen bg-background font-sans text-foreground">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>{children}</Providers>
           <Toaster />
