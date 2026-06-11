@@ -52,6 +52,7 @@ export async function submitContactMessage(formData: FormData): Promise<ContactR
     /* ignore */
   }
 
+  // Save to DB — non-blocking: a missing/offline DB must not block the notification.
   try {
     await prisma.contactMessage.create({
       data: {
@@ -65,7 +66,12 @@ export async function submitContactMessage(formData: FormData): Promise<ContactR
         ipHash,
       },
     });
+  } catch (dbError) {
+    console.error('[submitContactMessage] DB save failed (continuing):', dbError);
+  }
 
+  // Send email notification — errors are caught inside notifyNewContact.
+  try {
     await notifyNewContact({
       name: data.name,
       email: data.email,
@@ -74,10 +80,9 @@ export async function submitContactMessage(formData: FormData): Promise<ContactR
       subject: data.subject,
       message: data.message,
     });
-
-    return { success: true };
-  } catch (error) {
-    console.error('[submitContactMessage] failed:', error);
-    return { success: false, error: 'Server error. Please try again or contact us directly.' };
+  } catch (mailError) {
+    console.error('[submitContactMessage] email failed:', mailError);
   }
+
+  return { success: true };
 }
