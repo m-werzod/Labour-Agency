@@ -1,4 +1,4 @@
-import { DE, GB, JP, KR, RU, SA, UZ } from 'country-flag-icons/react/3x2';
+import { DE, GB, IL, JP, KR, LV, RU, SA, UZ } from 'country-flag-icons/react/3x2';
 import { cn } from '@/lib/utils';
 import type { Locale } from '@/i18n/routing';
 
@@ -10,6 +10,8 @@ const flagByLocale: Record<Locale, typeof GB> = {
   de: DE,
   ja: JP,
   ar: SA,
+  he: IL,
+  lv: LV,
 };
 
 interface FlagProps {

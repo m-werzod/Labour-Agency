@@ -2,7 +2,51 @@
   "Meta": {
     "home": {
       "title": "우즈베키스탄의 합법 인력 솔루션",
-      "description": "Specialist Group은 우즈베키스탄 타슈켄트에 위치한 정부 인가 민간 고용 기관입니다. 검증된 인력을 채용·교육하여 국제 고용주에게 합법적으로 파견합니다."
+      "description": "Specialist Group은 우즈베키스탄 타슈켄트에 위치한 정부 인가 민간 고용 기관입니다. 건설, 산업, 농업, 의료 등 다양한 분야에서 검증된 인력을 채용·교육하여 국제 고용주에게 합법적으로 파견합니다."
+    },
+    "about": {
+      "title": "Specialist Group 소개",
+      "description": "규정 준수, 교육, 신뢰를 바탕으로 설립된 인가받은 우즈베키스탄 채용 기관으로, 국제 고용주와 우즈베키스탄의 자격을 갖춘 즉시 투입 가능한 인재를 연결합니다."
+    },
+    "services": {
+      "title": "서비스",
+      "description": "발굴, 심사, 직무·언어 교육, 서류 처리, 법규 준수, 파견, 도착 후 지원까지 아우르는 원스톱 국제 채용 서비스."
+    },
+    "industries": {
+      "title": "서비스 산업 분야",
+      "description": "건설, 산업, 농업, 식품 생산, 숙박·접객, 의료, 섬유, 기능직 및 전문 직무를 위한 우즈베키스탄의 숙련 인력."
+    },
+    "whyUzbekistan": {
+      "title": "우즈베키스탄에서 채용하는 이유",
+      "description": "젊고 숙련된 다국어 인력, 강한 직업 윤리, 정부가 지원하는 노동 이주 — 고용주가 우즈베키스탄을 선택하는 이유를 알아보세요."
+    },
+    "license": {
+      "title": "라이선스 및 규정 준수",
+      "description": "Specialist Group은 정부 공식 라이선스 0078호에 따라 운영됩니다. 라이선스, 등록, 세금 관련 정보와 규정 준수 체계를 확인하세요."
+    },
+    "employerRequest": {
+      "title": "인력 요청",
+      "description": "인력 요청서를 제출하면 채용 전문가가 맞춤 제안을 드립니다. 조회 번호를 즉시 받고 1영업일 이내에 답변을 받으세요."
+    },
+    "contact": {
+      "title": "문의하기",
+      "description": "타슈켄트의 국제 채용팀에 연락하세요. 인력을 요청하고, 규정 준수에 대해 문의하거나 파트너십을 맺으세요."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "라이선스, 비용, 일정, 교육, 우즈베키스탄 인력의 합법 파견에 관한 국제 고용주의 일반적인 질문에 대한 답변."
+    },
+    "news": {
+      "title": "뉴스 및 소식",
+      "description": "우즈베키스탄발 국제 노동 이주에 관한 Specialist Group의 인사이트, 규제 업데이트 및 공지사항."
+    },
+    "testimonials": {
+      "title": "고객 후기",
+      "description": "우즈베키스탄의 인가받은 신뢰할 수 있는 인력 솔루션을 위해 Specialist Group과 협력한 국제 고용주들의 평가."
+    },
+    "track": {
+      "title": "요청 조회",
+      "description": "조회 번호를 입력하여 인력 요청의 실시간 상태를 확인하세요."
     }
   },
   "Common": {
@@ -10,7 +54,7 @@
     "home": "홈",
     "menu": "메뉴",
     "openMenu": "메뉴 열기",
-    "closeMenu": "닫기",
+    "closeMenu": "메뉴 닫기",
     "licensedBadge": "정부 인가",
     "licenseNo": "라이선스 번호",
     "requestWorkforce": "인력 요청",
@@ -22,7 +66,7 @@
     "viewDetails": "상세 보기",
     "getInTouch": "문의하기",
     "getStarted": "시작하기",
-    "exploreServices": "서비스",
+    "exploreServices": "서비스 둘러보기",
     "talkToUs": "팀에 문의",
     "submit": "제출",
     "sending": "전송 중…",
@@ -33,7 +77,17 @@
     "all": "전체",
     "previous": "이전",
     "next": "다음",
-    "page": "페이지"
+    "page": "페이지",
+    "viewSite": "사이트 보기",
+    "search": "검색",
+    "filter": "필터",
+    "status": "상태",
+    "date": "날짜",
+    "actions": "작업",
+    "save": "저장",
+    "saving": "저장 중…",
+    "noResults": "결과가 없습니다",
+    "back": "뒤로"
   },
   "Nav": {
     "home": "홈",
@@ -41,7 +95,7 @@
     "services": "서비스",
     "industries": "산업 분야",
     "whyUzbekistan": "우즈베키스탄을 선택하는 이유",
-    "license": "라이선스",
+    "license": "라이선스 및 규정 준수",
     "news": "뉴스",
     "contact": "문의",
     "portal": "고용주 포털",
@@ -52,8 +106,12 @@
     "requestWorkforce": "인력 요청"
   },
   "Footer": {
-    "about": "Specialist Group은 우즈베키스탄 타슈켄트의 인가받은 민간 고용 기관으로, 검증된 인력을 채용·교육하여 전 세계 고용주에게 합법적으로 파견합니다.",
-    "columns": { "company": "회사", "solutions": "솔루션", "forEmployers": "고용주" },
+    "about": "Specialist Group은 우즈베키스탄 타슈켄트의 인가받은 민간 고용 기관으로, 검증된 인력을 채용·교육하여 전 세계 국제 고용주에게 합법적으로 파견합니다.",
+    "columns": {
+      "company": "회사",
+      "solutions": "솔루션",
+      "forEmployers": "고용주를 위한 안내"
+    },
     "licenseNote": "우즈베키스탄 공화국 해외노동이주청의 인가를 받았습니다.",
     "licenseNumber": "라이선스 번호",
     "registerNumber": "등록부 번호",
@@ -73,15 +131,17 @@
       "ctaTertiary": "라이선스 보기",
       "scroll": "더 알아보기"
     },
-    "logos": { "title": "다음 국가로 인력을 파견하는 고용주들이 신뢰합니다" },
+    "logos": {
+      "title": "다음 국가로 인력을 파견하는 고용주들이 신뢰합니다"
+    },
     "introCta": {
-      "eyebrow": "법규 준수 기반",
+      "eyebrow": "규정 준수에 기반",
       "title": "국제 고용주가 신뢰할 수 있는 파트너",
-      "body": "최초 요청부터 도착 후 지원까지, Specialist Group은 우즈베키스탄과 파견국 법률에 따라 전 과정을 관리합니다. 법적 위험 없이 자격을 갖춘 인력을 제공합니다."
+      "body": "최초 요청부터 도착 후 지원까지, Specialist Group은 우즈베키스탄과 파견국 법률에 따라 전체 노동 이주 과정을 관리합니다. 법적 위험 없이 자격을 갖추고 서류가 완비되며 준비된 인력을 제공합니다."
     },
     "ctaBanner": {
       "title": "우즈베키스탄 인력으로 팀을 구성할 준비가 되셨나요?",
-      "subtitle": "필요 사항을 알려주세요. 전문가가 1영업일 이내에 맞춤 제안을 드립니다.",
+      "subtitle": "필요 사항을 알려주세요. 전문가가 1영업일 이내에 맞춤 제안과 일정을 드립니다.",
       "primary": "인력 요청",
       "secondary": "상담 예약"
     }
@@ -89,63 +149,585 @@
   "TrustBadges": {
     "eyebrow": "고용주가 신뢰하는 이유",
     "items": {
-      "governmentLicensed": { "title": "정부 인가", "description": "우즈베키스탄 해외노동이주청 인가 — 라이선스 번호 0078." },
-      "legalRecruitment": { "title": "합법 채용", "description": "모든 채용은 완전히 문서화되고 법규를 준수합니다." },
-      "preScreened": { "title": "사전 검증된 후보자", "description": "파견 전 역량 평가, 건강 검진, 신원 확인." },
-      "internationalCooperation": { "title": "국제 협력", "description": "18개 파견국과의 양자 협약." }
+      "governmentLicensed": {
+        "title": "정부 인가",
+        "description": "우즈베키스탄 해외노동이주청 인가 — 라이선스 번호 0078."
+      },
+      "legalRecruitment": {
+        "title": "합법 채용",
+        "description": "모든 채용은 완전히 문서화되며 우즈베키스탄과 파견국 법규를 준수합니다."
+      },
+      "preScreened": {
+        "title": "사전 검증된 후보자",
+        "description": "파견 전 역량 평가, 건강 검진, 신원 확인을 거칩니다."
+      },
+      "internationalCooperation": {
+        "title": "국제 협력",
+        "description": "18개 파견국과의 양자 협약 및 파트너십."
+      }
     }
   },
   "Stats": {
     "eyebrow": "검증된 실적",
-    "title": "성과로 증명합니다",
-    "subtitle": "거의 10년에 걸친 합법적 국제 파견 실적.",
-    "items": { "workersDeployed": "파견 인력", "partnerEmployers": "파트너 고용주", "countries": "파견 국가", "yearsExperience": "업력(년)" }
+    "title": "우리가 제공하는 성과로 평가됩니다",
+    "subtitle": "장기적인 고용주 파트너십에 기반한 거의 10년의 합법적 국제 파견 실적.",
+    "items": {
+      "workersDeployed": "파견 인력",
+      "partnerEmployers": "파트너 고용주",
+      "countries": "파견 국가",
+      "yearsExperience": "업력(년)"
+    }
   },
   "Industries": {
     "eyebrow": "서비스 산업 분야",
     "title": "모든 분야를 위한 숙련 인력",
-    "subtitle": "인력 부족이 가장 큰 산업 분야에 검증되고 교육된 인력을 공급합니다.",
+    "subtitle": "국제 고용주가 가장 큰 인력 부족을 겪는 산업 분야에 검증되고 교육된 인력을 공급합니다.",
     "viewAll": "모든 산업 보기",
+    "exploreCta": "다른 분야의 인력이 필요하신가요? 문의해 주세요.",
     "rolesLabel": "주요 직무",
     "items": {
-      "construction": { "title": "건설" },
-      "industrial": { "title": "제조·산업" },
-      "agriculture": { "title": "농업" },
-      "foodProduction": { "title": "식품 생산" },
-      "hospitality": { "title": "숙박·접객" },
-      "service": { "title": "서비스" },
-      "trade": { "title": "기능직" },
-      "healthcare": { "title": "간호·요양" },
-      "textile": { "title": "재봉·섬유" },
-      "other": { "title": "기타 전문 인력" }
+      "construction": {
+        "title": "건설",
+        "description": "조적공, 콘크리트공, 철근공, 비계공, 미장공, 일반 노무자 및 현장 관리자.",
+        "roles": "조적공 · 철근공 · 비계공 · 미장공 · 현장 노무자"
+      },
+      "industrial": {
+        "title": "제조·산업",
+        "description": "기계 작업자, 조립 라인 작업자, 창고 직원, 포장 작업자 및 생산 기술자.",
+        "roles": "기계 작업자 · 조립공 · 포장 작업자 · 창고 직원"
+      },
+      "agriculture": {
+        "title": "농업",
+        "description": "농작업자, 온실 작업자, 수확 인력, 축산 작업자 및 농기계 운전자.",
+        "roles": "수확 인력 · 온실 작업자 · 축산 작업자"
+      },
+      "foodProduction": {
+        "title": "식품 생산",
+        "description": "육류 및 가금류 가공, 포장, 식품용 세척 및 품질 관리 인력.",
+        "roles": "가공 · 포장 · 품질 관리"
+      },
+      "hospitality": {
+        "title": "숙박·접객",
+        "description": "호텔 직원, 주방 보조, 조리사, 객실 정비원, 웨이터 및 식음료 서비스 인력.",
+        "roles": "주방 보조 · 객실 정비원 · 웨이터 · 조리사"
+      },
+      "service": {
+        "title": "서비스",
+        "description": "청소, 물류 지원, 매장 보조, 운전기사 및 시설 유지보수 인력.",
+        "roles": "청소원 · 운전기사 · 매장 · 시설 관리"
+      },
+      "trade": {
+        "title": "기능직",
+        "description": "용접공, 전기공, 배관공, 목공, 도장공 및 냉난방 기술자.",
+        "roles": "용접공 · 전기공 · 배관공 · 목공"
+      },
+      "healthcare": {
+        "title": "간호·요양",
+        "description": "정규 간호사, 노인 요양보호사, 재가 요양 보조원 및 의료 지원 인력.",
+        "roles": "간호사 · 요양보호사 · 재가 요양 보조원"
+      },
+      "textile": {
+        "title": "재봉·섬유",
+        "description": "산업용 재봉기 작업자, 재봉사, 재단사 및 의류 마감 인력.",
+        "roles": "재봉기 작업자 · 재봉사 · 재단사"
+      },
+      "other": {
+        "title": "기타 전문 인력",
+        "description": "귀사의 운영에 맞춘 전문 및 기술 직무를 위한 맞춤형 채용.",
+        "roles": "맞춤형 · 기술 · 전문"
+      }
     }
   },
   "Services": {
     "eyebrow": "원스톱 채용",
     "title": "노동 이주의 전 과정을 위한 단일 파트너",
-    "subtitle": "모든 단계를 관리합니다 — 준비되고 서류가 완비된 인력을 받으십시오."
+    "subtitle": "모든 단계를 관리합니다 — 행정 부담이나 법적 위험 없이 준비되고 서류가 완비된 신뢰할 수 있는 인력을 받으십시오.",
+    "learnMore": "우리의 프로세스 자세히 보기",
+    "items": {
+      "recruitment": {
+        "title": "채용 및 발굴",
+        "description": "전국의 직업 전문대학, 교육 센터, 검증된 지역 파트너 네트워크에서 후보자를 발굴합니다."
+      },
+      "screening": {
+        "title": "심사 및 평가",
+        "description": "후보자를 추천하기 전에 역량 테스트, 건강 검진, 서류 확인 및 신원 조회를 시행합니다."
+      },
+      "training": {
+        "title": "직무 교육",
+        "description": "귀사의 기술 기준과 안전 요건을 충족하도록 인가된 센터에서 직무별 역량 향상을 제공합니다."
+      },
+      "language": {
+        "title": "언어 준비",
+        "description": "업무 준비를 위한 맞춤형 언어 교육 — 한국어, 독일어, 일본어, 러시아어, 영어 포함."
+      },
+      "documentation": {
+        "title": "서류 및 비자",
+        "description": "여권, 취업 허가, 비자 처리 및 공증 번역을 법무팀이 전 과정 처리합니다."
+      },
+      "compliance": {
+        "title": "법규 준수",
+        "description": "투명한 계약과 함께 우즈베키스탄 노동 이주법 및 파견국 규정을 완전히 준수합니다."
+      },
+      "deployment": {
+        "title": "파견 및 물류",
+        "description": "항공편, 공항 환승 및 도착 조율로 인력이 일정에 맞춰 업무를 시작할 수 있도록 합니다."
+      },
+      "aftercare": {
+        "title": "도착 후 지원",
+        "description": "파견 후 고용주와 인력 모두를 위한 지속적인 복지 모니터링과 전담 담당자를 제공합니다."
+      }
+    }
+  },
+  "Process": {
+    "eyebrow": "진행 방식",
+    "title": "명확하고 규정에 부합하는 6단계 프로세스",
+    "subtitle": "요청부터 파견까지 모든 단계에서 투명하며 단일 담당 창구를 제공합니다.",
+    "stepLabel": "단계",
+    "steps": {
+      "request": {
+        "title": "인력 요청",
+        "description": "직무 요건, 인원, 일정을 제출하시면 실현 가능성을 확인하고 1영업일 이내에 제안을 드립니다."
+      },
+      "sourcing": {
+        "title": "후보자 발굴",
+        "description": "검증된 전국 네트워크에서 적합한 후보자를 발굴하고 귀사의 기준에 따라 선별합니다."
+      },
+      "screening": {
+        "title": "심사 및 면접",
+        "description": "역량 테스트, 건강 검진, 신원 조회를 진행합니다. 선별된 후보자를 직접 또는 온라인으로 면접하십시오."
+      },
+      "training": {
+        "title": "교육 및 준비",
+        "description": "선발된 인력은 귀사의 업무 환경에 맞춘 직무 및 언어 교육을 이수합니다."
+      },
+      "documentation": {
+        "title": "서류 처리",
+        "description": "양국의 법규를 완전히 준수하여 비자, 취업 허가 및 모든 법적 서류를 처리합니다."
+      },
+      "deployment": {
+        "title": "파견",
+        "description": "조율된 이동과 도착, 그리고 이후 지속적인 사후 지원이 이어집니다."
+      }
+    }
+  },
+  "Training": {
+    "eyebrow": "업무 준비성",
+    "title": "도착 전에 준비를 마친 인력",
+    "subtitle": "우리의 교육 역량 덕분에 신규 인력은 첫날부터 생산적입니다 — 기술적으로 숙련되고 안전 의식을 갖추었으며 소통이 가능합니다.",
+    "points": {
+      "vocational": {
+        "title": "인가된 직무 교육",
+        "description": "국제 기준에 부합하는 파트너 센터에서 실무 중심의 직무별 교육을 제공합니다."
+      },
+      "language": {
+        "title": "언어 및 문화 준비",
+        "description": "파견국을 위한 실용적인 언어 교육과 문화 적응 교육."
+      },
+      "safety": {
+        "title": "보건·안전 인증",
+        "description": "귀사 분야에 맞는 산업 안전, 위생 및 규정 준수 교육."
+      },
+      "softSkills": {
+        "title": "직장 적응",
+        "description": "원활한 적응을 위한 팀워크, 규율, 전문적 태도."
+      }
+    }
   },
   "WhyUzbekistan": {
     "eyebrow": "우즈베키스탄을 선택하는 이유",
     "title": "신뢰할 수 있는 인력의 새로운 글로벌 공급원",
-    "subtitle": "젊고 의욕적인 인력과 합법 이주에 대한 정부 지원."
+    "subtitle": "우즈베키스탄은 젊고 의욕적인 인력과 합법적·윤리적 노동 이주에 대한 강력한 정부 지원을 결합합니다.",
+    "intro": "인구 3,600만 명 이상, 중위 연령 30세 미만으로 우즈베키스탄은 이 지역에서 가장 크고 젊은 인력 풀 중 하나를 제공하며, 국가 지원 프로그램을 통해 국제 시장을 위한 교육이 점점 강화되고 있습니다.",
+    "reasons": {
+      "youngWorkforce": {
+        "title": "젊고 성장하는 인력",
+        "description": "중위 연령 30세 미만, 매년 수십만 명의 신규 노동시장 진입 인력."
+      },
+      "workEthic": {
+        "title": "강한 직업 윤리",
+        "description": "신뢰성, 규율, 헌신을 중시하는 문화 — 고용주가 한결같이 칭찬하는 자질입니다."
+      },
+      "multilingual": {
+        "title": "다국어 역량",
+        "description": "우즈베크어, 러시아어, 그리고 빠르게 향상되는 영어, 한국어, 독일어, 일본어 능력."
+      },
+      "vocational": {
+        "title": "직업 교육",
+        "description": "숙련된 기능직 및 산업 인력을 양성하는 확대되는 기술 전문대학 네트워크."
+      },
+      "costEffective": {
+        "title": "비용 효율적인 채용",
+        "description": "숨겨진 비용 없이 예측 가능한 일정과 경쟁력 있고 투명한 채용 비용."
+      },
+      "governmentSupport": {
+        "title": "정부 지원",
+        "description": "국가가 지원하는 노동 이주 협약과 모든 당사자를 보호하는 명확한 법적 체계."
+      }
+    },
+    "stats": {
+      "population": "인구",
+      "medianAge": "중위 연령",
+      "literacy": "문해율",
+      "annualEntrants": "연간 신규 인력"
+    }
   },
   "License": {
     "eyebrow": "라이선스 및 규정 준수",
-    "title": "완전한 인가, 완전한 준수.",
-    "subtitle": "Specialist Group은 공식 정부 허가에 따라 운영됩니다.",
+    "title": "완전한 인가. 완전한 준수.",
+    "subtitle": "Specialist Group은 공식 정부 인가에 따라 운영됩니다. 당사의 자격 정보는 공개되어 있으며 검증할 수 있습니다.",
     "verifiedBadge": "공식 인증",
-    "credentials": { "licenseNumber": "라이선스 번호", "registerNumber": "등록부 번호", "tin": "납세자 번호", "registrationNumber": "등록 번호" },
-    "authorityLabel": "발급 기관"
+    "credentials": {
+      "licenseNumber": "라이선스 번호",
+      "registerNumber": "등록부 번호",
+      "tin": "납세자 번호(TIN)",
+      "registrationNumber": "등록 번호"
+    },
+    "authorityLabel": "발급 기관",
+    "certificate": {
+      "title": "공식 라이선스 증서",
+      "caption": "정부가 발급한 민간 고용 기관 라이선스.",
+      "view": "증서 보기",
+      "zoom": "확대",
+      "download": "PDF 다운로드",
+      "alt": "Specialist Group 공식 정부 라이선스 증서"
+    },
+    "compliance": {
+      "title": "당사의 규정 준수 체계",
+      "subtitle": "모든 단계에서 고용주와 인력을 보호합니다.",
+      "points": {
+        "legal": {
+          "title": "합법적 채용",
+          "description": "채용은 우즈베키스탄 공화국 해외 노동 이주법에 따라 엄격히 수행됩니다."
+        },
+        "ethical": {
+          "title": "윤리 기준",
+          "description": "국제 공정 채용 원칙에 따라 인력에게 채용 수수료를 일절 부과하지 않습니다."
+        },
+        "transparent": {
+          "title": "투명한 계약",
+          "description": "파견 전에 검토·승인되는 명확한 2개 국어 고용 계약."
+        },
+        "dataProtection": {
+          "title": "데이터 보호",
+          "description": "후보자 및 고용주 데이터를 안전하고 기밀하게 처리합니다."
+        }
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "고객 후기",
+    "title": "전 세계 고용주가 신뢰합니다",
+    "subtitle": "신뢰할 수 있는 사람과 투명한 프로세스 위에 쌓아 올린 장기적 파트너십.",
+    "ratingLabel": "평균 파트너 평점"
+  },
+  "Faq": {
+    "eyebrow": "자주 묻는 질문",
+    "title": "알아두어야 할 모든 것",
+    "subtitle": "답을 찾지 못하셨나요? 저희 팀이 도와드리겠습니다.",
+    "stillHaveQuestions": "아직 궁금한 점이 있으신가요?",
+    "contactPrompt": "채용 전문가에게 문의하세요",
+    "items": [
+      {
+        "question": "Specialist Group은 인가받은 채용 기관인가요?",
+        "answer": "네. Specialist Group은 우즈베키스탄 공화국 해외노동이주청이 발급한 정부 공식 라이선스 0078호를 보유하고 있습니다. 등록부 번호, 납세자 번호, 등록 번호는 '라이선스 및 규정 준수' 페이지에 공개되어 있습니다."
+      },
+      {
+        "question": "어느 국가로 인력을 파견하나요?",
+        "answer": "현재 양자 협약 및 직접 고용주 파트너십을 통해 대한민국, 독일, 일본, 폴란드, UAE, 사우디아라비아, 카타르, 영국을 포함한 18개 파견국에 인력을 배치하고 있습니다."
+      },
+      {
+        "question": "채용 절차는 얼마나 걸리나요?",
+        "answer": "기간은 직무, 국가, 서류에 따라 다르지만, 일반적인 파견은 최초 요청부터 인력 도착까지 6~12주가 소요됩니다. 모든 제안과 함께 정확한 일정을 제공합니다."
+      },
+      {
+        "question": "인력은 사전 검증과 교육을 거치나요?",
+        "answer": "모든 후보자는 역량 평가, 건강 검진, 신원 확인을 거칩니다. 필요한 경우 첫날부터 생산적으로 일할 수 있도록 파견 전에 직무 및 언어 교육을 이수합니다."
+      },
+      {
+        "question": "인력이 채용 수수료를 부담하나요?",
+        "answer": "아니요. 국제 공정 채용 원칙에 따라 인력에게 채용 수수료를 부과하지 않습니다. 당사 서비스는 고용주와 계약하고 고용주가 비용을 부담합니다."
+      },
+      {
+        "question": "선발 전에 후보자를 면접할 수 있나요?",
+        "answer": "물론입니다. 우즈베키스탄에서 직접 또는 화상으로 원격으로 선별된 후보자를 면접할 수 있습니다. 최종 선발은 귀사가 결정하며, 저희는 자격을 갖추고 검증된 후보자만 제시합니다."
+      },
+      {
+        "question": "어떤 산업 분야를 다루나요?",
+        "answer": "건설, 산업 및 제조, 농업, 식품 생산, 숙박·접객, 의료(간호사 및 요양보호사), 섬유, 기능직 및 기타 전문 직무."
+      },
+      {
+        "question": "어떻게 시작하나요?",
+        "answer": "당사 웹사이트를 통해 인력 요청서를 제출하거나 팀에 직접 문의하세요. 1영업일 이내에 조회 번호와 맞춤 제안을 받으실 수 있습니다."
+      }
+    ]
   },
   "Contact": {
-    "eyebrow": "문의",
+    "eyebrow": "문의하기",
     "title": "함께 팀을 구성합시다",
-    "subtitle": "타슈켄트의 채용팀에 문의하세요. 1영업일 이내에 답변드립니다.",
-    "info": { "addressTitle": "본사", "phoneTitle": "전화 및 WhatsApp", "emailTitle": "이메일", "hoursTitle": "운영 시간" }
+    "subtitle": "타슈켄트의 국제 채용팀에 연락하세요. 모든 문의에 1영업일 이내에 답변드립니다.",
+    "info": {
+      "addressTitle": "본사",
+      "phoneTitle": "전화 및 WhatsApp",
+      "emailTitle": "이메일",
+      "hoursTitle": "운영 시간"
+    },
+    "form": {
+      "title": "메시지 보내기",
+      "name": "성명",
+      "namePlaceholder": "이름",
+      "email": "이메일 주소",
+      "emailPlaceholder": "you@company.com",
+      "company": "회사",
+      "companyPlaceholder": "회사명",
+      "country": "국가",
+      "countryPlaceholder": "국가",
+      "subject": "제목",
+      "subjectPlaceholder": "무엇을 도와드릴까요?",
+      "message": "메시지",
+      "messagePlaceholder": "인력 수요에 대해 알려주세요…",
+      "send": "메시지 보내기",
+      "sending": "전송 중…",
+      "successTitle": "메시지를 보냈습니다",
+      "successBody": "Specialist Group에 문의해 주셔서 감사합니다. 저희 팀이 1영업일 이내에 답변드리겠습니다.",
+      "errorTitle": "문제가 발생했습니다",
+      "errorBody": "메시지를 전송하지 못했습니다. 다시 시도하거나 직접 이메일을 보내주세요."
+    }
+  },
+  "EmployerRequest": {
+    "eyebrow": "인력 요청",
+    "title": "귀사의 운영에 필요한 사항을 알려주세요",
+    "subtitle": "아래 양식을 작성하시면 전문가가 맞춤 제안을 준비합니다. 조회 번호를 즉시 받고 1영업일 이내에 답변을 받으실 수 있습니다.",
+    "asideTitle": "고용주가 우리를 선택하는 이유",
+    "asideBody": "인가받고 규정을 준수하며 검증된 Specialist Group은 국제 채용의 위험을 제거합니다.",
+    "asidePoints": {
+      "one": "1영업일 이내 답변",
+      "two": "사전 검증·교육된 후보자",
+      "three": "전체 법적 서류 처리",
+      "four": "전담 담당자"
+    },
+    "form": {
+      "sectionCompany": "회사 정보",
+      "sectionRequirements": "인력 요건",
+      "sectionAdditional": "추가 정보",
+      "companyName": "회사명",
+      "companyNamePlaceholder": "귀사명",
+      "contactPerson": "담당자",
+      "contactPersonPlaceholder": "성명",
+      "country": "국가",
+      "countryPlaceholder": "국가를 선택하세요",
+      "email": "이메일 주소",
+      "emailPlaceholder": "you@company.com",
+      "phone": "전화번호",
+      "phonePlaceholder": "+1 234 567 8900",
+      "industry": "산업 분야",
+      "industryPlaceholder": "산업 분야를 선택하세요",
+      "workersCount": "인력 수",
+      "workersCountPlaceholder": "예: 25",
+      "requiredSkills": "필요 기술 및 직무",
+      "requiredSkillsPlaceholder": "직무, 기술, 경력 및 필요한 자격증을 설명해 주세요…",
+      "deploymentDate": "희망 파견일",
+      "attachment": "첨부 파일",
+      "attachmentHint": "선택 사항 — 직무 기술서 또는 사양서 (PDF, DOC, 최대 5MB)",
+      "attachmentChoose": "파일 선택",
+      "attachmentNone": "선택된 파일 없음",
+      "additionalNotes": "추가 메모",
+      "additionalNotesPlaceholder": "그 밖에 알아야 할 사항이 있나요?",
+      "consent": "본인은 개인정보 처리방침에 따라 이 정보를 처리하는 데 동의합니다.",
+      "submit": "요청 제출",
+      "submitting": "제출 중…"
+    },
+    "success": {
+      "title": "요청이 접수되었습니다",
+      "body": "감사합니다. 인력 요청이 채용팀에 제출되었습니다. 조회 번호를 보관해 주세요.",
+      "trackingLabel": "조회 번호",
+      "copied": "복사됨",
+      "copy": "복사",
+      "whatNextTitle": "다음 단계",
+      "whatNext": {
+        "one": "전문가가 귀사의 요건을 검토합니다.",
+        "two": "맞춤 제안과 일정을 준비합니다.",
+        "three": "1영업일 이내에 연락드립니다."
+      },
+      "trackCta": "요청 조회",
+      "homeCta": "홈으로"
+    }
+  },
+  "Track": {
+    "eyebrow": "요청 조회",
+    "title": "요청 상태 확인",
+    "subtitle": "인력 요청을 제출할 때 받은 조회 번호를 입력하세요.",
+    "placeholder": "예: SG-2026-AB12CD",
+    "submit": "요청 조회",
+    "searching": "검색 중…",
+    "notFoundTitle": "요청을 찾을 수 없습니다",
+    "notFoundBody": "해당 조회 번호의 요청을 찾을 수 없습니다. 확인 후 다시 시도해 주세요.",
+    "statusLabel": "현재 상태",
+    "submittedLabel": "제출일",
+    "industryLabel": "산업 분야",
+    "workersLabel": "요청 인력 수",
+    "status": {
+      "NEW": "접수됨",
+      "IN_REVIEW": "검토 중",
+      "CONTACTED": "연락 완료",
+      "IN_PROGRESS": "진행 중",
+      "SHORTLISTED": "후보자 선별됨",
+      "FULFILLED": "완료됨",
+      "ON_HOLD": "보류 중",
+      "CLOSED": "종료됨",
+      "REJECTED": "종료됨"
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "회사 소개",
+      "title": "우즈베키스탄 인재를 세계와 연결합니다 — 합법적이고 신뢰할 수 있게",
+      "subtitle": "2016년부터 Specialist Group은 라이선스, 교육, 타협 없는 규정 준수를 바탕으로 우즈베키스탄 인력과 국제 고용주를 잇는 신뢰할 수 있는 다리가 되어 왔습니다."
+    },
+    "mission": {
+      "eyebrow": "우리의 미션",
+      "title": "모두에게 유익한 윤리적 노동 이주",
+      "body": "우리는 우즈베키스탄 인력에게 삶을 바꾸는 기회를 만들고, 동시에 국제 고용주의 실질적인 인력 부족을 해결하기 위해 존재합니다 — 언제나 법의 테두리 안에서, 언제나 정직하게. 모든 파견은 거래가 아닌 장기적 관계입니다."
+    },
+    "vision": {
+      "title": "우리의 비전",
+      "body": "중앙아시아에서 가장 신뢰받는 채용 파트너가 되는 것 — 규정 준수, 후보자 품질, 그리고 우리가 연결하는 사람과 기업의 성공으로 전 세계에서 인정받는 것."
+    },
+    "values": {
+      "eyebrow": "우리의 가치",
+      "title": "모든 파견을 이끄는 원칙",
+      "items": {
+        "integrity": {
+          "title": "정직",
+          "description": "우리는 투명하고 합법적으로 운영하며 인력에게 비용을 부과하지 않습니다."
+        },
+        "quality": {
+          "title": "품질",
+          "description": "고용주가 진정으로 즉시 투입 가능한 인력을 받을 수 있도록 철저한 심사와 교육을 시행합니다."
+        },
+        "compliance": {
+          "title": "규정 준수",
+          "description": "우즈베키스탄과 파견국 양쪽의 법을 완전히 준수합니다."
+        },
+        "care": {
+          "title": "보호 의무",
+          "description": "파견 전, 중, 후에 인력의 복지를 보호합니다."
+        },
+        "partnership": {
+          "title": "파트너십",
+          "description": "고용주와 정부 기관 모두와 지속적인 관계를 구축합니다."
+        },
+        "reliability": {
+          "title": "신뢰성",
+          "description": "합의된 일정, 인원, 기준을 일관되게 이행합니다."
+        }
+      }
+    },
+    "story": {
+      "eyebrow": "우리의 이야기",
+      "title": "거의 10년에 걸친 신뢰받는 파견",
+      "body": "작은 타슈켄트 채용 사무소로 시작한 것이 우즈베키스탄에서 가장 존경받는 인가 고용 기관 중 하나로 성장했습니다. 오늘날 우리 팀은 18개국 고용주를 위한 채용, 교육, 서류 처리, 파견을 관리하며 — 수천 건의 파견을 처리하면서도 첫날부터 우리를 정의해 온 맞춤형 서비스를 유지하고 있습니다."
+    }
+  },
+  "News": {
+    "eyebrow": "뉴스 및 소식",
+    "title": "인사이트 및 공지",
+    "subtitle": "규제 업데이트, 파트너십 소식, 국제 노동 이주에 대한 관점.",
+    "readMore": "기사 읽기",
+    "empty": "아직 게시된 기사가 없습니다. 곧 다시 확인해 주세요.",
+    "backToNews": "뉴스로 돌아가기",
+    "publishedOn": "게시일",
+    "categoryLabel": "카테고리"
+  },
+  "Newsletter": {
+    "title": "소식 받기",
+    "subtitle": "규정, 파견 시장, 기회에 대한 가끔의 업데이트. 스팸 없음.",
+    "placeholder": "이메일 주소",
+    "submit": "구독",
+    "success": "구독해 주셔서 감사합니다.",
+    "disclaimer": "구독함으로써 개인정보 처리방침에 동의하게 됩니다."
+  },
+  "Validation": {
+    "required": "필수 입력 항목입니다",
+    "email": "유효한 이메일 주소를 입력하세요",
+    "minLength": "너무 짧습니다",
+    "maxLength": "너무 깁니다",
+    "min": "값이 너무 작습니다",
+    "phone": "유효한 전화번호를 입력하세요",
+    "consent": "계속하려면 약관에 동의해야 합니다",
+    "fileSize": "파일이 너무 큽니다(최대 5MB)",
+    "fileType": "지원되지 않는 파일 형식입니다",
+    "number": "유효한 숫자를 입력하세요"
   },
   "Auth": {
-    "login": { "title": "로그인", "subtitle": "Specialist Group 계정에 접속합니다.", "email": "이메일", "password": "비밀번호", "submit": "로그인", "submitting": "로그인 중…", "error": "이메일 또는 비밀번호가 올바르지 않습니다." }
+    "login": {
+      "title": "로그인",
+      "subtitle": "Specialist Group 계정에 접속합니다.",
+      "email": "이메일 주소",
+      "password": "비밀번호",
+      "submit": "로그인",
+      "submitting": "로그인 중…",
+      "error": "이메일 또는 비밀번호가 올바르지 않습니다.",
+      "forgot": "비밀번호를 잊으셨나요?",
+      "noAccount": "고용주 계정이 필요하신가요?",
+      "contactUs": "문의하기"
+    }
   },
-  "NotFound": { "title": "페이지를 찾을 수 없습니다", "subtitle": "찾으시는 페이지가 존재하지 않거나 이동되었습니다.", "home": "홈으로", "contact": "문의하기" }
+  "Portal": {
+    "title": "고용주 포털",
+    "welcome": "다시 오신 것을 환영합니다",
+    "nav": {
+      "dashboard": "대시보드",
+      "requests": "내 요청",
+      "messages": "메시지",
+      "candidates": "저장한 후보자",
+      "notifications": "알림",
+      "reports": "보고서",
+      "settings": "설정"
+    },
+    "dashboard": {
+      "activeRequests": "진행 중인 요청",
+      "savedCandidates": "저장한 후보자",
+      "unreadMessages": "읽지 않은 메시지",
+      "recentActivity": "최근 활동"
+    },
+    "signOut": "로그아웃"
+  },
+  "Admin": {
+    "title": "관리자 대시보드",
+    "nav": {
+      "overview": "개요",
+      "requests": "문의",
+      "employers": "고용주",
+      "candidates": "후보자",
+      "messages": "커뮤니케이션",
+      "content": "콘텐츠",
+      "testimonials": "고객 후기",
+      "news": "뉴스",
+      "license": "라이선스",
+      "users": "사용자",
+      "reports": "보고서"
+    },
+    "overview": {
+      "totalRequests": "전체 요청",
+      "newRequests": "신규 요청",
+      "employers": "고용주",
+      "candidates": "후보자",
+      "recentRequests": "최근 요청",
+      "byIndustry": "산업별 요청",
+      "byStatus": "상태별 요청"
+    },
+    "signOut": "로그아웃"
+  },
+  "NotFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "subtitle": "찾으시는 페이지가 존재하지 않거나 이동되었습니다.",
+    "home": "홈으로",
+    "contact": "문의하기"
+  },
+  "Error": {
+    "title": "문제가 발생했습니다",
+    "subtitle": "예기치 않은 오류가 발생했습니다. 다시 시도해 주세요.",
+    "retry": "다시 시도",
+    "home": "홈으로"
+  }
 }

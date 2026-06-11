@@ -1,12 +1,12 @@
 import { defineRouting } from 'next-intl/routing';
 
-export const locales = ['en', 'ru', 'uz', 'ko', 'de', 'ja', 'ar'] as const;
+export const locales = ['en', 'ru', 'uz', 'ko', 'de', 'ja', 'ar', 'he', 'lv'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'en';
 
 /** Right-to-left languages require `dir="rtl"` on the document. */
-export const rtlLocales: Locale[] = ['ar'];
+export const rtlLocales: Locale[] = ['ar', 'he'];
 
 export const localeMeta: Record<
   Locale,
@@ -19,6 +19,8 @@ export const localeMeta: Record<
   de: { label: 'Deutsch', englishName: 'German', flag: 'de', dir: 'ltr' },
   ja: { label: '日本語', englishName: 'Japanese', flag: 'jp', dir: 'ltr' },
   ar: { label: 'العربية', englishName: 'Arabic', flag: 'sa', dir: 'rtl' },
+  he: { label: 'עברית', englishName: 'Hebrew', flag: 'il', dir: 'rtl' },
+  lv: { label: 'Latviešu', englishName: 'Latvian', flag: 'lv', dir: 'ltr' },
 };
 
 export function isRtl(locale: string): boolean {

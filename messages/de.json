@@ -2,7 +2,51 @@
   "Meta": {
     "home": {
       "title": "Lizenzierte Personallösungen aus Usbekistan",
-      "description": "Specialist Group ist eine staatlich lizenzierte private Arbeitsvermittlung in Taschkent, Usbekistan. Wir rekrutieren, schulen und entsenden geprüfte Arbeitskräfte legal an internationale Arbeitgeber."
+      "description": "Specialist Group ist eine staatlich lizenzierte private Arbeitsvermittlung in Taschkent, Usbekistan. Wir rekrutieren, schulen und entsenden geprüfte Arbeitskräfte legal an internationale Arbeitgeber in Bau, Industrie, Landwirtschaft, Pflege und weiteren Branchen."
+    },
+    "about": {
+      "title": "Über Specialist Group",
+      "description": "Eine lizenzierte usbekische Vermittlungsagentur, gegründet auf Compliance, Schulung und Vertrauen — verbindet internationale Arbeitgeber mit qualifizierten, einsatzbereiten Fachkräften aus Usbekistan."
+    },
+    "services": {
+      "title": "Unsere Leistungen",
+      "description": "Internationale Vermittlung von A bis Z: Sourcing, Prüfung, fachliche und sprachliche Schulung, Dokumentation, Rechtskonformität, Entsendung und Betreuung nach der Ankunft."
+    },
+    "industries": {
+      "title": "Branchen, die wir bedienen",
+      "description": "Qualifizierte Arbeitskräfte aus Usbekistan für Bau, Industrie, Landwirtschaft, Lebensmittelproduktion, Gastgewerbe, Pflege, Textil, Handwerk und Spezialrollen."
+    },
+    "whyUzbekistan": {
+      "title": "Warum aus Usbekistan rekrutieren",
+      "description": "Eine junge, qualifizierte und mehrsprachige Belegschaft, starke Arbeitsmoral und staatlich unterstützte Arbeitsmigration — erfahren Sie, warum Arbeitgeber Usbekistan wählen."
+    },
+    "license": {
+      "title": "Lizenz & Compliance",
+      "description": "Specialist Group arbeitet unter der offiziellen staatlichen Lizenz Nr. 0078. Sehen Sie unsere Lizenz-, Registrierungs- und Steuernachweise sowie unser Compliance-System."
+    },
+    "employerRequest": {
+      "title": "Personal anfragen",
+      "description": "Senden Sie eine Personalanfrage und erhalten Sie ein maßgeschneidertes Angebot unserer Vermittlungsspezialisten. Erhalten Sie eine Vorgangsnummer und eine Antwort innerhalb eines Werktags."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Sprechen Sie mit unserem internationalen Vermittlungsteam in Taschkent. Fragen Sie Arbeitskräfte an, erkundigen Sie sich zu Compliance oder vereinbaren Sie eine Partnerschaft."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Antworten auf häufige Fragen internationaler Arbeitgeber zu Lizenzierung, Kosten, Zeitrahmen, Schulung und legaler Entsendung usbekischer Arbeitskräfte."
+    },
+    "news": {
+      "title": "News & Aktuelles",
+      "description": "Einblicke, regulatorische Updates und Ankündigungen von Specialist Group zur internationalen Arbeitsmigration aus Usbekistan."
+    },
+    "testimonials": {
+      "title": "Kundenstimmen",
+      "description": "Was internationale Arbeitgeber über die Zusammenarbeit mit Specialist Group für lizenzierte, zuverlässige Personallösungen aus Usbekistan sagen."
+    },
+    "track": {
+      "title": "Anfrage verfolgen",
+      "description": "Geben Sie Ihre Vorgangsnummer ein, um den aktuellen Status Ihrer Personalanfrage zu sehen."
     }
   },
   "Common": {
@@ -10,7 +54,7 @@
     "home": "Startseite",
     "menu": "Menü",
     "openMenu": "Menü öffnen",
-    "closeMenu": "Schließen",
+    "closeMenu": "Menü schließen",
     "licensedBadge": "Staatlich lizenziert",
     "licenseNo": "Lizenz-Nr.",
     "requestWorkforce": "Personal anfragen",
@@ -19,10 +63,10 @@
     "learnMore": "Mehr erfahren",
     "readMore": "Weiterlesen",
     "viewAll": "Alle ansehen",
-    "viewDetails": "Details",
+    "viewDetails": "Details ansehen",
     "getInTouch": "Kontakt aufnehmen",
     "getStarted": "Loslegen",
-    "exploreServices": "Leistungen",
+    "exploreServices": "Leistungen entdecken",
     "talkToUs": "Mit unserem Team sprechen",
     "submit": "Senden",
     "sending": "Wird gesendet…",
@@ -33,7 +77,17 @@
     "all": "Alle",
     "previous": "Zurück",
     "next": "Weiter",
-    "page": "Seite"
+    "page": "Seite",
+    "viewSite": "Zur Website",
+    "search": "Suchen",
+    "filter": "Filter",
+    "status": "Status",
+    "date": "Datum",
+    "actions": "Aktionen",
+    "save": "Speichern",
+    "saving": "Wird gespeichert…",
+    "noResults": "Keine Ergebnisse gefunden",
+    "back": "Zurück"
   },
   "Nav": {
     "home": "Startseite",
@@ -41,7 +95,7 @@
     "services": "Leistungen",
     "industries": "Branchen",
     "whyUzbekistan": "Warum Usbekistan",
-    "license": "Lizenz",
+    "license": "Lizenz & Compliance",
     "news": "Aktuelles",
     "contact": "Kontakt",
     "portal": "Arbeitgeberportal",
@@ -52,8 +106,12 @@
     "requestWorkforce": "Personal anfragen"
   },
   "Footer": {
-    "about": "Specialist Group ist eine lizenzierte private Arbeitsvermittlung in Taschkent, Usbekistan, die geprüfte Arbeitskräfte für internationale Arbeitgeber rekrutiert, schult und legal entsendet.",
-    "columns": { "company": "Unternehmen", "solutions": "Lösungen", "forEmployers": "Für Arbeitgeber" },
+    "about": "Specialist Group ist eine lizenzierte private Arbeitsvermittlung in Taschkent, Usbekistan, die geprüfte Arbeitskräfte für internationale Arbeitgeber weltweit rekrutiert, schult und legal entsendet.",
+    "columns": {
+      "company": "Unternehmen",
+      "solutions": "Lösungen",
+      "forEmployers": "Für Arbeitgeber"
+    },
     "licenseNote": "Autorisiert durch die Agentur für externe Arbeitsmigration der Republik Usbekistan.",
     "licenseNumber": "Lizenz-Nr.",
     "registerNumber": "Register-Nr.",
@@ -67,21 +125,23 @@
     "hero": {
       "badge": "Staatlich lizenzierte Arbeitsvermittlung · Usbekistan",
       "title": "Lizenzierte Personallösungen aus Usbekistan für die ganze Welt",
-      "subtitle": "Wir rekrutieren, schulen und entsenden geprüfte, einsatzbereite Fachkräfte aus Usbekistan legal an internationale Arbeitgeber – mit vollständiger staatlicher Lizenz und Rechtskonformität in jedem Schritt.",
+      "subtitle": "Wir rekrutieren, schulen und entsenden geprüfte, einsatzbereite Fachkräfte aus Usbekistan legal an internationale Arbeitgeber — mit vollständiger staatlicher Lizenz und Rechtskonformität in jedem Schritt.",
       "ctaPrimary": "Personal anfragen",
       "ctaSecondary": "Kontakt",
       "ctaTertiary": "Lizenz ansehen",
       "scroll": "Mehr entdecken"
     },
-    "logos": { "title": "Arbeitgeber vertrauen uns bei Einsätzen in" },
+    "logos": {
+      "title": "Arbeitgeber vertrauen uns bei Einsätzen in"
+    },
     "introCta": {
       "eyebrow": "Auf Compliance gebaut",
       "title": "Ein verlässlicher Partner für internationale Arbeitgeber",
-      "body": "Von der ersten Anfrage bis zur Betreuung nach der Ankunft steuert Specialist Group den gesamten Migrationsprozess nach usbekischem und Ziellandrecht. Sie erhalten qualifizierte, vorbereitete Arbeitskräfte – ohne rechtliches Risiko."
+      "body": "Von der ersten Anfrage bis zur Betreuung nach der Ankunft steuert Specialist Group den gesamten Migrationsprozess nach usbekischem und Ziellandrecht. Sie erhalten qualifizierte, dokumentierte und vorbereitete Arbeitskräfte – ohne rechtliches Risiko."
     },
     "ctaBanner": {
       "title": "Bereit, Ihr Team aus Usbekistan aufzubauen?",
-      "subtitle": "Nennen Sie uns Ihren Bedarf. Unsere Spezialisten antworten innerhalb eines Werktags mit einem maßgeschneiderten Angebot.",
+      "subtitle": "Nennen Sie uns Ihren Bedarf. Unsere Spezialisten antworten innerhalb eines Werktags mit einem maßgeschneiderten Angebot und Zeitplan.",
       "primary": "Personal anfragen",
       "secondary": "Beratung vereinbaren"
     }
@@ -89,63 +149,585 @@
   "TrustBadges": {
     "eyebrow": "Warum Arbeitgeber uns vertrauen",
     "items": {
-      "governmentLicensed": { "title": "Staatlich lizenziert", "description": "Autorisiert durch die usbekische Agentur für Arbeitsmigration – Lizenz-Nr. 0078." },
-      "legalRecruitment": { "title": "Legale Vermittlung", "description": "Jede Vermittlung ist vollständig dokumentiert und rechtskonform." },
-      "preScreened": { "title": "Geprüfte Kandidaten", "description": "Eignungstests, ärztliche Untersuchung und Überprüfung vor der Entsendung." },
-      "internationalCooperation": { "title": "Internationale Zusammenarbeit", "description": "Bilaterale Abkommen in 18 Zielländern." }
+      "governmentLicensed": {
+        "title": "Staatlich lizenziert",
+        "description": "Autorisiert durch die usbekische Agentur für externe Arbeitsmigration – Lizenz-Nr. 0078."
+      },
+      "legalRecruitment": {
+        "title": "Legale Vermittlung",
+        "description": "Jede Vermittlung ist vollständig dokumentiert und konform mit usbekischem und Ziellandrecht."
+      },
+      "preScreened": {
+        "title": "Geprüfte Kandidaten",
+        "description": "Eignungstests, ärztliche Untersuchungen und Überprüfungen vor der Entsendung."
+      },
+      "internationalCooperation": {
+        "title": "Internationale Zusammenarbeit",
+        "description": "Bilaterale Abkommen und Partnerschaften in 18 Zielländern."
+      }
     }
   },
   "Stats": {
     "eyebrow": "Bewährte Erfolge",
-    "title": "Gemessen an den Ergebnissen",
-    "subtitle": "Fast ein Jahrzehnt rechtskonformer internationaler Vermittlungen.",
-    "items": { "workersDeployed": "Vermittelte Arbeitskräfte", "partnerEmployers": "Partner-Arbeitgeber", "countries": "Zielländer", "yearsExperience": "Jahre Erfahrung" }
+    "title": "Gemessen an den Ergebnissen, die wir liefern",
+    "subtitle": "Fast ein Jahrzehnt rechtskonformer internationaler Vermittlungen, gestützt auf langfristige Arbeitgeberpartnerschaften.",
+    "items": {
+      "workersDeployed": "Vermittelte Arbeitskräfte",
+      "partnerEmployers": "Partner-Arbeitgeber",
+      "countries": "Zielländer",
+      "yearsExperience": "Jahre Erfahrung"
+    }
   },
   "Industries": {
     "eyebrow": "Branchen, die wir bedienen",
     "title": "Qualifizierte Fachkräfte für jede Branche",
-    "subtitle": "Wir vermitteln geprüfte, geschulte Arbeitskräfte in Branchen mit dem größten Fachkräftemangel.",
-    "viewAll": "Alle Branchen",
+    "subtitle": "Wir vermitteln geprüfte, geschulte Arbeitskräfte in Branchen, in denen internationale Arbeitgeber den größten Fachkräftemangel haben.",
+    "viewAll": "Alle Branchen ansehen",
+    "exploreCta": "Brauchen Sie Fachkräfte für eine andere Branche? Sprechen Sie mit uns.",
     "rolesLabel": "Typische Rollen",
     "items": {
-      "construction": { "title": "Bauwesen" },
-      "industrial": { "title": "Industrie & Produktion" },
-      "agriculture": { "title": "Landwirtschaft" },
-      "foodProduction": { "title": "Lebensmittelproduktion" },
-      "hospitality": { "title": "Gastgewerbe" },
-      "service": { "title": "Dienstleistung" },
-      "trade": { "title": "Handwerk" },
-      "healthcare": { "title": "Pflegekräfte" },
-      "textile": { "title": "Näherinnen & Textil" },
-      "other": { "title": "Weitere Fachkräfte" }
+      "construction": {
+        "title": "Bauwesen",
+        "description": "Maurer, Betonbauer, Stahlflechter, Gerüstbauer, Verputzer, Bauhelfer und Bauleiter.",
+        "roles": "Maurer · Stahlflechter · Gerüstbauer · Verputzer · Bauhelfer"
+      },
+      "industrial": {
+        "title": "Industrie & Produktion",
+        "description": "Maschinenbediener, Fließbandarbeiter, Lagerpersonal, Verpacker und Produktionstechniker.",
+        "roles": "Maschinenbediener · Monteure · Verpacker · Lagerpersonal"
+      },
+      "agriculture": {
+        "title": "Landwirtschaft",
+        "description": "Feldarbeiter, Gewächshausarbeiter, Erntehelfer, Tierpfleger und Landmaschinenführer.",
+        "roles": "Erntehelfer · Gewächshausarbeiter · Tierpfleger"
+      },
+      "foodProduction": {
+        "title": "Lebensmittelproduktion",
+        "description": "Fleisch- und Geflügelverarbeitung, Verpackung, lebensmittelgerechte Reinigung und Qualitätskontrolle.",
+        "roles": "Verarbeitung · Verpackung · Qualitätskontrolle"
+      },
+      "hospitality": {
+        "title": "Gastgewerbe",
+        "description": "Hotelpersonal, Küchenhilfen, Köche, Zimmermädchen, Kellner und Personal im Gastronomieservice.",
+        "roles": "Küchenhilfen · Zimmermädchen · Kellner · Köche"
+      },
+      "service": {
+        "title": "Dienstleistung",
+        "description": "Reinigung, Logistikunterstützung, Verkaufsassistenten, Fahrer und Personal für Gebäudeinstandhaltung.",
+        "roles": "Reinigungskräfte · Fahrer · Einzelhandel · Gebäudetechnik"
+      },
+      "trade": {
+        "title": "Handwerk",
+        "description": "Schweißer, Elektriker, Klempner, Tischler, Maler und HLK-Techniker.",
+        "roles": "Schweißer · Elektriker · Klempner · Tischler"
+      },
+      "healthcare": {
+        "title": "Pflegekräfte",
+        "description": "Examinierte Krankenpfleger, Altenpfleger, häusliche Pflegehelfer und medizinisches Hilfspersonal.",
+        "roles": "Pfleger · Altenpfleger · Häusliche Pflegehelfer"
+      },
+      "textile": {
+        "title": "Näherinnen & Textil",
+        "description": "Bediener von Industrienähmaschinen, Näherinnen, Zuschneider und Bekleidungsendfertiger.",
+        "roles": "Nähmaschinenbediener · Näherinnen · Zuschneider"
+      },
+      "other": {
+        "title": "Weitere Fachkräfte",
+        "description": "Maßgeschneiderte Vermittlung für spezialisierte und technische Rollen, abgestimmt auf Ihren Betrieb.",
+        "roles": "Individuell · Technisch · Spezialisiert"
+      }
     }
   },
   "Services": {
     "eyebrow": "Vermittlung aus einer Hand",
     "title": "Ein Partner für den gesamten Migrationsweg",
-    "subtitle": "Wir steuern jede Phase – Sie erhalten vorbereitete, dokumentierte Arbeitskräfte ohne Aufwand."
+    "subtitle": "Wir steuern jede Phase – so erhalten Sie vorbereitete, dokumentierte und zuverlässige Arbeitskräfte ohne Verwaltungsaufwand oder rechtliches Risiko.",
+    "learnMore": "Mehr über unseren Prozess erfahren",
+    "items": {
+      "recruitment": {
+        "title": "Rekrutierung & Sourcing",
+        "description": "Wir gewinnen Kandidaten aus einem landesweiten Netzwerk von Berufsschulen, Ausbildungszentren und geprüften regionalen Partnern."
+      },
+      "screening": {
+        "title": "Prüfung & Beurteilung",
+        "description": "Eignungstests, ärztliche Untersuchungen, Dokumentenprüfung und Hintergrundchecks, bevor ein Kandidat in die engere Wahl kommt."
+      },
+      "training": {
+        "title": "Berufliche Schulung",
+        "description": "Rollenspezifische Weiterbildung in akkreditierten Zentren nach Ihren technischen Standards und Sicherheitsanforderungen."
+      },
+      "language": {
+        "title": "Sprachvorbereitung",
+        "description": "Gezielte Sprachschulung – einschließlich Koreanisch, Deutsch, Japanisch, Russisch und Englisch – für die Arbeitsbereitschaft."
+      },
+      "documentation": {
+        "title": "Dokumentation & Visa",
+        "description": "Pässe, Arbeitserlaubnisse, Visabearbeitung und beglaubigte Übersetzungen – vollständig von unserem Rechtsteam abgewickelt."
+      },
+      "compliance": {
+        "title": "Rechtskonformität",
+        "description": "Vollständige Einhaltung des usbekischen Arbeitsmigrationsrechts und der Vorschriften des Ziellandes, mit transparenten Verträgen."
+      },
+      "deployment": {
+        "title": "Entsendung & Logistik",
+        "description": "Flüge, Flughafentransfers und koordinierte Ankunft, damit Ihre Belegschaft pünktlich startbereit ist."
+      },
+      "aftercare": {
+        "title": "Betreuung nach der Ankunft",
+        "description": "Laufende Betreuung des Wohlergehens und ein persönlicher Ansprechpartner für Arbeitgeber und Arbeitskraft nach der Entsendung."
+      }
+    }
+  },
+  "Process": {
+    "eyebrow": "So funktioniert es",
+    "title": "Ein klarer, rechtskonformer Sechs-Schritte-Prozess",
+    "subtitle": "Transparent in jeder Phase, mit einem festen Ansprechpartner von der Anfrage bis zur Entsendung.",
+    "stepLabel": "Schritt",
+    "steps": {
+      "request": {
+        "title": "Personalanfrage",
+        "description": "Sie übermitteln Rollenanforderungen, Mengen und Zeitrahmen. Wir bestätigen die Machbarkeit und liefern innerhalb eines Werktags ein Angebot."
+      },
+      "sourcing": {
+        "title": "Kandidatensuche",
+        "description": "Wir identifizieren geeignete Kandidaten aus unserem geprüften nationalen Netzwerk und treffen nach Ihren Kriterien eine Vorauswahl."
+      },
+      "screening": {
+        "title": "Prüfung & Interviews",
+        "description": "Eignungstests, ärztliche Untersuchungen und Hintergrundchecks. Sie interviewen die ausgewählten Kandidaten persönlich oder online."
+      },
+      "training": {
+        "title": "Schulung & Vorbereitung",
+        "description": "Ausgewählte Arbeitskräfte absolvieren eine auf Ihren Arbeitsplatz zugeschnittene fachliche und sprachliche Schulung."
+      },
+      "documentation": {
+        "title": "Dokumentation",
+        "description": "Wir bearbeiten Visa, Arbeitserlaubnisse und alle rechtlichen Unterlagen in vollständiger Konformität mit beiden Ländern."
+      },
+      "deployment": {
+        "title": "Entsendung",
+        "description": "Koordinierte Reise und Ankunft, gefolgt von kontinuierlicher Betreuung nach der Entsendung."
+      }
+    }
+  },
+  "Training": {
+    "eyebrow": "Arbeitsbereitschaft",
+    "title": "Arbeitskräfte, die vor der Ankunft vorbereitet sind",
+    "subtitle": "Unsere Schulungskompetenzen sorgen dafür, dass Ihre neuen Mitarbeiter vom ersten Tag an produktiv sind – fachlich qualifiziert, sicherheitsbewusst und kommunikationsfähig.",
+    "points": {
+      "vocational": {
+        "title": "Akkreditierte berufliche Schulung",
+        "description": "Praxisnaher, rollenspezifischer Unterricht in Partnerzentren nach internationalen Standards."
+      },
+      "language": {
+        "title": "Sprachliche & kulturelle Bereitschaft",
+        "description": "Praktischer Sprachunterricht und kulturelle Orientierung für das Zielland."
+      },
+      "safety": {
+        "title": "Arbeitsschutzzertifizierung",
+        "description": "Schulung zu Arbeitssicherheit, Hygiene und Compliance, relevant für Ihre Branche."
+      },
+      "softSkills": {
+        "title": "Eingliederung am Arbeitsplatz",
+        "description": "Teamarbeit, Disziplin und professionelles Verhalten für eine reibungslose Integration."
+      }
+    }
   },
   "WhyUzbekistan": {
     "eyebrow": "Warum Usbekistan",
     "title": "Eine neue globale Quelle zuverlässiger Fachkräfte",
-    "subtitle": "Junge, motivierte Arbeitskräfte und staatliche Unterstützung legaler Migration."
+    "subtitle": "Usbekistan verbindet eine junge, motivierte Belegschaft mit starker staatlicher Unterstützung für legale, ethische Arbeitsmigration.",
+    "intro": "Mit über 36 Millionen Einwohnern und einem Durchschnittsalter unter 30 Jahren bietet Usbekistan eines der größten und jüngsten Arbeitskräftepotenziale der Region – zunehmend über staatliche Programme für internationale Märkte qualifiziert.",
+    "reasons": {
+      "youngWorkforce": {
+        "title": "Junge, wachsende Belegschaft",
+        "description": "Ein Durchschnittsalter unter 30 und jedes Jahr Hunderttausende neuer Arbeitsmarktteilnehmer."
+      },
+      "workEthic": {
+        "title": "Starke Arbeitsmoral",
+        "description": "Eine Kultur, die Zuverlässigkeit, Disziplin und Engagement schätzt – Eigenschaften, die Arbeitgeber durchweg loben."
+      },
+      "multilingual": {
+        "title": "Mehrsprachige Begabung",
+        "description": "Usbekisch, Russisch und eine schnell wachsende Kompetenz in Englisch, Koreanisch, Deutsch und Japanisch."
+      },
+      "vocational": {
+        "title": "Berufliche Bildung",
+        "description": "Ein wachsendes Netzwerk technischer Hochschulen, das qualifizierte Handwerks- und Industriearbeiter ausbildet."
+      },
+      "costEffective": {
+        "title": "Kosteneffiziente Einstellung",
+        "description": "Wettbewerbsfähige, transparente Vermittlungskosten ohne versteckte Gebühren und mit planbaren Zeitrahmen."
+      },
+      "governmentSupport": {
+        "title": "Staatliche Unterstützung",
+        "description": "Staatlich gestützte Arbeitsmigrationsabkommen und ein klarer Rechtsrahmen, der alle Parteien schützt."
+      }
+    },
+    "stats": {
+      "population": "Bevölkerung",
+      "medianAge": "Durchschnittsalter",
+      "literacy": "Alphabetisierungsrate",
+      "annualEntrants": "Neue Arbeitskräfte / Jahr"
+    }
   },
   "License": {
     "eyebrow": "Lizenz & Compliance",
     "title": "Vollständig lizenziert. Vollständig konform.",
-    "subtitle": "Specialist Group arbeitet auf Basis einer offiziellen staatlichen Genehmigung.",
+    "subtitle": "Specialist Group arbeitet auf Basis einer offiziellen staatlichen Genehmigung. Unsere Nachweise sind öffentlich und überprüfbar.",
     "verifiedBadge": "Offiziell verifiziert",
-    "credentials": { "licenseNumber": "Lizenznummer", "registerNumber": "Registernummer", "tin": "Steuernummer", "registrationNumber": "Registrierungsnummer" },
-    "authorityLabel": "Ausstellende Behörde"
+    "credentials": {
+      "licenseNumber": "Lizenznummer",
+      "registerNumber": "Registernummer",
+      "tin": "Steuernummer (TIN)",
+      "registrationNumber": "Registrierungsnummer"
+    },
+    "authorityLabel": "Ausstellende Behörde",
+    "certificate": {
+      "title": "Offizielle Lizenzurkunde",
+      "caption": "Staatlich ausgestellte Lizenz einer privaten Arbeitsvermittlung.",
+      "view": "Urkunde ansehen",
+      "zoom": "Zoom",
+      "download": "PDF herunterladen",
+      "alt": "Offizielle staatliche Lizenzurkunde von Specialist Group"
+    },
+    "compliance": {
+      "title": "Unser Compliance-Rahmen",
+      "subtitle": "Schutz von Arbeitgebern und Arbeitskräften in jeder Phase.",
+      "points": {
+        "legal": {
+          "title": "Rechtmäßige Vermittlung",
+          "description": "Die Vermittlung erfolgt streng nach dem Gesetz der Republik Usbekistan über externe Arbeitsmigration."
+        },
+        "ethical": {
+          "title": "Ethische Standards",
+          "description": "Keine Vermittlungsgebühren für Arbeitskräfte, im Einklang mit internationalen Grundsätzen fairer Rekrutierung."
+        },
+        "transparent": {
+          "title": "Transparente Verträge",
+          "description": "Klare, zweisprachige Arbeitsverträge, die vor der Entsendung geprüft und genehmigt werden."
+        },
+        "dataProtection": {
+          "title": "Datenschutz",
+          "description": "Kandidaten- und Arbeitgeberdaten werden sicher und vertraulich verarbeitet."
+        }
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Kundenstimmen",
+    "title": "Arbeitgeber weltweit vertrauen uns",
+    "subtitle": "Langfristige Partnerschaften, aufgebaut auf zuverlässigen Menschen und einem transparenten Prozess.",
+    "ratingLabel": "Durchschnittliche Partnerbewertung"
+  },
+  "Faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "title": "Alles, was Sie wissen müssen",
+    "subtitle": "Keine Antwort gefunden? Unser Team hilft Ihnen gerne.",
+    "stillHaveQuestions": "Noch Fragen?",
+    "contactPrompt": "Sprechen Sie mit unseren Vermittlungsspezialisten",
+    "items": [
+      {
+        "question": "Ist Specialist Group eine lizenzierte Vermittlungsagentur?",
+        "answer": "Ja. Specialist Group besitzt die offizielle staatliche Lizenz Nr. 0078, ausgestellt von der Agentur für externe Arbeitsmigration der Republik Usbekistan. Unsere Registernummer, Steuernummer und Registrierungsnummer sind auf unserer Seite „Lizenz & Compliance“ offen veröffentlicht."
+      },
+      {
+        "question": "In welche Länder entsenden Sie Arbeitskräfte?",
+        "answer": "Derzeit vermitteln wir Arbeitskräfte in 18 Zielländer, darunter Südkorea, Deutschland, Japan, Polen, die VAE, Saudi-Arabien, Katar und das Vereinigte Königreich, im Rahmen bilateraler Abkommen und direkter Arbeitgeberpartnerschaften."
+      },
+      {
+        "question": "Wie lange dauert der Vermittlungsprozess?",
+        "answer": "Die Zeiträume hängen von Rolle, Land und Dokumentation ab, doch eine typische Vermittlung dauert 6 bis 12 Wochen – von Ihrer ersten Anfrage bis zur Ankunft der Arbeitskraft. Mit jedem Angebot liefern wir einen präzisen Zeitplan."
+      },
+      {
+        "question": "Sind die Arbeitskräfte geprüft und geschult?",
+        "answer": "Jeder Kandidat durchläuft Eignungsbewertung, ärztliche Untersuchung und Hintergrundprüfung. Bei Bedarf absolvieren Arbeitskräfte vor der Entsendung eine fachliche und sprachliche Schulung, damit sie vom ersten Tag an produktiv sind."
+      },
+      {
+        "question": "Zahlen Arbeitskräfte Vermittlungsgebühren?",
+        "answer": "Nein. Im Einklang mit internationalen Grundsätzen fairer Rekrutierung erheben wir keine Vermittlungsgebühren von Arbeitskräften. Unsere Leistung wird mit dem Arbeitgeber vertraglich vereinbart und von ihm bezahlt."
+      },
+      {
+        "question": "Können wir Kandidaten vor der Auswahl interviewen?",
+        "answer": "Selbstverständlich. Sie können die ausgewählten Kandidaten persönlich in Usbekistan oder per Video aus der Ferne interviewen. Die endgültige Auswahl treffen Sie – wir präsentieren lediglich qualifizierte, geprüfte Kandidaten."
+      },
+      {
+        "question": "Welche Branchen decken Sie ab?",
+        "answer": "Bau, Industrie und Produktion, Landwirtschaft, Lebensmittelproduktion, Gastgewerbe, Pflege (Pflegekräfte und Betreuer), Textil, Handwerk und weitere Spezialrollen."
+      },
+      {
+        "question": "Wie fangen wir an?",
+        "answer": "Senden Sie eine Personalanfrage über unsere Website oder kontaktieren Sie unser Team direkt. Sie erhalten innerhalb eines Werktags eine Vorgangsnummer und ein maßgeschneidertes Angebot."
+      }
+    ]
   },
   "Contact": {
     "eyebrow": "Kontakt",
     "title": "Bauen wir Ihr Team auf",
-    "subtitle": "Erreichen Sie unser Team in Taschkent. Wir antworten innerhalb eines Werktags.",
-    "info": { "addressTitle": "Hauptsitz", "phoneTitle": "Telefon & WhatsApp", "emailTitle": "E-Mail", "hoursTitle": "Öffnungszeiten" }
+    "subtitle": "Erreichen Sie unser internationales Vermittlungsteam in Taschkent. Wir antworten auf jede Anfrage innerhalb eines Werktags.",
+    "info": {
+      "addressTitle": "Hauptsitz",
+      "phoneTitle": "Telefon & WhatsApp",
+      "emailTitle": "E-Mail",
+      "hoursTitle": "Öffnungszeiten"
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "sie@firma.com",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Firmenname",
+      "country": "Land",
+      "countryPlaceholder": "Ihr Land",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Wie können wir helfen?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Personalbedarf…",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet…",
+      "successTitle": "Nachricht gesendet",
+      "successBody": "Danke für Ihre Kontaktaufnahme mit Specialist Group. Unser Team antwortet innerhalb eines Werktags.",
+      "errorTitle": "Etwas ist schiefgelaufen",
+      "errorBody": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt."
+    }
+  },
+  "EmployerRequest": {
+    "eyebrow": "Personal anfragen",
+    "title": "Sagen Sie uns, was Ihr Betrieb braucht",
+    "subtitle": "Füllen Sie das Formular aus und unsere Spezialisten erstellen ein maßgeschneidertes Angebot. Sie erhalten sofort eine Vorgangsnummer und innerhalb eines Werktags eine Antwort.",
+    "asideTitle": "Warum Arbeitgeber uns wählen",
+    "asideBody": "Lizenziert, konform und bewährt – Specialist Group nimmt das Risiko aus der internationalen Einstellung.",
+    "asidePoints": {
+      "one": "Antwort innerhalb eines Werktags",
+      "two": "Geprüfte, geschulte Kandidaten",
+      "three": "Vollständige rechtliche Dokumentation",
+      "four": "Persönlicher Ansprechpartner"
+    },
+    "form": {
+      "sectionCompany": "Unternehmensangaben",
+      "sectionRequirements": "Personalanforderungen",
+      "sectionAdditional": "Zusätzliche Angaben",
+      "companyName": "Firmenname",
+      "companyNamePlaceholder": "Ihr Unternehmen",
+      "contactPerson": "Ansprechpartner",
+      "contactPersonPlaceholder": "Vollständiger Name",
+      "country": "Land",
+      "countryPlaceholder": "Wählen Sie Ihr Land",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "sie@firma.com",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+1 234 567 8900",
+      "industry": "Branche",
+      "industryPlaceholder": "Branche auswählen",
+      "workersCount": "Anzahl der Arbeitskräfte",
+      "workersCountPlaceholder": "z. B. 25",
+      "requiredSkills": "Erforderliche Fähigkeiten & Rollen",
+      "requiredSkillsPlaceholder": "Beschreiben Sie die Rollen, Fähigkeiten, Erfahrung und erforderlichen Zertifizierungen…",
+      "deploymentDate": "Gewünschtes Entsendedatum",
+      "attachment": "Anhang",
+      "attachmentHint": "Optional – Stellenbeschreibung oder Spezifikation (PDF, DOC, max. 5 MB)",
+      "attachmentChoose": "Datei wählen",
+      "attachmentNone": "Keine Datei ausgewählt",
+      "additionalNotes": "Zusätzliche Anmerkungen",
+      "additionalNotesPlaceholder": "Sonst noch etwas, das wir wissen sollten?",
+      "consent": "Ich stimme der Verarbeitung dieser Angaben gemäß der Datenschutzerklärung zu.",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet…"
+    },
+    "success": {
+      "title": "Anfrage eingegangen",
+      "body": "Danke. Ihre Personalanfrage wurde an unser Vermittlungsteam übermittelt. Bitte bewahren Sie Ihre Vorgangsnummer auf.",
+      "trackingLabel": "Ihre Vorgangsnummer",
+      "copied": "Kopiert",
+      "copy": "Kopieren",
+      "whatNextTitle": "Was als Nächstes passiert",
+      "whatNext": {
+        "one": "Unsere Spezialisten prüfen Ihre Anforderungen.",
+        "two": "Wir erstellen ein maßgeschneidertes Angebot und einen Zeitplan.",
+        "three": "Wir melden uns innerhalb eines Werktags bei Ihnen."
+      },
+      "trackCta": "Anfrage verfolgen",
+      "homeCta": "Zur Startseite"
+    }
+  },
+  "Track": {
+    "eyebrow": "Anfrage verfolgen",
+    "title": "Status Ihrer Anfrage prüfen",
+    "subtitle": "Geben Sie die Vorgangsnummer ein, die Sie beim Absenden Ihrer Personalanfrage erhalten haben.",
+    "placeholder": "z. B. SG-2026-AB12CD",
+    "submit": "Anfrage verfolgen",
+    "searching": "Wird gesucht…",
+    "notFoundTitle": "Keine Anfrage gefunden",
+    "notFoundBody": "Wir konnten keine Anfrage mit dieser Vorgangsnummer finden. Bitte prüfen Sie und versuchen Sie es erneut.",
+    "statusLabel": "Aktueller Status",
+    "submittedLabel": "Eingereicht",
+    "industryLabel": "Branche",
+    "workersLabel": "Angefragte Arbeitskräfte",
+    "status": {
+      "NEW": "Eingegangen",
+      "IN_REVIEW": "In Prüfung",
+      "CONTACTED": "Kontaktiert",
+      "IN_PROGRESS": "In Bearbeitung",
+      "SHORTLISTED": "Kandidaten ausgewählt",
+      "FULFILLED": "Erfüllt",
+      "ON_HOLD": "Pausiert",
+      "CLOSED": "Geschlossen",
+      "REJECTED": "Geschlossen"
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "Über uns",
+      "title": "Usbekische Talente mit der Welt verbinden – rechtskonform und zuverlässig",
+      "subtitle": "Seit 2016 ist Specialist Group eine vertrauenswürdige Brücke zwischen Usbekistans Arbeitskräften und internationalen Arbeitgebern, aufgebaut auf Lizenzierung, Schulung und kompromissloser Compliance."
+    },
+    "mission": {
+      "eyebrow": "Unsere Mission",
+      "title": "Ethische Arbeitsmigration, die für alle funktioniert",
+      "body": "Wir existieren, um lebensverändernde Chancen für usbekische Arbeitskräfte zu schaffen und zugleich echten Fachkräftemangel internationaler Arbeitgeber zu lösen – stets im Rahmen des Gesetzes, stets mit Integrität. Jede Vermittlung ist eine langfristige Beziehung, keine Transaktion."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "body": "Der vertrauenswürdigste Vermittlungspartner aus Zentralasien zu sein – weltweit anerkannt für Compliance, Kandidatenqualität und den Erfolg der Menschen und Unternehmen, die wir verbinden."
+    },
+    "values": {
+      "eyebrow": "Unsere Werte",
+      "title": "Grundsätze, die jede Vermittlung leiten",
+      "items": {
+        "integrity": {
+          "title": "Integrität",
+          "description": "Wir arbeiten transparent und rechtmäßig, ohne Gebühren für Arbeitskräfte."
+        },
+        "quality": {
+          "title": "Qualität",
+          "description": "Strenge Prüfung und Schulung, damit Arbeitgeber wirklich einsatzbereite Menschen erhalten."
+        },
+        "compliance": {
+          "title": "Compliance",
+          "description": "Vollständige Einhaltung des Gesetzes sowohl in Usbekistan als auch im Zielland."
+        },
+        "care": {
+          "title": "Fürsorgepflicht",
+          "description": "Wir schützen das Wohlergehen der Arbeitskräfte vor, während und nach der Entsendung."
+        },
+        "partnership": {
+          "title": "Partnerschaft",
+          "description": "Wir bauen dauerhafte Beziehungen zu Arbeitgebern und Behörden gleichermaßen auf."
+        },
+        "reliability": {
+          "title": "Zuverlässigkeit",
+          "description": "Wir liefern vereinbarte Zeitrahmen, Mengen und Standards – konsequent."
+        }
+      }
+    },
+    "story": {
+      "eyebrow": "Unsere Geschichte",
+      "title": "Fast ein Jahrzehnt vertrauenswürdiger Vermittlungen",
+      "body": "Was als kleines Vermittlungsbüro in Taschkent begann, ist zu einer der angesehensten lizenzierten Arbeitsvermittlungen Usbekistans gewachsen. Heute steuert unser Team Rekrutierung, Schulung, Dokumentation und Entsendung für Arbeitgeber in 18 Ländern – mit Tausenden Vermittlungen und dem persönlichen Service, der uns vom ersten Tag an ausgezeichnet hat."
+    }
+  },
+  "News": {
+    "eyebrow": "News & Aktuelles",
+    "title": "Einblicke & Ankündigungen",
+    "subtitle": "Regulatorische Updates, Partnerschaftsnews und Perspektiven zur internationalen Arbeitsmigration.",
+    "readMore": "Artikel lesen",
+    "empty": "Noch keine Artikel veröffentlicht. Bitte schauen Sie bald wieder vorbei.",
+    "backToNews": "Zurück zu den News",
+    "publishedOn": "Veröffentlicht am",
+    "categoryLabel": "Kategorie"
+  },
+  "Newsletter": {
+    "title": "Bleiben Sie informiert",
+    "subtitle": "Gelegentliche Updates zu Vorschriften, Zielmärkten und Chancen. Kein Spam.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "submit": "Abonnieren",
+    "success": "Danke für Ihr Abonnement.",
+    "disclaimer": "Mit dem Abonnement stimmen Sie unserer Datenschutzerklärung zu."
+  },
+  "Validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "minLength": "Zu kurz",
+    "maxLength": "Zu lang",
+    "min": "Wert ist zu klein",
+    "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+    "consent": "Sie müssen die Bedingungen akzeptieren, um fortzufahren",
+    "fileSize": "Datei ist zu groß (max. 5 MB)",
+    "fileType": "Nicht unterstützter Dateityp",
+    "number": "Bitte geben Sie eine gültige Zahl ein"
   },
   "Auth": {
-    "login": { "title": "Anmelden", "subtitle": "Zugang zu Ihrem Specialist-Group-Konto.", "email": "E-Mail", "password": "Passwort", "submit": "Anmelden", "submitting": "Anmeldung…", "error": "Ungültige E-Mail oder Passwort." }
+    "login": {
+      "title": "Anmelden",
+      "subtitle": "Zugang zu Ihrem Specialist-Group-Konto.",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "submitting": "Anmeldung…",
+      "error": "Ungültige E-Mail oder ungültiges Passwort.",
+      "forgot": "Passwort vergessen?",
+      "noAccount": "Sie brauchen ein Arbeitgeberkonto?",
+      "contactUs": "Kontakt"
+    }
   },
-  "NotFound": { "title": "Seite nicht gefunden", "subtitle": "Die gesuchte Seite existiert nicht oder wurde verschoben.", "home": "Zur Startseite", "contact": "Kontakt" }
+  "Portal": {
+    "title": "Arbeitgeberportal",
+    "welcome": "Willkommen zurück",
+    "nav": {
+      "dashboard": "Dashboard",
+      "requests": "Meine Anfragen",
+      "messages": "Nachrichten",
+      "candidates": "Gespeicherte Kandidaten",
+      "notifications": "Benachrichtigungen",
+      "reports": "Berichte",
+      "settings": "Einstellungen"
+    },
+    "dashboard": {
+      "activeRequests": "Aktive Anfragen",
+      "savedCandidates": "Gespeicherte Kandidaten",
+      "unreadMessages": "Ungelesene Nachrichten",
+      "recentActivity": "Letzte Aktivität"
+    },
+    "signOut": "Abmelden"
+  },
+  "Admin": {
+    "title": "Admin-Dashboard",
+    "nav": {
+      "overview": "Übersicht",
+      "requests": "Anfragen",
+      "employers": "Arbeitgeber",
+      "candidates": "Kandidaten",
+      "messages": "Kommunikation",
+      "content": "Inhalte",
+      "testimonials": "Referenzen",
+      "news": "News",
+      "license": "Lizenz",
+      "users": "Benutzer",
+      "reports": "Berichte"
+    },
+    "overview": {
+      "totalRequests": "Anfragen gesamt",
+      "newRequests": "Neue Anfragen",
+      "employers": "Arbeitgeber",
+      "candidates": "Kandidaten",
+      "recentRequests": "Aktuelle Anfragen",
+      "byIndustry": "Anfragen nach Branche",
+      "byStatus": "Anfragen nach Status"
+    },
+    "signOut": "Abmelden"
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "subtitle": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "home": "Zur Startseite",
+    "contact": "Kontakt"
+  },
+  "Error": {
+    "title": "Etwas ist schiefgelaufen",
+    "subtitle": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "retry": "Erneut versuchen",
+    "home": "Zur Startseite"
+  }
 }

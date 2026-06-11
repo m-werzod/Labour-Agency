@@ -2,26 +2,59 @@
   "Meta": {
     "home": {
       "title": "O‘zbekistondan litsenziyalangan ishchi kuchi yechimlari",
-      "description": "Specialist Group — Toshkent shahridagi davlat litsenziyasiga ega xususiy bandlik agentligi. Biz tekshirilgan ishchilarni xalqaro ish beruvchilarga tanlaymiz, tayyorlaymiz va qonuniy ravishda yuboramiz."
+      "description": "Specialist Group — Toshkent shahridagi davlat litsenziyasiga ega xususiy bandlik agentligi. Biz qurilish, sanoat, qishloq xo‘jaligi, sog‘liqni saqlash va boshqa sohalarda tekshirilgan ishchilarni xalqaro ish beruvchilarga tanlaymiz, tayyorlaymiz va qonuniy ravishda yuboramiz."
     },
-    "about": { "title": "Specialist Group haqida", "description": "Muvofiqlik, tayyorgarlik va ishonchga asoslangan litsenziyalangan o‘zbek ishga joylashtirish agentligi." },
-    "services": { "title": "Xizmatlarimiz", "description": "Xalqaro ishga tanlovning to‘liq sikli: tanlash, tekshirish, o‘qitish, hujjatlar va qonuniy joylashtirish." },
-    "industries": { "title": "Tarmoqlar", "description": "Qurilish, sanoat, qishloq xo‘jaligi, sog‘liqni saqlash va boshqa sohalar uchun malakali ishchilar." },
-    "whyUzbekistan": { "title": "Nega O‘zbekiston", "description": "Yosh, malakali va ko‘p tilli ishchi kuchi hamda davlat ko‘magi." },
-    "license": { "title": "Litsenziya va muvofiqlik", "description": "Specialist Group 0078-sonli davlat litsenziyasi asosida ishlaydi." },
-    "employerRequest": { "title": "Ishchi kuchini so‘rash", "description": "So‘rov yuboring va mutaxassislarimizdan moslashtirilgan taklif oling." },
-    "contact": { "title": "Aloqa", "description": "Toshkentdagi xalqaro ishga tanlash jamoamiz bilan bog‘laning." },
-    "faq": { "title": "Ko‘p so‘raladigan savollar", "description": "Litsenziya, muddatlar va tayyorgarlik bo‘yicha savollarga javoblar." },
-    "news": { "title": "Yangiliklar", "description": "Xalqaro mehnat migratsiyasi bo‘yicha yangiliklar." },
-    "testimonials": { "title": "Mijozlar fikrlari", "description": "Ish beruvchilar Specialist Group bilan hamkorlik haqida." },
-    "track": { "title": "So‘rovni kuzatish", "description": "So‘rovingiz holatini ko‘rish uchun raqamni kiriting." }
+    "about": {
+      "title": "Specialist Group haqida",
+      "description": "Muvofiqlik, tayyorgarlik va ishonchga asoslangan litsenziyalangan o‘zbek ishga joylashtirish agentligi — xalqaro ish beruvchilarni O‘zbekistondan malakali, ishga tayyor mutaxassislar bilan bog‘laydi."
+    },
+    "services": {
+      "title": "Xizmatlarimiz",
+      "description": "Xalqaro ishga tanlovning to‘liq sikli: izlash, tekshirish, kasbiy va til tayyorgarligi, hujjatlashtirish, huquqiy muvofiqlik, joylashtirish va kelgandan keyingi qo‘llab-quvvatlash."
+    },
+    "industries": {
+      "title": "Biz xizmat ko‘rsatadigan tarmoqlar",
+      "description": "Qurilish, sanoat, qishloq xo‘jaligi, oziq-ovqat ishlab chiqarish, mehmonxona xizmati, sog‘liqni saqlash, to‘qimachilik, hunarmandchilik va mutaxassis rollar uchun O‘zbekistondan malakali ishchilar."
+    },
+    "whyUzbekistan": {
+      "title": "Nega O‘zbekistondan ishga olish kerak",
+      "description": "Yosh, malakali va ko‘p tilli ishchi kuchi, kuchli mehnat etikasi va davlat tomonidan qo‘llab-quvvatlanadigan mehnat migratsiyasi — ish beruvchilar nega O‘zbekistonni tanlashini bilib oling."
+    },
+    "license": {
+      "title": "Litsenziya va muvofiqlik",
+      "description": "Specialist Group 0078-sonli rasmiy davlat litsenziyasi asosida ishlaydi. Litsenziya, ro‘yxatdan o‘tish va soliq rekvizitlarimiz hamda muvofiqlik tizimimiz bilan tanishing."
+    },
+    "employerRequest": {
+      "title": "Ishchi kuchini so‘rash",
+      "description": "Ishchi kuchi uchun so‘rov yuboring va mutaxassislarimizdan moslashtirilgan taklif oling. Kuzatuv raqami va bir ish kuni ichida javob oling."
+    },
+    "contact": {
+      "title": "Biz bilan bog‘laning",
+      "description": "Toshkentdagi xalqaro ishga tanlash jamoamiz bilan bog‘laning. Ishchilar so‘rang, muvofiqlik haqida so‘rang yoki hamkorlik o‘rnating."
+    },
+    "faq": {
+      "title": "Ko‘p so‘raladigan savollar",
+      "description": "Litsenziyalash, xarajatlar, muddatlar, tayyorgarlik va o‘zbek ishchilarini qonuniy joylashtirish bo‘yicha xalqaro ish beruvchilarning savollariga javoblar."
+    },
+    "news": {
+      "title": "Yangiliklar va yangilanishlar",
+      "description": "O‘zbekistondan xalqaro mehnat migratsiyasi bo‘yicha Specialist Group tahlillari, me’yoriy yangilanishlari va e’lonlari."
+    },
+    "testimonials": {
+      "title": "Mijozlar fikrlari",
+      "description": "Xalqaro ish beruvchilar O‘zbekistondan litsenziyalangan va ishonchli ishchi kuchi yechimlari uchun Specialist Group bilan hamkorlik haqida nima deydi."
+    },
+    "track": {
+      "title": "So‘rovni kuzatish",
+      "description": "Ishchi kuchi so‘rovingizning joriy holatini ko‘rish uchun kuzatuv raqamini kiriting."
+    }
   },
   "Common": {
     "skipToContent": "Mazmunga o‘tish",
     "home": "Bosh sahifa",
     "menu": "Menyu",
     "openMenu": "Menyuni ochish",
-    "closeMenu": "Yopish",
+    "closeMenu": "Menyuni yopish",
     "licensedBadge": "Davlat litsenziyasi",
     "licenseNo": "Litsenziya №",
     "requestWorkforce": "Ishchi kuchini so‘rash",
@@ -44,7 +77,17 @@
     "all": "Barchasi",
     "previous": "Oldingi",
     "next": "Keyingi",
-    "page": "Sahifa"
+    "page": "Sahifa",
+    "viewSite": "Saytga o‘tish",
+    "search": "Qidirish",
+    "filter": "Filtr",
+    "status": "Holat",
+    "date": "Sana",
+    "actions": "Amallar",
+    "save": "Saqlash",
+    "saving": "Saqlanmoqda…",
+    "noResults": "Hech narsa topilmadi",
+    "back": "Orqaga"
   },
   "Nav": {
     "home": "Bosh sahifa",
@@ -52,19 +95,23 @@
     "services": "Xizmatlar",
     "industries": "Tarmoqlar",
     "whyUzbekistan": "Nega O‘zbekiston",
-    "license": "Litsenziya",
+    "license": "Litsenziya va muvofiqlik",
     "news": "Yangiliklar",
     "contact": "Aloqa",
     "portal": "Ish beruvchi portali",
     "track": "So‘rovni kuzatish",
     "testimonials": "Fikrlar",
-    "faq": "Savollar",
+    "faq": "Savol-javob",
     "employerRequest": "Ishchi kuchini so‘rash",
     "requestWorkforce": "Ishchi kuchini so‘rash"
   },
   "Footer": {
-    "about": "Specialist Group — Toshkentdagi litsenziyalangan xususiy bandlik agentligi bo‘lib, tekshirilgan ishchilarni xalqaro ish beruvchilarga tanlaydi, tayyorlaydi va qonuniy yuboradi.",
-    "columns": { "company": "Kompaniya", "solutions": "Yechimlar", "forEmployers": "Ish beruvchilarga" },
+    "about": "Specialist Group — Toshkentdagi litsenziyalangan xususiy bandlik agentligi bo‘lib, tekshirilgan ishchilarni butun dunyo bo‘ylab xalqaro ish beruvchilarga tanlaydi, tayyorlaydi va qonuniy yuboradi.",
+    "columns": {
+      "company": "Kompaniya",
+      "solutions": "Yechimlar",
+      "forEmployers": "Ish beruvchilarga"
+    },
     "licenseNote": "O‘zbekiston Respublikasi Tashqi mehnat migratsiyasi agentligi tomonidan vakolat berilgan.",
     "licenseNumber": "Litsenziya №",
     "registerNumber": "Reyestr №",
@@ -76,110 +123,611 @@
   },
   "Home": {
     "hero": {
-      "badge": "Litsenziyalangan ishga tanlash agentligi · O‘zbekiston",
+      "badge": "Davlat litsenziyasiga ega ishga tanlash agentligi · O‘zbekiston",
       "title": "O‘zbekistondan butun dunyoga litsenziyalangan ishchi kuchi yechimlari",
       "subtitle": "Biz O‘zbekistondan tekshirilgan, ishga tayyor mutaxassislarni xalqaro ish beruvchilarga tanlaymiz, o‘qitamiz va qonuniy yuboramiz — har bir bosqichda to‘liq davlat litsenziyasi va muvofiqlik bilan.",
       "ctaPrimary": "Ishchi kuchini so‘rash",
       "ctaSecondary": "Biz bilan bog‘laning",
       "ctaTertiary": "Litsenziyani ko‘rish",
-      "scroll": "Batafsil"
+      "scroll": "Batafsil bilish"
     },
-    "logos": { "title": "Mutaxassislarni quyidagi mamlakatlarga yuboruvchilar bizga ishonadi" },
+    "logos": {
+      "title": "Quyidagi mamlakatlarga mutaxassis yuboruvchilar bizga ishonadi"
+    },
     "introCta": {
       "eyebrow": "Muvofiqlikka asoslangan",
       "title": "Xalqaro ish beruvchilar ishonadigan hamkor",
-      "body": "Birinchi so‘rovdan kelgandan keyingi qo‘llab-quvvatlashgacha Specialist Group butun jarayonni qonun doirasida boshqaradi. Siz huquqiy xavfsiz malakali ishchilar olasiz."
+      "body": "Birinchi so‘rovdan kelgandan keyingi qo‘llab-quvvatlashgacha Specialist Group butun mehnat migratsiyasi jarayonini O‘zbekiston va qabul qiluvchi mamlakat qonunlari asosida boshqaradi. Siz huquqiy xavfsiz malakali, hujjatlashtirilgan va tayyorlangan ishchilar olasiz."
     },
     "ctaBanner": {
       "title": "O‘zbekistondan jamoa shakllantirishga tayyormisiz?",
-      "subtitle": "Ehtiyojlaringizni ayting. Mutaxassislarimiz bir ish kuni ichida moslashtirilgan taklif bilan javob beradi.",
+      "subtitle": "Ehtiyojlaringizni ayting. Mutaxassislarimiz bir ish kuni ichida moslashtirilgan taklif va muddatlar bilan javob beradi.",
       "primary": "Ishchi kuchini so‘rash",
       "secondary": "Maslahatga yozilish"
     }
   },
   "TrustBadges": {
-    "eyebrow": "Nega bizga ishonishadi",
+    "eyebrow": "Nega ish beruvchilar bizga ishonadi",
     "items": {
-      "governmentLicensed": { "title": "Davlat litsenziyasi", "description": "Tashqi mehnat migratsiyasi agentligi tomonidan vakolat berilgan — Litsenziya № 0078." },
-      "legalRecruitment": { "title": "Qonuniy tanlov", "description": "Har bir joylashtirish to‘liq rasmiylashtirilgan va qonunga muvofiq." },
-      "preScreened": { "title": "Tekshirilgan nomzodlar", "description": "Malaka, tibbiy ko‘rik va tekshiruv yuborishdan oldin." },
-      "internationalCooperation": { "title": "Xalqaro hamkorlik", "description": "18 ta mamlakatda ikki tomonlama kelishuvlar." }
+      "governmentLicensed": {
+        "title": "Davlat litsenziyasi",
+        "description": "O‘zbekiston Tashqi mehnat migratsiyasi agentligi tomonidan vakolat berilgan — Litsenziya № 0078."
+      },
+      "legalRecruitment": {
+        "title": "Qonuniy tanlov",
+        "description": "Har bir joylashtirish to‘liq hujjatlashtirilgan va O‘zbekiston hamda qabul qiluvchi mamlakat qonuniga muvofiq."
+      },
+      "preScreened": {
+        "title": "Tekshirilgan nomzodlar",
+        "description": "Joylashtirishdan oldin malaka baholash, tibbiy ko‘riklar va shaxsni tekshirish."
+      },
+      "internationalCooperation": {
+        "title": "Xalqaro hamkorlik",
+        "description": "18 ta qabul qiluvchi mamlakatda ikki tomonlama kelishuvlar va hamkorliklar."
+      }
     }
   },
   "Stats": {
     "eyebrow": "Isbotlangan natija",
-    "title": "Bizni natijalar bilan baholashadi",
-    "subtitle": "Deyarli o‘n yillik qonuniy xalqaro joylashtirishlar.",
-    "items": { "workersDeployed": "Joylashtirilgan ishchilar", "partnerEmployers": "Hamkor ish beruvchilar", "countries": "Mamlakatlar", "yearsExperience": "Yillik tajriba" }
+    "title": "Bizni erishilgan natijalar bilan baholashadi",
+    "subtitle": "Deyarli o‘n yillik qonuniy xalqaro joylashtirishlar, uzoq muddatli ish beruvchi hamkorliklari bilan mustahkamlangan.",
+    "items": {
+      "workersDeployed": "Joylashtirilgan ishchilar",
+      "partnerEmployers": "Hamkor ish beruvchilar",
+      "countries": "Qabul qiluvchi mamlakatlar",
+      "yearsExperience": "Yillik tajriba"
+    }
   },
   "Industries": {
-    "eyebrow": "Biz ishlaydigan tarmoqlar",
+    "eyebrow": "Biz xizmat ko‘rsatadigan tarmoqlar",
     "title": "Har bir tarmoq uchun malakali kadrlar",
-    "subtitle": "Eng katta kadr tanqisligi bo‘lgan sohalarda tekshirilgan ishchilarni taqdim etamiz.",
-    "viewAll": "Barcha tarmoqlar",
+    "subtitle": "Biz xalqaro ish beruvchilar eng katta kadr tanqisligiga duch keladigan tarmoqlarda tekshirilgan, o‘qitilgan ishchilarni taqdim etamiz.",
+    "viewAll": "Barcha tarmoqlarni ko‘rish",
+    "exploreCta": "Boshqa tarmoq uchun kadr kerakmi? Biz bilan bog‘laning.",
     "rolesLabel": "Tipik lavozimlar",
     "items": {
-      "construction": { "title": "Qurilish" },
-      "industrial": { "title": "Sanoat" },
-      "agriculture": { "title": "Qishloq xo‘jaligi" },
-      "foodProduction": { "title": "Oziq-ovqat ishlab chiqarish" },
-      "hospitality": { "title": "Mehmonxona xizmati" },
-      "service": { "title": "Xizmat ko‘rsatish" },
-      "trade": { "title": "Malakali ishchilar" },
-      "healthcare": { "title": "Hamshira va parvarishchilar" },
-      "textile": { "title": "Tikuvchilar va to‘qimachilik" },
-      "other": { "title": "Boshqa mutaxassislar" }
+      "construction": {
+        "title": "Qurilish",
+        "description": "G‘isht teruvchilar, betonchilar, armaturachilar, ko‘tarma o‘rnatuvchilar, suvoqchilar, oddiy ishchilar va prorablar.",
+        "roles": "G‘isht teruvchilar · Armaturachilar · Ko‘tarma o‘rnatuvchilar · Suvoqchilar · Ishchilar"
+      },
+      "industrial": {
+        "title": "Sanoat va ishlab chiqarish",
+        "description": "Dastgoh operatorlari, yig‘ish liniyasi ishchilari, ombor xodimlari, qadoqlovchilar va ishlab chiqarish texniklari.",
+        "roles": "Dastgoh operatorlari · Yig‘uvchilar · Qadoqlovchilar · Ombor xodimlari"
+      },
+      "agriculture": {
+        "title": "Qishloq xo‘jaligi",
+        "description": "Dala ishchilari, issiqxona operatorlari, hosil yig‘uvchilar, chorvachilar va qishloq xo‘jaligi texnikasi operatorlari.",
+        "roles": "Hosil yig‘uvchilar · Issiqxona ishchilari · Chorvachilar"
+      },
+      "foodProduction": {
+        "title": "Oziq-ovqat ishlab chiqarish",
+        "description": "Go‘sht va parranda go‘shtini qayta ishlash, qadoqlash, oziq-ovqat darajasidagi tozalash va sifat nazorati.",
+        "roles": "Qayta ishlash · Qadoqlash · Sifat nazorati"
+      },
+      "hospitality": {
+        "title": "Mehmonxona xizmati",
+        "description": "Mehmonxona xodimlari, oshxona yordamchilari, oshpazlar, farroshlar, ofitsiantlar va umumiy ovqatlanish xodimlari.",
+        "roles": "Oshxona yordamchilari · Farroshlar · Ofitsiantlar · Oshpazlar"
+      },
+      "service": {
+        "title": "Xizmat ko‘rsatish",
+        "description": "Tozalash, logistika yordami, savdo maslahatchilari, haydovchilar va obyektlarga texnik xizmat ko‘rsatish xodimlari.",
+        "roles": "Tozalovchilar · Haydovchilar · Savdo · Texnik xizmat"
+      },
+      "trade": {
+        "title": "Malakali ishchilar",
+        "description": "Payvandchilar, elektriklar, santexniklar, duradgorlar, bo‘yoqchilar va isitish-ventilatsiya texniklari.",
+        "roles": "Payvandchilar · Elektriklar · Santexniklar · Duradgorlar"
+      },
+      "healthcare": {
+        "title": "Hamshira va parvarishchilar",
+        "description": "Ro‘yxatdan o‘tgan hamshiralar, keksalarni parvarish qiluvchilar, uy parvarishi yordamchilari va tibbiy yordam xodimlari.",
+        "roles": "Hamshiralar · Parvarishchilar · Uy parvarishi yordamchilari"
+      },
+      "textile": {
+        "title": "Tikuvchilar va to‘qimachilik",
+        "description": "Sanoat tikuv mashinasi operatorlari, tikuvchilar, bichuvchilar va kiyim pardozlash xodimlari.",
+        "roles": "Tikuv operatorlari · Tikuvchilar · Bichuvchilar"
+      },
+      "other": {
+        "title": "Boshqa mutaxassislar",
+        "description": "Korxonangiz ehtiyojlariga moslashtirilgan mutaxassis va texnik rollar uchun individual ishga tanlash.",
+        "roles": "Individual · Texnik · Mutaxassis"
+      }
     }
   },
   "Services": {
-    "eyebrow": "To‘liq sikl",
-    "title": "Butun mehnat migratsiyasi uchun yagona hamkor",
-    "subtitle": "Biz har bir bosqichni boshqaramiz — siz tayyor va rasmiylashtirilgan ishchilarni olasiz."
+    "eyebrow": "To‘liq sikl ishga tanlash",
+    "title": "Butun mehnat migratsiyasi safari uchun yagona hamkor",
+    "subtitle": "Biz har bir bosqichni boshqaramiz — shunda siz ma’muriy yuk va huquqiy xavfsiz tayyorlangan, hujjatlashtirilgan va ishonchli ishchilarni olasiz.",
+    "learnMore": "Jarayonimiz haqida batafsil",
+    "items": {
+      "recruitment": {
+        "title": "Ishga tanlash va izlash",
+        "description": "Biz nomzodlarni kasb-hunar kollejlari, o‘quv markazlari va tekshirilgan mintaqaviy hamkorlarning umummilliy tarmog‘idan izlaymiz."
+      },
+      "screening": {
+        "title": "Tekshirish va baholash",
+        "description": "Har qanday nomzod ro‘yxatga kiritilishidan oldin malaka sinovi, tibbiy ko‘riklar, hujjatlarni tekshirish va shaxsni tekshirish."
+      },
+      "training": {
+        "title": "Kasbiy tayyorgarlik",
+        "description": "Texnik standartlaringiz va xavfsizlik talablaringizga javob berish uchun akkreditatsiyalangan markazlarda rolga xos malaka oshirish."
+      },
+      "language": {
+        "title": "Til tayyorgarligi",
+        "description": "Ishga tayyorlik uchun maqsadli til o‘qitish — koreys, nemis, yapon, rus va ingliz tillarini o‘z ichiga oladi."
+      },
+      "documentation": {
+        "title": "Hujjatlar va vizalar",
+        "description": "Pasportlar, ishlash ruxsatnomalari, viza rasmiylashtirish va tasdiqlangan tarjimalar — barchasi yuridik jamoamiz tomonidan to‘liq bajariladi."
+      },
+      "compliance": {
+        "title": "Huquqiy muvofiqlik",
+        "description": "O‘zbekiston mehnat migratsiyasi qonuniga va qabul qiluvchi mamlakat qoidalariga to‘liq rioya, shaffof shartnomalar bilan."
+      },
+      "deployment": {
+        "title": "Joylashtirish va logistika",
+        "description": "Parvozlar, aeroport transferlari va muvofiqlashtirilgan kelish — shunda ishchilaringiz o‘z vaqtida ishga tayyor bo‘ladi."
+      },
+      "aftercare": {
+        "title": "Kelgandan keyingi qo‘llab-quvvatlash",
+        "description": "Joylashtirishdan keyin ish beruvchi va ishchi uchun doimiy farovonlik nazorati va shaxsiy menejer."
+      }
+    }
   },
-  "Process": { "eyebrow": "Qanday ishlaydi", "title": "Aniq olti bosqichli jarayon", "subtitle": "Har bir bosqichda shaffof.", "stepLabel": "Bosqich" },
+  "Process": {
+    "eyebrow": "Bu qanday ishlaydi",
+    "title": "Aniq, muvofiq olti bosqichli jarayon",
+    "subtitle": "Har bir bosqichda shaffof, so‘rovdan joylashtirishgacha yagona aloqa nuqtasi bilan.",
+    "stepLabel": "Bosqich",
+    "steps": {
+      "request": {
+        "title": "Ishchi kuchi so‘rovi",
+        "description": "Siz rol talablari, miqdor va muddatlarni yuborasiz. Biz bajarilishini tasdiqlaymiz va bir ish kuni ichida taklif beramiz."
+      },
+      "sourcing": {
+        "title": "Nomzodlarni izlash",
+        "description": "Biz tekshirilgan milliy tarmog‘imizdan mos nomzodlarni aniqlaymiz va mezonlaringiz bo‘yicha ro‘yxat tuzamiz."
+      },
+      "screening": {
+        "title": "Tekshirish va suhbatlar",
+        "description": "Malaka sinovlari, tibbiy ko‘riklar va shaxsni tekshirish. Siz ro‘yxatdagi nomzodlar bilan yuzma-yuz yoki onlayn suhbatlashasiz."
+      },
+      "training": {
+        "title": "O‘qitish va tayyorgarlik",
+        "description": "Tanlangan ishchilar ish joyingizga moslashtirilgan kasbiy va til tayyorgarligidan o‘tadi."
+      },
+      "documentation": {
+        "title": "Hujjatlashtirish",
+        "description": "Biz vizalar, ishlash ruxsatnomalari va barcha yuridik hujjatlarni ikkala mamlakat qonuniga to‘liq muvofiq rasmiylashtirishni amalga oshiramiz."
+      },
+      "deployment": {
+        "title": "Joylashtirish",
+        "description": "Muvofiqlashtirilgan sayohat va kelish, so‘ngra uzluksiz qo‘llab-quvvatlash."
+      }
+    }
+  },
+  "Training": {
+    "eyebrow": "Ishga tayyorlik",
+    "title": "Ishchilar kelishidan oldin tayyorlangan",
+    "subtitle": "Bizning o‘qitish imkoniyatlarimiz yangi xodimlaringiz birinchi kundanoq samarali bo‘lishini anglatadi — texnik jihatdan malakali, xavfsizlikdan xabardor va muloqot qila oladi.",
+    "points": {
+      "vocational": {
+        "title": "Akkreditatsiyalangan kasbiy tayyorgarlik",
+        "description": "Xalqaro standartlarga moslashtirilgan hamkor markazlarda amaliy, rolga xos ta’lim."
+      },
+      "language": {
+        "title": "Til va madaniy tayyorlik",
+        "description": "Qabul qiluvchi mamlakat uchun amaliy til o‘qitish va madaniy moslashuv."
+      },
+      "safety": {
+        "title": "Mehnat muhofazasi sertifikati",
+        "description": "Tarmog‘ingizga oid ish joyidagi xavfsizlik, gigiyena va muvofiqlik bo‘yicha o‘qitish."
+      },
+      "softSkills": {
+        "title": "Jamoaga integratsiya",
+        "description": "Silliq integratsiyani ta’minlash uchun jamoaviy ish, intizom va professional xulq-atvor."
+      }
+    }
+  },
   "WhyUzbekistan": {
     "eyebrow": "Nega O‘zbekiston",
     "title": "Ishonchli kadrlarning yangi global manbai",
-    "subtitle": "Yosh va motivatsiyalangan ishchi kuchi hamda davlat ko‘magi."
+    "subtitle": "O‘zbekiston yosh, motivatsiyalangan ishchi kuchini qonuniy va axloqiy mehnat migratsiyasiga kuchli davlat ko‘magi bilan birlashtiradi.",
+    "intro": "36 milliondan ortiq aholi va 30 yoshdan past o‘rtacha yosh bilan O‘zbekiston mintaqadagi eng yirik va eng yosh mehnat resurslaridan birini taklif etadi — davlat dasturlari orqali xalqaro bozorlar uchun tobora ko‘proq tayyorlanmoqda.",
+    "reasons": {
+      "youngWorkforce": {
+        "title": "Yosh, o‘sib borayotgan ishchi kuchi",
+        "description": "30 yoshdan past o‘rtacha yosh va har yili yuz minglab yangi mehnat bozori ishtirokchilari."
+      },
+      "workEthic": {
+        "title": "Kuchli mehnat etikasi",
+        "description": "Ishonchlilik, intizom va sodiqlikni qadrlaydigan madaniyat — ish beruvchilar doimo ta’kidlaydigan fazilatlar."
+      },
+      "multilingual": {
+        "title": "Ko‘p tillilik qobiliyati",
+        "description": "O‘zbek, rus va ingliz, koreys, nemis hamda yapon tillarida tez o‘sib borayotgan salohiyat."
+      },
+      "vocational": {
+        "title": "Kasb-hunar ta’limi",
+        "description": "Malakali hunarmand va sanoat ishchilarini tayyorlaydigan kengayib borayotgan texnik kollejlar tarmog‘i."
+      },
+      "costEffective": {
+        "title": "Tejamkor ishga olish",
+        "description": "Yashirin to‘lovlarsiz va oldindan aytib bo‘ladigan muddatlar bilan raqobatbardosh, shaffof ishga tanlash xarajatlari."
+      },
+      "governmentSupport": {
+        "title": "Davlat ko‘magi",
+        "description": "Davlat tomonidan qo‘llab-quvvatlanadigan mehnat migratsiyasi kelishuvlari va barcha tomonlarni himoya qiluvchi aniq huquqiy asos."
+      }
+    },
+    "stats": {
+      "population": "Aholi",
+      "medianAge": "O‘rtacha yosh",
+      "literacy": "Savodxonlik darajasi",
+      "annualEntrants": "Yiliga yangi ishchilar"
+    }
   },
   "License": {
     "eyebrow": "Litsenziya va muvofiqlik",
-    "title": "To‘liq litsenziyalangan. To‘liq shaffof.",
-    "subtitle": "Specialist Group rasmiy davlat ruxsatnomasi asosida ishlaydi.",
+    "title": "To‘liq litsenziyalangan. To‘liq muvofiq.",
+    "subtitle": "Specialist Group rasmiy davlat ruxsatnomasi asosida ishlaydi. Rekvizitlarimiz ochiq va tekshirilishi mumkin.",
     "verifiedBadge": "Rasman tasdiqlangan",
-    "credentials": { "licenseNumber": "Litsenziya raqami", "registerNumber": "Reyestr raqami", "tin": "STIR", "registrationNumber": "Ro‘yxat raqami" },
-    "authorityLabel": "Litsenziya bergan organ"
+    "credentials": {
+      "licenseNumber": "Litsenziya raqami",
+      "registerNumber": "Reyestr raqami",
+      "tin": "STIR",
+      "registrationNumber": "Ro‘yxat raqami"
+    },
+    "authorityLabel": "Litsenziya bergan organ",
+    "certificate": {
+      "title": "Rasmiy litsenziya sertifikati",
+      "caption": "Davlat tomonidan berilgan xususiy bandlik agentligi litsenziyasi.",
+      "view": "Sertifikatni ko‘rish",
+      "zoom": "Kattalashtirish",
+      "download": "PDF yuklab olish",
+      "alt": "Specialist Group rasmiy davlat litsenziya sertifikati"
+    },
+    "compliance": {
+      "title": "Bizning muvofiqlik tizimimiz",
+      "subtitle": "Har bir bosqichda ish beruvchilar va ishchilarni himoya qilish.",
+      "points": {
+        "legal": {
+          "title": "Qonuniy ishga tanlash",
+          "description": "Ishga tanlash O‘zbekiston Respublikasining tashqi mehnat migratsiyasi to‘g‘risidagi qonuni asosida qat’iy amalga oshiriladi."
+        },
+        "ethical": {
+          "title": "Axloqiy standartlar",
+          "description": "Xalqaro adolatli ishga olish tamoyillariga muvofiq ishchilardan ishga tanlash uchun hech qanday to‘lov olinmaydi."
+        },
+        "transparent": {
+          "title": "Shaffof shartnomalar",
+          "description": "Joylashtirishdan oldin ko‘rib chiqilgan va tasdiqlangan aniq, ikki tilli mehnat shartnomalari."
+        },
+        "dataProtection": {
+          "title": "Ma’lumotlarni himoya qilish",
+          "description": "Nomzod va ish beruvchi ma’lumotlari xavfsiz va maxfiy tarzda qayta ishlanadi."
+        }
+      }
+    }
   },
-  "Testimonials": { "eyebrow": "Mijozlar fikrlari", "title": "Dunyo bo‘ylab ish beruvchilar ishonadi", "subtitle": "Ishonchli odamlarga asoslangan uzoq muddatli hamkorlik." },
-  "Faq": { "eyebrow": "Ko‘p so‘raladigan savollar", "title": "Bilishingiz kerak bo‘lgan hamma narsa", "subtitle": "Javob topolmadingizmi? Jamoamiz yordam berishga tayyor." },
+  "Testimonials": {
+    "eyebrow": "Mijozlar fikrlari",
+    "title": "Dunyo bo‘ylab ish beruvchilar ishonadi",
+    "subtitle": "Ishonchli odamlar va shaffof jarayonga asoslangan uzoq muddatli hamkorliklar.",
+    "ratingLabel": "Hamkorlarning o‘rtacha bahosi"
+  },
+  "Faq": {
+    "eyebrow": "Ko‘p so‘raladigan savollar",
+    "title": "Bilishingiz kerak bo‘lgan hamma narsa",
+    "subtitle": "Javob topolmadingizmi? Jamoamiz yordam berishga tayyor.",
+    "stillHaveQuestions": "Savollaringiz qoldimi?",
+    "contactPrompt": "Ishga tanlash mutaxassislarimiz bilan bog‘laning",
+    "items": [
+      {
+        "question": "Specialist Group litsenziyalangan ishga tanlash agentligimi?",
+        "answer": "Ha. Specialist Group O‘zbekiston Respublikasi Tashqi mehnat migratsiyasi agentligi tomonidan berilgan 0078-sonli rasmiy davlat litsenziyasiga ega. Bizning reyestr raqamimiz, STIR va ro‘yxat raqamimiz «Litsenziya va muvofiqlik» sahifasida ochiq e’lon qilingan."
+      },
+      {
+        "question": "Siz ishchilarni qaysi mamlakatlarga yuborasiz?",
+        "answer": "Hozirda biz ikki tomonlama kelishuvlar va to‘g‘ridan-to‘g‘ri ish beruvchi hamkorliklari asosida Janubiy Koreya, Germaniya, Yaponiya, Polsha, BAA, Saudiya Arabistoni, Qatar va Buyuk Britaniyani o‘z ichiga olgan 18 ta qabul qiluvchi mamlakatga ishchilarni joylashtiramiz."
+      },
+      {
+        "question": "Ishga tanlash jarayoni qancha vaqt oladi?",
+        "answer": "Muddatlar rol, mamlakat va hujjatlarga bog‘liq, ammo tipik joylashtirish dastlabki so‘rovingizdan ishchining kelishigacha 6 dan 12 haftagacha davom etadi. Biz har bir taklif bilan aniq muddatni taqdim etamiz."
+      },
+      {
+        "question": "Ishchilar tekshirilgan va o‘qitilganmi?",
+        "answer": "Har bir nomzod malaka baholash, tibbiy ko‘rik va shaxsni tekshirishdan o‘tadi. Zarur bo‘lganda, ishchilar birinchi kundanoq samarali bo‘lishlari uchun joylashtirishdan oldin kasbiy va til tayyorgarligini yakunlaydi."
+      },
+      {
+        "question": "Ishchilar ishga tanlash uchun to‘lov qiladimi?",
+        "answer": "Yo‘q. Xalqaro adolatli ishga olish tamoyillariga muvofiq biz ishchilardan ishga tanlash uchun to‘lov olmaymiz. Xizmatimiz ish beruvchi bilan shartnoma asosida tuziladi va u tomonidan to‘lanadi."
+      },
+      {
+        "question": "Tanlashdan oldin nomzodlar bilan suhbatlasha olamizmi?",
+        "answer": "Albatta. Siz ro‘yxatdagi nomzodlar bilan O‘zbekistonda yuzma-yuz yoki videoaloqa orqali masofadan suhbatlashishingiz mumkin. Yakuniy tanlovni siz qilasiz — biz faqat malakali, tekshirilgan nomzodlarni taqdim etamiz."
+      },
+      {
+        "question": "Siz qaysi tarmoqlarni qamrab olasiz?",
+        "answer": "Qurilish, sanoat va ishlab chiqarish, qishloq xo‘jaligi, oziq-ovqat ishlab chiqarish, mehmonxona xizmati, sog‘liqni saqlash (hamshira va parvarishchilar), to‘qimachilik, malakali hunarlar va boshqa mutaxassis rollar."
+      },
+      {
+        "question": "Qanday boshlaymiz?",
+        "answer": "Saytimiz orqali ishchi kuchi so‘rovini yuboring yoki jamoamiz bilan to‘g‘ridan-to‘g‘ri bog‘laning. Siz bir ish kuni ichida kuzatuv raqami va moslashtirilgan taklif olasiz."
+      }
+    ]
+  },
   "Contact": {
-    "eyebrow": "Aloqa",
+    "eyebrow": "Biz bilan bog‘laning",
     "title": "Keling, jamoangizni shakllantiramiz",
-    "subtitle": "Toshkentdagi jamoamiz bilan bog‘laning. Bir ish kuni ichida javob beramiz.",
-    "info": { "addressTitle": "Bosh ofis", "phoneTitle": "Telefon va WhatsApp", "emailTitle": "Email", "hoursTitle": "Ish vaqti" },
+    "subtitle": "Toshkentdagi xalqaro ishga tanlash jamoamiz bilan bog‘laning. Biz har bir so‘rovga bir ish kuni ichida javob beramiz.",
+    "info": {
+      "addressTitle": "Bosh ofis",
+      "phoneTitle": "Telefon va WhatsApp",
+      "emailTitle": "Email",
+      "hoursTitle": "Ish vaqti"
+    },
     "form": {
-      "title": "Xabar yuboring",
-      "name": "To‘liq ism", "email": "Email", "company": "Kompaniya", "country": "Mamlakat",
-      "subject": "Mavzu", "message": "Xabar", "send": "Yuborish", "sending": "Yuborilmoqda…",
-      "successTitle": "Xabar yuborildi", "successBody": "Murojaatingiz uchun rahmat. Bir ish kuni ichida javob beramiz.",
-      "errorTitle": "Xatolik yuz berdi", "errorBody": "Xabar yuborilmadi. Qayta urinib ko‘ring."
+      "title": "Bizga xabar yuboring",
+      "name": "To‘liq ism",
+      "namePlaceholder": "Ismingiz",
+      "email": "Email manzil",
+      "emailPlaceholder": "you@company.com",
+      "company": "Kompaniya",
+      "companyPlaceholder": "Kompaniya nomi",
+      "country": "Mamlakat",
+      "countryPlaceholder": "Sizning mamlakatingiz",
+      "subject": "Mavzu",
+      "subjectPlaceholder": "Sizga qanday yordam bera olamiz?",
+      "message": "Xabar",
+      "messagePlaceholder": "Ishchi kuchi ehtiyojlaringiz haqida ayting…",
+      "send": "Xabar yuborish",
+      "sending": "Yuborilmoqda…",
+      "successTitle": "Xabar yuborildi",
+      "successBody": "Specialist Group ga murojaat qilganingiz uchun rahmat. Jamoamiz bir ish kuni ichida javob beradi.",
+      "errorTitle": "Nimadir xato ketdi",
+      "errorBody": "Xabaringiz yuborilmadi. Qayta urinib ko‘ring yoki bizga to‘g‘ridan-to‘g‘ri yozing."
     }
   },
   "EmployerRequest": {
     "eyebrow": "Ishchi kuchi so‘rovi",
     "title": "Korxonangizga nima kerakligini ayting",
-    "subtitle": "Shaklni to‘ldiring, mutaxassislarimiz moslashtirilgan taklif tayyorlaydi. Darhol kuzatuv raqamini olasiz."
+    "subtitle": "Quyidagi shaklni to‘ldiring va mutaxassislarimiz moslashtirilgan taklif tayyorlaydi. Siz darhol kuzatuv raqami va bir ish kuni ichida javob olasiz.",
+    "asideTitle": "Nega ish beruvchilar bizni tanlaydi",
+    "asideBody": "Litsenziyalangan, muvofiq va isbotlangan — Specialist Group xalqaro ishga olish xavfini bartaraf etadi.",
+    "asidePoints": {
+      "one": "Bir ish kuni ichida javob",
+      "two": "Tekshirilgan, o‘qitilgan nomzodlar",
+      "three": "To‘liq yuridik hujjatlashtirish bajariladi",
+      "four": "Shaxsiy menejer"
+    },
+    "form": {
+      "sectionCompany": "Kompaniya ma’lumotlari",
+      "sectionRequirements": "Ishchi kuchi talablari",
+      "sectionAdditional": "Qo‘shimcha ma’lumot",
+      "companyName": "Kompaniya nomi",
+      "companyNamePlaceholder": "Sizning kompaniyangiz",
+      "contactPerson": "Aloqa shaxsi",
+      "contactPersonPlaceholder": "To‘liq ism",
+      "country": "Mamlakat",
+      "countryPlaceholder": "Mamlakatingizni tanlang",
+      "email": "Email manzil",
+      "emailPlaceholder": "you@company.com",
+      "phone": "Telefon raqami",
+      "phonePlaceholder": "+1 234 567 8900",
+      "industry": "Tarmoq",
+      "industryPlaceholder": "Tarmoqni tanlang",
+      "workersCount": "Ishchilar soni",
+      "workersCountPlaceholder": "masalan 25",
+      "requiredSkills": "Kerakli ko‘nikmalar va rollar",
+      "requiredSkillsPlaceholder": "Rollar, ko‘nikmalar, tajriba va kerakli sertifikatlarni tavsiflang…",
+      "deploymentDate": "Afzal ko‘rilgan joylashtirish sanasi",
+      "attachment": "Ilova",
+      "attachmentHint": "Ixtiyoriy — ish tavsifi yoki spetsifikatsiya (PDF, DOC, maksimal 5 MB)",
+      "attachmentChoose": "Fayl tanlang",
+      "attachmentNone": "Fayl tanlanmagan",
+      "additionalNotes": "Qo‘shimcha izohlar",
+      "additionalNotesPlaceholder": "Yana nimani bilishimiz kerak?",
+      "consent": "Men ushbu ma’lumotlarni Maxfiylik siyosatiga muvofiq qayta ishlashga roziman.",
+      "submit": "So‘rovni yuborish",
+      "submitting": "Yuborilmoqda…"
+    },
+    "success": {
+      "title": "So‘rov qabul qilindi",
+      "body": "Rahmat. Ishchi kuchi so‘rovingiz ishga tanlash jamoamizga yuborildi. Iltimos, kuzatuv raqamingizni saqlab qo‘ying.",
+      "trackingLabel": "Sizning kuzatuv raqamingiz",
+      "copied": "Nusxalandi",
+      "copy": "Nusxalash",
+      "whatNextTitle": "Keyin nima bo‘ladi",
+      "whatNext": {
+        "one": "Mutaxassislarimiz talablaringizni ko‘rib chiqadi.",
+        "two": "Biz moslashtirilgan taklif va muddatlarni tayyorlaymiz.",
+        "three": "Biz siz bilan bir ish kuni ichida bog‘lanamiz."
+      },
+      "trackCta": "So‘rovingizni kuzatish",
+      "homeCta": "Bosh sahifaga"
+    }
   },
   "Track": {
     "eyebrow": "So‘rovni kuzatish",
-    "title": "So‘rov holatini tekshiring",
-    "subtitle": "So‘rov yuborganingizda olgan raqamni kiriting.",
+    "title": "So‘rovingiz holatini tekshiring",
+    "subtitle": "Ishchi kuchi so‘rovingizni yuborganingizda olgan kuzatuv raqamini kiriting.",
     "placeholder": "masalan SG-2026-AB12CD",
-    "submit": "Kuzatish",
-    "searching": "Qidirilmoqda…"
+    "submit": "So‘rovni kuzatish",
+    "searching": "Qidirilmoqda…",
+    "notFoundTitle": "So‘rov topilmadi",
+    "notFoundBody": "Bunday kuzatuv raqamiga ega so‘rovni topa olmadik. Tekshirib, qayta urinib ko‘ring.",
+    "statusLabel": "Joriy holat",
+    "submittedLabel": "Yuborilgan",
+    "industryLabel": "Tarmoq",
+    "workersLabel": "So‘ralgan ishchilar",
+    "status": {
+      "NEW": "Qabul qilindi",
+      "IN_REVIEW": "Ko‘rib chiqilmoqda",
+      "CONTACTED": "Bog‘lanildi",
+      "IN_PROGRESS": "Jarayonda",
+      "SHORTLISTED": "Nomzodlar tanlandi",
+      "FULFILLED": "Bajarildi",
+      "ON_HOLD": "To‘xtatildi",
+      "CLOSED": "Yopildi",
+      "REJECTED": "Yopildi"
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "Biz haqimizda",
+      "title": "O‘zbek talantlarini dunyo bilan bog‘laymiz — qonuniy va ishonchli",
+      "subtitle": "2016 yildan beri Specialist Group litsenziyalash, o‘qitish va murosasiz muvofiqlikka asoslangan O‘zbekiston ishchi kuchi va xalqaro ish beruvchilar o‘rtasidagi ishonchli ko‘prik bo‘lib kelmoqda."
+    },
+    "mission": {
+      "eyebrow": "Bizning maqsadimiz",
+      "title": "Hamma uchun ishlaydigan axloqiy mehnat migratsiyasi",
+      "body": "Biz o‘zbek ishchilari uchun hayotni o‘zgartiruvchi imkoniyatlar yaratish, shu bilan birga xalqaro ish beruvchilarning haqiqiy kadr tanqisligini hal qilish uchun mavjudmiz — har doim qonun doirasida, har doim halollik bilan. Har bir joylashtirish — bu bitim emas, balki uzoq muddatli munosabat."
+    },
+    "vision": {
+      "title": "Bizning kelajak tasavvurimiz",
+      "body": "Markaziy Osiyodan eng ishonchli ishga tanlash hamkori bo‘lish — muvofiqlik, nomzodlar sifati va biz bog‘laydigan odamlar va kompaniyalarning muvaffaqiyati uchun butun dunyoda tan olingan."
+    },
+    "values": {
+      "eyebrow": "Bizning qadriyatlarimiz",
+      "title": "Har bir joylashtirishda yo‘l ko‘rsatadigan tamoyillar",
+      "items": {
+        "integrity": {
+          "title": "Halollik",
+          "description": "Biz shaffof va qonuniy ishlaymiz, ishchilardan hech qanday to‘lov olmaymiz."
+        },
+        "quality": {
+          "title": "Sifat",
+          "description": "Ish beruvchilar haqiqatan ishga tayyor odamlarni olishi uchun qat’iy tekshirish va o‘qitish."
+        },
+        "compliance": {
+          "title": "Muvofiqlik",
+          "description": "Ham O‘zbekiston, ham qabul qiluvchi mamlakat qonuniga to‘liq rioya qilish."
+        },
+        "care": {
+          "title": "G‘amxo‘rlik burchi",
+          "description": "Biz ishchi farovonligini joylashtirishdan oldin, davomida va keyin himoya qilamiz."
+        },
+        "partnership": {
+          "title": "Hamkorlik",
+          "description": "Biz ham ish beruvchilar, ham davlat organlari bilan mustahkam munosabatlar quramiz."
+        },
+        "reliability": {
+          "title": "Ishonchlilik",
+          "description": "Biz kelishilgan muddatlar, miqdorlar va standartlarni izchil bajaramiz."
+        }
+      }
+    },
+    "story": {
+      "eyebrow": "Bizning hikoyamiz",
+      "title": "Deyarli o‘n yillik ishonchli joylashtirishlar",
+      "body": "Kichik Toshkent ishga tanlash ofisi sifatida boshlangan narsa O‘zbekistonning eng hurmatli litsenziyalangan bandlik agentliklaridan biriga aylandi. Bugun jamoamiz 18 ta mamlakatdagi ish beruvchilar uchun ishga tanlash, o‘qitish, hujjatlashtirish va joylashtirishni boshqaradi — minglab joylashtirishni amalga oshirib, bizni birinchi kundan belgilab bergan shaxsiy xizmatni saqlab qoladi."
+    }
+  },
+  "News": {
+    "eyebrow": "Yangiliklar va yangilanishlar",
+    "title": "Tahlillar va e’lonlar",
+    "subtitle": "Me’yoriy yangilanishlar, hamkorlik yangiliklari va xalqaro mehnat migratsiyasiga oid qarashlar.",
+    "readMore": "Maqolani o‘qish",
+    "empty": "Hali hech qanday maqola e’lon qilinmagan. Tez orada qayting.",
+    "backToNews": "Yangiliklarga qaytish",
+    "publishedOn": "E’lon qilingan",
+    "categoryLabel": "Kategoriya"
+  },
+  "Newsletter": {
+    "title": "Xabardor bo‘ling",
+    "subtitle": "Me’yorlar, qabul qiluvchi bozorlar va imkoniyatlar haqida vaqti-vaqti bilan yangilanishlar. Spam yo‘q.",
+    "placeholder": "Email manzilingiz",
+    "submit": "Obuna bo‘lish",
+    "success": "Obuna bo‘lganingiz uchun rahmat.",
+    "disclaimer": "Obuna bo‘lish orqali siz Maxfiylik siyosatimizga rozilik bildirasiz."
+  },
+  "Validation": {
+    "required": "Ushbu maydon to‘ldirilishi shart",
+    "email": "To‘g‘ri email manzil kiriting",
+    "minLength": "Juda qisqa",
+    "maxLength": "Juda uzun",
+    "min": "Qiymat juda kichik",
+    "phone": "To‘g‘ri telefon raqamini kiriting",
+    "consent": "Davom etish uchun shartlarni qabul qilishingiz kerak",
+    "fileSize": "Fayl juda katta (maksimal 5 MB)",
+    "fileType": "Qo‘llab-quvvatlanmaydigan fayl turi",
+    "number": "To‘g‘ri raqam kiriting"
   },
   "Auth": {
-    "login": { "title": "Kirish", "subtitle": "Specialist Group hisobingizga kirish.", "email": "Email", "password": "Parol", "submit": "Kirish", "submitting": "Kirilmoqda…", "error": "Email yoki parol noto‘g‘ri." }
+    "login": {
+      "title": "Kirish",
+      "subtitle": "Specialist Group hisobingizga kirish.",
+      "email": "Email manzil",
+      "password": "Parol",
+      "submit": "Kirish",
+      "submitting": "Kirilmoqda…",
+      "error": "Email yoki parol noto‘g‘ri.",
+      "forgot": "Parolni unutdingizmi?",
+      "noAccount": "Ish beruvchi hisobi kerakmi?",
+      "contactUs": "Biz bilan bog‘laning"
+    }
   },
-  "NotFound": { "title": "Sahifa topilmadi", "subtitle": "So‘ralgan sahifa mavjud emas yoki ko‘chirilgan.", "home": "Bosh sahifaga", "contact": "Bog‘lanish" }
+  "Portal": {
+    "title": "Ish beruvchi portali",
+    "welcome": "Xush kelibsiz",
+    "nav": {
+      "dashboard": "Boshqaruv paneli",
+      "requests": "Mening so‘rovlarim",
+      "messages": "Xabarlar",
+      "candidates": "Saqlangan nomzodlar",
+      "notifications": "Bildirishnomalar",
+      "reports": "Hisobotlar",
+      "settings": "Sozlamalar"
+    },
+    "dashboard": {
+      "activeRequests": "Faol so‘rovlar",
+      "savedCandidates": "Saqlangan nomzodlar",
+      "unreadMessages": "O‘qilmagan xabarlar",
+      "recentActivity": "So‘nggi faollik"
+    },
+    "signOut": "Chiqish"
+  },
+  "Admin": {
+    "title": "Administrator paneli",
+    "nav": {
+      "overview": "Umumiy ko‘rinish",
+      "requests": "So‘rovlar",
+      "employers": "Ish beruvchilar",
+      "candidates": "Nomzodlar",
+      "messages": "Aloqalar",
+      "content": "Kontent",
+      "testimonials": "Fikrlar",
+      "news": "Yangiliklar",
+      "license": "Litsenziya",
+      "users": "Foydalanuvchilar",
+      "reports": "Hisobotlar"
+    },
+    "overview": {
+      "totalRequests": "Jami so‘rovlar",
+      "newRequests": "Yangi so‘rovlar",
+      "employers": "Ish beruvchilar",
+      "candidates": "Nomzodlar",
+      "recentRequests": "So‘nggi so‘rovlar",
+      "byIndustry": "Tarmoqlar bo‘yicha so‘rovlar",
+      "byStatus": "Holat bo‘yicha so‘rovlar"
+    },
+    "signOut": "Chiqish"
+  },
+  "NotFound": {
+    "title": "Sahifa topilmadi",
+    "subtitle": "Siz qidirayotgan sahifa mavjud emas yoki ko‘chirilgan.",
+    "home": "Bosh sahifaga",
+    "contact": "Biz bilan bog‘laning"
+  },
+  "Error": {
+    "title": "Nimadir xato ketdi",
+    "subtitle": "Kutilmagan xatolik yuz berdi. Qayta urinib ko‘ring.",
+    "retry": "Qayta urinish",
+    "home": "Bosh sahifaga"
+  }
 }

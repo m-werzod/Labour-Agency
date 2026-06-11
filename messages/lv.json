@@ -1,0 +1,733 @@
+{
+  "Meta": {
+    "home": {
+      "title": "Licencēti darbaspēka risinājumi no Uzbekistānas",
+      "description": "Specialist Group ir valsts licencēta privāta nodarbinātības aģentūra Taškentā, Uzbekistānā. Mēs pieņemam darbā, apmācām un legāli nosūtām pārbaudītus darbiniekus starptautiskiem darba devējiem būvniecībā, rūpniecībā, lauksaimniecībā, veselības aprūpē un citās nozarēs."
+    },
+    "about": {
+      "title": "Par Specialist Group",
+      "description": "Licencēta Uzbekistānas personāla atlases aģentūra, kas balstīta uz atbilstību, apmācību un uzticēšanos — savieno starptautiskus darba devējus ar kvalificētiem, darbam gataviem talantiem no Uzbekistānas."
+    },
+    "services": {
+      "title": "Mūsu pakalpojumi",
+      "description": "Pilna cikla starptautiska personāla atlase: meklēšana, pārbaude, profesionālā un valodu apmācība, dokumentācija, juridiskā atbilstība, nosūtīšana un atbalsts pēc ierašanās."
+    },
+    "industries": {
+      "title": "Nozares, kurām mēs pakalpojam",
+      "description": "Kvalificēti darbinieki no Uzbekistānas būvniecībai, rūpniecībai, lauksaimniecībai, pārtikas ražošanai, viesmīlībai, veselības aprūpei, tekstilrūpniecībai, amatniecībai un specializētām lomām."
+    },
+    "whyUzbekistan": {
+      "title": "Kāpēc pieņemt darbā no Uzbekistānas",
+      "description": "Jauns, prasmīgs un daudzvalodu darbaspēks, spēcīga darba ētika un valsts atbalstīta darbaspēka migrācija — uzziniet, kāpēc darba devēji izvēlas Uzbekistānu."
+    },
+    "license": {
+      "title": "Licence un atbilstība",
+      "description": "Specialist Group darbojas saskaņā ar oficiālo valsts licenci Nr. 0078. Skatiet mūsu licences, reģistrācijas un nodokļu apliecinājumus un atbilstības sistēmu."
+    },
+    "employerRequest": {
+      "title": "Pieprasīt darbaspēku",
+      "description": "Iesniedziet darbaspēka pieprasījumu un saņemiet pielāgotu piedāvājumu no mūsu atlases speciālistiem. Saņemiet izsekošanas numuru un atbildi vienas darba dienas laikā."
+    },
+    "contact": {
+      "title": "Sazinieties ar mums",
+      "description": "Runājiet ar mūsu starptautisko atlases komandu Taškentā. Pieprasiet darbiniekus, jautājiet par atbilstību vai izveidojiet partnerību."
+    },
+    "faq": {
+      "title": "Biežāk uzdotie jautājumi",
+      "description": "Atbildes uz starptautisku darba devēju biežākajiem jautājumiem par licencēšanu, izmaksām, termiņiem, apmācību un Uzbekistānas darbinieku legālu nosūtīšanu."
+    },
+    "news": {
+      "title": "Ziņas un jaunumi",
+      "description": "Specialist Group ieskati, regulējuma jaunumi un paziņojumi par starptautisko darbaspēka migrāciju no Uzbekistānas."
+    },
+    "testimonials": {
+      "title": "Klientu atsauksmes",
+      "description": "Ko starptautiskie darba devēji saka par sadarbību ar Specialist Group licencētu, uzticamu darbaspēka risinājumu jomā no Uzbekistānas."
+    },
+    "track": {
+      "title": "Izsekot pieprasījumu",
+      "description": "Ievadiet izsekošanas numuru, lai skatītu sava darbaspēka pieprasījuma aktuālo statusu."
+    }
+  },
+  "Common": {
+    "skipToContent": "Pāriet uz saturu",
+    "home": "Sākums",
+    "menu": "Izvēlne",
+    "openMenu": "Atvērt izvēlni",
+    "closeMenu": "Aizvērt izvēlni",
+    "licensedBadge": "Valsts licencēts",
+    "licenseNo": "Licence Nr.",
+    "requestWorkforce": "Pieprasīt darbaspēku",
+    "contactUs": "Sazinieties ar mums",
+    "viewLicense": "Skatīt licenci",
+    "learnMore": "Uzzināt vairāk",
+    "readMore": "Lasīt vairāk",
+    "viewAll": "Skatīt visu",
+    "viewDetails": "Skatīt detaļas",
+    "getInTouch": "Sazinieties",
+    "getStarted": "Sākt",
+    "exploreServices": "Izpētīt pakalpojumus",
+    "talkToUs": "Runāt ar mūsu komandu",
+    "submit": "Iesniegt",
+    "sending": "Nosūta…",
+    "backToHome": "Atpakaļ uz sākumu",
+    "required": "Obligāts",
+    "optional": "Neobligāts",
+    "loading": "Ielādē…",
+    "all": "Visi",
+    "previous": "Iepriekšējais",
+    "next": "Nākamais",
+    "page": "Lapa",
+    "viewSite": "Skatīt vietni",
+    "search": "Meklēt",
+    "filter": "Filtrēt",
+    "status": "Statuss",
+    "date": "Datums",
+    "actions": "Darbības",
+    "save": "Saglabāt",
+    "saving": "Saglabā…",
+    "noResults": "Nav atrastu rezultātu",
+    "back": "Atpakaļ"
+  },
+  "Nav": {
+    "home": "Sākums",
+    "about": "Par mums",
+    "services": "Pakalpojumi",
+    "industries": "Nozares",
+    "whyUzbekistan": "Kāpēc Uzbekistāna",
+    "license": "Licence un atbilstība",
+    "news": "Ziņas",
+    "contact": "Kontakti",
+    "portal": "Darba devēju portāls",
+    "track": "Izsekot pieprasījumu",
+    "testimonials": "Atsauksmes",
+    "faq": "BUJ",
+    "employerRequest": "Pieprasīt darbaspēku",
+    "requestWorkforce": "Pieprasīt darbaspēku"
+  },
+  "Footer": {
+    "about": "Specialist Group ir licencēta privāta nodarbinātības aģentūra Taškentā, Uzbekistānā, kas pieņem darbā, apmāca un legāli nosūta pārbaudītus darbiniekus starptautiskiem darba devējiem visā pasaulē.",
+    "columns": {
+      "company": "Uzņēmums",
+      "solutions": "Risinājumi",
+      "forEmployers": "Darba devējiem"
+    },
+    "licenseNote": "Pilnvarojusi Uzbekistānas Republikas Ārējās darbaspēka migrācijas aģentūra.",
+    "licenseNumber": "Licence Nr.",
+    "registerNumber": "Reģistra Nr.",
+    "tin": "NMR kods",
+    "registrationNumber": "Reģistrācijas Nr.",
+    "rights": "Visas tiesības aizsargātas.",
+    "privacy": "Privātuma politika",
+    "terms": "Lietošanas noteikumi"
+  },
+  "Home": {
+    "hero": {
+      "badge": "Valsts licencēta personāla atlases aģentūra · Uzbekistāna",
+      "title": "Licencēti darbaspēka risinājumi no Uzbekistānas pasaulei",
+      "subtitle": "Mēs pieņemam darbā, apmācām un legāli nosūtām pārbaudītus, darbam gatavus speciālistus no Uzbekistānas starptautiskiem darba devējiem — ar pilnu valsts licenci un atbilstību katrā solī.",
+      "ctaPrimary": "Pieprasīt darbaspēku",
+      "ctaSecondary": "Sazinieties ar mums",
+      "ctaTertiary": "Skatīt licenci",
+      "scroll": "Uzzināt vairāk"
+    },
+    "logos": {
+      "title": "Mums uzticas darba devēji, kas nosūta talantus uz"
+    },
+    "introCta": {
+      "eyebrow": "Balstīts uz atbilstību",
+      "title": "Atlases partneris, uz kuru var paļauties starptautiski darba devēji",
+      "body": "No pirmā pieprasījuma līdz atbalstam pēc ierašanās Specialist Group pārvalda visu darbaspēka migrācijas procesu saskaņā ar Uzbekistānas un galamērķa valsts likumiem. Jūs saņemat kvalificētus, dokumentētus un sagatavotus darbiniekus — bez juridiska riska."
+    },
+    "ctaBanner": {
+      "title": "Vai esat gatavi veidot savu komandu no Uzbekistānas?",
+      "subtitle": "Pastāstiet mums, kas jums nepieciešams. Mūsu speciālisti atbildēs vienas darba dienas laikā ar pielāgotu piedāvājumu un grafiku.",
+      "primary": "Pieprasīt darbaspēku",
+      "secondary": "Pieteikt konsultāciju"
+    }
+  },
+  "TrustBadges": {
+    "eyebrow": "Kāpēc darba devēji mums uzticas",
+    "items": {
+      "governmentLicensed": {
+        "title": "Valsts licencēts",
+        "description": "Pilnvarojusi Uzbekistānas Ārējās darbaspēka migrācijas aģentūra — licence Nr. 0078."
+      },
+      "legalRecruitment": {
+        "title": "Legāla atlase",
+        "description": "Katra darbā iekārtošana ir pilnībā dokumentēta un atbilst Uzbekistānas un galamērķa valsts likumiem."
+      },
+      "preScreened": {
+        "title": "Iepriekš pārbaudīti kandidāti",
+        "description": "Prasmju novērtējums, medicīniskās pārbaudes un izcelsmes pārbaude pirms nosūtīšanas."
+      },
+      "internationalCooperation": {
+        "title": "Starptautiska sadarbība",
+        "description": "Divpusēji līgumi un partnerības 18 galamērķa valstīs."
+      }
+    }
+  },
+  "Stats": {
+    "eyebrow": "Pierādīts sniegums",
+    "title": "Mūs mēra pēc sasniegtajiem rezultātiem",
+    "subtitle": "Gandrīz desmitgade legālu starptautisku darbā iekārtošanu, ko atbalsta ilgtermiņa partnerības ar darba devējiem.",
+    "items": {
+      "workersDeployed": "Nosūtīti darbinieki",
+      "partnerEmployers": "Partneru darba devēji",
+      "countries": "Galamērķa valstis",
+      "yearsExperience": "Pieredzes gadi"
+    }
+  },
+  "Industries": {
+    "eyebrow": "Nozares, kurām mēs pakalpojam",
+    "title": "Kvalificēti talanti katrai nozarei",
+    "subtitle": "Mēs nodrošinām pārbaudītus, apmācītus darbiniekus nozarēs, kurās starptautiskie darba devēji saskaras ar vislielāko trūkumu.",
+    "viewAll": "Skatīt visas nozares",
+    "exploreCta": "Nepieciešami talanti citai nozarei? Runājiet ar mums.",
+    "rolesLabel": "Tipiskās lomas",
+    "items": {
+      "construction": {
+        "title": "Būvniecība",
+        "description": "Mūrnieki, betonētāji, armatūras stiprinātāji, sastatņu montētāji, apmetēji, vispārējie strādnieki un objektu vadītāji.",
+        "roles": "Mūrnieki · Armatūras stiprinātāji · Sastatņu montētāji · Apmetēji · Strādnieki"
+      },
+      "industrial": {
+        "title": "Rūpniecība un ražošana",
+        "description": "Iekārtu operatori, montāžas līnijas strādnieki, noliktavas darbinieki, iepakotāji un ražošanas tehniķi.",
+        "roles": "Iekārtu operatori · Montētāji · Iepakotāji · Noliktavas darbinieki"
+      },
+      "agriculture": {
+        "title": "Lauksaimniecība",
+        "description": "Lauka strādnieki, siltumnīcu operatori, ražas novācēji, lopkopji un lauksaimniecības tehnikas operatori.",
+        "roles": "Ražas novācēji · Siltumnīcu strādnieki · Lopkopji"
+      },
+      "foodProduction": {
+        "title": "Pārtikas ražošana",
+        "description": "Gaļas un putnu gaļas pārstrāde, iepakošana, pārtikas līmeņa tīrīšana un kvalitātes kontrole.",
+        "roles": "Pārstrāde · Iepakošana · Kvalitātes kontrole"
+      },
+      "hospitality": {
+        "title": "Viesmīlība",
+        "description": "Viesnīcu personāls, virtuves palīgi, pavāri, istabenes, viesmīļi un ēdināšanas darbinieki.",
+        "roles": "Virtuves palīgi · Istabenes · Viesmīļi · Pavāri"
+      },
+      "service": {
+        "title": "Pakalpojumi",
+        "description": "Tīrīšana, loģistikas atbalsts, mazumtirdzniecības asistenti, autovadītāji un objektu apkopes personāls.",
+        "roles": "Tīrītāji · Autovadītāji · Mazumtirdzniecība · Apkope"
+      },
+      "trade": {
+        "title": "Kvalificēti amati",
+        "description": "Metinātāji, elektriķi, santehniķi, galdnieki, krāsotāji un HVAC tehniķi.",
+        "roles": "Metinātāji · Elektriķi · Santehniķi · Galdnieki"
+      },
+      "healthcare": {
+        "title": "Medmāsas un aprūpētāji",
+        "description": "Reģistrētas medmāsas, vecāka gadagājuma cilvēku aprūpētāji, mājas aprūpes palīgi un medicīnas atbalsta personāls.",
+        "roles": "Medmāsas · Aprūpētāji · Mājas aprūpes palīgi"
+      },
+      "textile": {
+        "title": "Šuvējas un tekstils",
+        "description": "Rūpniecisko šujmašīnu operatori, šuvējas, griezēji un apģērbu apdares darbinieki.",
+        "roles": "Šūšanas operatori · Šuvējas · Griezēji"
+      },
+      "other": {
+        "title": "Citi speciālisti",
+        "description": "Pielāgota atlase specializētām un tehniskām lomām atbilstoši jūsu darbībai.",
+        "roles": "Pielāgots · Tehnisks · Specializēts"
+      }
+    }
+  },
+  "Services": {
+    "eyebrow": "Pilna cikla atlase",
+    "title": "Viens partneris visam darbaspēka migrācijas ceļam",
+    "subtitle": "Mēs pārvaldām katru posmu — lai jūs saņemtu sagatavotus, dokumentētus un uzticamus darbiniekus bez administratīvā sloga vai juridiska riska.",
+    "learnMore": "Uzzināt vairāk par mūsu procesu",
+    "items": {
+      "recruitment": {
+        "title": "Atlase un meklēšana",
+        "description": "Mēs meklējam kandidātus no valsts mēroga profesionālo koledžu, apmācību centru un pārbaudītu reģionālo partneru tīkla."
+      },
+      "screening": {
+        "title": "Pārbaude un novērtējums",
+        "description": "Prasmju testi, medicīniskās pārbaudes, dokumentu pārbaude un izcelsmes pārbaude, pirms kandidāts tiek iekļauts īsajā sarakstā."
+      },
+      "training": {
+        "title": "Profesionālā apmācība",
+        "description": "Lomai specifiska kvalifikācijas celšana akreditētos centros, lai atbilstu jūsu tehniskajiem standartiem un drošības prasībām."
+      },
+      "language": {
+        "title": "Valodu sagatavošana",
+        "description": "Mērķtiecīga valodu apmācība — tostarp korejiešu, vācu, japāņu, krievu un angļu — gatavībai darbam."
+      },
+      "documentation": {
+        "title": "Dokumentācija un vīzas",
+        "description": "Pases, darba atļaujas, vīzu apstrāde un apstiprināti tulkojumi — visu pilnībā kārto mūsu juridiskā komanda."
+      },
+      "compliance": {
+        "title": "Juridiskā atbilstība",
+        "description": "Pilnīga Uzbekistānas darbaspēka migrācijas likuma un galamērķa valsts noteikumu ievērošana ar caurskatāmiem līgumiem."
+      },
+      "deployment": {
+        "title": "Nosūtīšana un loģistika",
+        "description": "Lidojumi, transfēri no lidostas un saskaņota ierašanās, lai jūsu darbaspēks būtu gatavs sākt darbu laikā."
+      },
+      "aftercare": {
+        "title": "Atbalsts pēc ierašanās",
+        "description": "Pastāvīga labklājības uzraudzība un veltīts kontaktpersonas vadītājs gan darba devējam, gan darbiniekam pēc nosūtīšanas."
+      }
+    }
+  },
+  "Process": {
+    "eyebrow": "Kā tas darbojas",
+    "title": "Skaidrs, atbilstošs sešu soļu process",
+    "subtitle": "Caurskatāms katrā posmā, ar vienu kontaktpunktu no pieprasījuma līdz nosūtīšanai.",
+    "stepLabel": "Solis",
+    "steps": {
+      "request": {
+        "title": "Darbaspēka pieprasījums",
+        "description": "Jūs iesniedzat lomu prasības, daudzumus un termiņus. Mēs apstiprinām īstenojamību un sniedzam piedāvājumu vienas darba dienas laikā."
+      },
+      "sourcing": {
+        "title": "Kandidātu meklēšana",
+        "description": "Mēs identificējam piemērotus kandidātus no mūsu pārbaudītā nacionālā tīkla un atlasām atbilstoši jūsu kritērijiem."
+      },
+      "screening": {
+        "title": "Pārbaude un intervijas",
+        "description": "Prasmju testi, medicīniskās pārbaudes un izcelsmes pārbaudes. Jūs intervējat īsajā sarakstā iekļautos kandidātus klātienē vai tiešsaistē."
+      },
+      "training": {
+        "title": "Apmācība un sagatavošana",
+        "description": "Atlasītie darbinieki pabeidz profesionālo un valodu apmācību, kas pielāgota jūsu darba vietai."
+      },
+      "documentation": {
+        "title": "Dokumentācija",
+        "description": "Mēs apstrādājam vīzas, darba atļaujas un visus juridiskos dokumentus pilnībā saskaņā ar abu valstu likumiem."
+      },
+      "deployment": {
+        "title": "Nosūtīšana",
+        "description": "Saskaņota ceļošana un ierašanās, kam seko nepārtraukts atbalsts pēc nosūtīšanas."
+      }
+    }
+  },
+  "Training": {
+    "eyebrow": "Gatavība darbam",
+    "title": "Darbinieki, kas sagatavoti pirms ierašanās",
+    "subtitle": "Mūsu apmācības spējas nozīmē, ka jūsu jaunie darbinieki ir produktīvi jau no pirmās dienas — tehniski prasmīgi, drošību apzinoši un spējīgi sazināties.",
+    "points": {
+      "vocational": {
+        "title": "Akreditēta profesionālā apmācība",
+        "description": "Praktiska, lomai specifiska apmācība partneru centros atbilstoši starptautiskiem standartiem."
+      },
+      "language": {
+        "title": "Valodu un kultūras gatavība",
+        "description": "Praktiska valodu apmācība un kultūras orientācija galamērķa valstij."
+      },
+      "safety": {
+        "title": "Veselības un drošības sertifikācija",
+        "description": "Darba drošības, higiēnas un atbilstības apmācība, kas attiecas uz jūsu nozari."
+      },
+      "softSkills": {
+        "title": "Integrācija darba vietā",
+        "description": "Komandas darbs, disciplīna un profesionāla uzvedība, lai nodrošinātu raitu integrāciju."
+      }
+    }
+  },
+  "WhyUzbekistan": {
+    "eyebrow": "Kāpēc Uzbekistāna",
+    "title": "Jauns globāls uzticamu talantu avots",
+    "subtitle": "Uzbekistāna apvieno jaunu, motivētu darbaspēku ar spēcīgu valsts atbalstu legālai, ētiskai darbaspēka migrācijai.",
+    "intro": "Ar vairāk nekā 36 miljoniem iedzīvotāju un mediāno vecumu zem 30 gadiem Uzbekistāna piedāvā vienu no lielākajiem un jaunākajiem darbaspēka resursiem reģionā — arvien vairāk apmācītu starptautiskiem tirgiem ar valsts atbalstītām programmām.",
+    "reasons": {
+      "youngWorkforce": {
+        "title": "Jauns, augošs darbaspēks",
+        "description": "Mediānais vecums zem 30 gadiem un simtiem tūkstošu jaunu darba tirgus dalībnieku katru gadu."
+      },
+      "workEthic": {
+        "title": "Spēcīga darba ētika",
+        "description": "Kultūra, kas augstu vērtē uzticamību, disciplīnu un apņēmību — īpašības, kuras darba devēji konsekventi slavē."
+      },
+      "multilingual": {
+        "title": "Daudzvalodu spējas",
+        "description": "Uzbeku, krievu un strauji augošas spējas angļu, korejiešu, vācu un japāņu valodā."
+      },
+      "vocational": {
+        "title": "Profesionālā izglītība",
+        "description": "Augošs tehnisko koledžu tīkls, kas sagatavo kvalificētus amatniecības un rūpniecības darbiniekus."
+      },
+      "costEffective": {
+        "title": "Izmaksu ziņā izdevīga pieņemšana darbā",
+        "description": "Konkurētspējīgas, caurskatāmas atlases izmaksas bez slēptām maksām un ar prognozējamiem termiņiem."
+      },
+      "governmentSupport": {
+        "title": "Valsts atbalsts",
+        "description": "Valsts atbalstīti darbaspēka migrācijas līgumi un skaidrs tiesiskais regulējums, kas aizsargā visas puses."
+      }
+    },
+    "stats": {
+      "population": "Iedzīvotāju skaits",
+      "medianAge": "Mediānais vecums",
+      "literacy": "Lasītprasmes līmenis",
+      "annualEntrants": "Jauni darbinieki gadā"
+    }
+  },
+  "License": {
+    "eyebrow": "Licence un atbilstība",
+    "title": "Pilnībā licencēts. Pilnībā atbilstošs.",
+    "subtitle": "Specialist Group darbojas saskaņā ar oficiālu valsts atļauju. Mūsu apliecinājumi ir publiski un pārbaudāmi.",
+    "verifiedBadge": "Oficiāli pārbaudīts",
+    "credentials": {
+      "licenseNumber": "Licences numurs",
+      "registerNumber": "Reģistra numurs",
+      "tin": "Nodokļu maksātāja Nr. (NMR)",
+      "registrationNumber": "Reģistrācijas numurs"
+    },
+    "authorityLabel": "Izdevējiestāde",
+    "certificate": {
+      "title": "Oficiāls licences sertifikāts",
+      "caption": "Valsts izdota privātas nodarbinātības aģentūras licence.",
+      "view": "Skatīt sertifikātu",
+      "zoom": "Tuvināt",
+      "download": "Lejupielādēt PDF",
+      "alt": "Specialist Group oficiālais valsts licences sertifikāts"
+    },
+    "compliance": {
+      "title": "Mūsu atbilstības sistēma",
+      "subtitle": "Darba devēju un darbinieku aizsardzība katrā posmā.",
+      "points": {
+        "legal": {
+          "title": "Likumīga atlase",
+          "description": "Atlase tiek veikta stingri saskaņā ar Uzbekistānas Republikas likumu par ārējo darbaspēka migrāciju."
+        },
+        "ethical": {
+          "title": "Ētikas standarti",
+          "description": "Nulle atlases maksu no darbiniekiem saskaņā ar starptautiskajiem godīgas atlases principiem."
+        },
+        "transparent": {
+          "title": "Caurskatāmi līgumi",
+          "description": "Skaidri, divvalodu darba līgumi, kas tiek pārskatīti un apstiprināti pirms nosūtīšanas."
+        },
+        "dataProtection": {
+          "title": "Datu aizsardzība",
+          "description": "Kandidātu un darba devēju dati tiek apstrādāti droši un konfidenciāli."
+        }
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Klientu atsauksmes",
+    "title": "Mums uzticas darba devēji visā pasaulē",
+    "subtitle": "Ilgtermiņa partnerības, kas veidotas uz uzticamiem cilvēkiem un caurskatāmu procesu.",
+    "ratingLabel": "Vidējais partneru vērtējums"
+  },
+  "Faq": {
+    "eyebrow": "Biežāk uzdotie jautājumi",
+    "title": "Viss, kas jums jāzina",
+    "subtitle": "Neatradāt atbildi? Mūsu komanda ir gatava palīdzēt.",
+    "stillHaveQuestions": "Vēl ir jautājumi?",
+    "contactPrompt": "Runājiet ar mūsu atlases speciālistiem",
+    "items": [
+      {
+        "question": "Vai Specialist Group ir licencēta atlases aģentūra?",
+        "answer": "Jā. Specialist Group ir oficiāla valsts licence Nr. 0078, ko izdevusi Uzbekistānas Republikas Ārējās darbaspēka migrācijas aģentūra. Mūsu reģistra numurs, NMR kods un reģistrācijas numurs ir atklāti publicēti mūsu lapā «Licence un atbilstība»."
+      },
+      {
+        "question": "Uz kurām valstīm jūs nosūtāt darbiniekus?",
+        "answer": "Pašlaik mēs nosūtām darbiniekus uz 18 galamērķa valstīm, tostarp Dienvidkoreju, Vāciju, Japānu, Poliju, AAE, Saūda Arābiju, Kataru un Apvienoto Karalisti, saskaņā ar divpusējiem līgumiem un tiešām partnerībām ar darba devējiem."
+      },
+      {
+        "question": "Cik ilgs ir atlases process?",
+        "answer": "Termiņi atkarīgi no lomas, valsts un dokumentācijas, bet tipiska darbā iekārtošana ilgst no 6 līdz 12 nedēļām — no jūsu sākotnējā pieprasījuma līdz darbinieka ierašanās. Mēs sniedzam precīzu grafiku ar katru piedāvājumu."
+      },
+      {
+        "question": "Vai darbinieki ir iepriekš pārbaudīti un apmācīti?",
+        "answer": "Katrs kandidāts iziet prasmju novērtējumu, medicīnisko pārbaudi un izcelsmes pārbaudi. Ja nepieciešams, darbinieki pabeidz profesionālo un valodu apmācību pirms nosūtīšanas, lai būtu produktīvi jau no pirmās dienas."
+      },
+      {
+        "question": "Vai darbinieki maksā atlases maksas?",
+        "answer": "Nē. Saskaņā ar starptautiskajiem godīgas atlases principiem mēs neiekasējam atlases maksas no darbiniekiem. Mūsu pakalpojums tiek noslēgts ar darba devēju, un to apmaksā darba devējs."
+      },
+      {
+        "question": "Vai mēs varam intervēt kandidātus pirms atlases?",
+        "answer": "Protams. Jūs varat intervēt īsajā sarakstā iekļautos kandidātus klātienē Uzbekistānā vai attālināti, izmantojot video. Galīgo izvēli izdarāt jūs — mēs vienkārši piedāvājam kvalificētus, pārbaudītus kandidātus."
+      },
+      {
+        "question": "Kuras nozares jūs aptverat?",
+        "answer": "Būvniecība, rūpniecība un ražošana, lauksaimniecība, pārtikas ražošana, viesmīlība, veselības aprūpe (medmāsas un aprūpētāji), tekstils, kvalificēti amati un citas specializētas lomas."
+      },
+      {
+        "question": "Kā mēs varam sākt?",
+        "answer": "Iesniedziet darbaspēka pieprasījumu mūsu vietnē vai sazinieties ar mūsu komandu tieši. Vienas darba dienas laikā jūs saņemsiet izsekošanas numuru un pielāgotu piedāvājumu."
+      }
+    ]
+  },
+  "Contact": {
+    "eyebrow": "Sazinieties ar mums",
+    "title": "Veidosim jūsu komandu",
+    "subtitle": "Sazinieties ar mūsu starptautisko atlases komandu Taškentā. Mēs atbildam uz katru pieprasījumu vienas darba dienas laikā.",
+    "info": {
+      "addressTitle": "Galvenais birojs",
+      "phoneTitle": "Tālrunis un WhatsApp",
+      "emailTitle": "E-pasts",
+      "hoursTitle": "Darba laiks"
+    },
+    "form": {
+      "title": "Nosūtiet mums ziņu",
+      "name": "Pilns vārds",
+      "namePlaceholder": "Jūsu vārds",
+      "email": "E-pasta adrese",
+      "emailPlaceholder": "you@company.com",
+      "company": "Uzņēmums",
+      "companyPlaceholder": "Uzņēmuma nosaukums",
+      "country": "Valsts",
+      "countryPlaceholder": "Jūsu valsts",
+      "subject": "Temats",
+      "subjectPlaceholder": "Kā mēs varam palīdzēt?",
+      "message": "Ziņa",
+      "messagePlaceholder": "Pastāstiet mums par savām darbaspēka vajadzībām…",
+      "send": "Nosūtīt ziņu",
+      "sending": "Nosūta…",
+      "successTitle": "Ziņa nosūtīta",
+      "successBody": "Paldies, ka sazinājāties ar Specialist Group. Mūsu komanda atbildēs vienas darba dienas laikā.",
+      "errorTitle": "Kaut kas nogāja greizi",
+      "errorBody": "Jūsu ziņu nevarēja nosūtīt. Lūdzu, mēģiniet vēlreiz vai rakstiet mums tieši."
+    }
+  },
+  "EmployerRequest": {
+    "eyebrow": "Pieprasīt darbaspēku",
+    "title": "Pastāstiet mums, kas nepieciešams jūsu uzņēmumam",
+    "subtitle": "Aizpildiet zemāk esošo veidlapu, un mūsu speciālisti sagatavos pielāgotu piedāvājumu. Jūs nekavējoties saņemsiet izsekošanas numuru un atbildi vienas darba dienas laikā.",
+    "asideTitle": "Kāpēc darba devēji izvēlas mūs",
+    "asideBody": "Licencēts, atbilstošs un pārbaudīts — Specialist Group novērš risku no starptautiskas pieņemšanas darbā.",
+    "asidePoints": {
+      "one": "Atbilde vienas darba dienas laikā",
+      "two": "Iepriekš pārbaudīti, apmācīti kandidāti",
+      "three": "Pilnībā nokārtota juridiskā dokumentācija",
+      "four": "Veltīts kontaktpersonas vadītājs"
+    },
+    "form": {
+      "sectionCompany": "Uzņēmuma dati",
+      "sectionRequirements": "Darbaspēka prasības",
+      "sectionAdditional": "Papildu informācija",
+      "companyName": "Uzņēmuma nosaukums",
+      "companyNamePlaceholder": "Jūsu uzņēmums",
+      "contactPerson": "Kontaktpersona",
+      "contactPersonPlaceholder": "Pilns vārds",
+      "country": "Valsts",
+      "countryPlaceholder": "Izvēlieties savu valsti",
+      "email": "E-pasta adrese",
+      "emailPlaceholder": "you@company.com",
+      "phone": "Tālruņa numurs",
+      "phonePlaceholder": "+1 234 567 8900",
+      "industry": "Nozare",
+      "industryPlaceholder": "Izvēlieties nozari",
+      "workersCount": "Darbinieku skaits",
+      "workersCountPlaceholder": "piem., 25",
+      "requiredSkills": "Nepieciešamās prasmes un lomas",
+      "requiredSkillsPlaceholder": "Aprakstiet lomas, prasmes, pieredzi un nepieciešamos sertifikātus…",
+      "deploymentDate": "Vēlamais nosūtīšanas datums",
+      "attachment": "Pielikums",
+      "attachmentHint": "Neobligāts — amata apraksts vai specifikācija (PDF, DOC, maks. 5 MB)",
+      "attachmentChoose": "Izvēlēties failu",
+      "attachmentNone": "Nav izvēlēts fails",
+      "additionalNotes": "Papildu piezīmes",
+      "additionalNotesPlaceholder": "Vai vēl kaut kas mums būtu jāzina?",
+      "consent": "Es piekrītu šīs informācijas apstrādei saskaņā ar Privātuma politiku.",
+      "submit": "Iesniegt pieprasījumu",
+      "submitting": "Iesniedz…"
+    },
+    "success": {
+      "title": "Pieprasījums saņemts",
+      "body": "Paldies. Jūsu darbaspēka pieprasījums ir nosūtīts mūsu atlases komandai. Lūdzu, saglabājiet savu izsekošanas numuru.",
+      "trackingLabel": "Jūsu izsekošanas numurs",
+      "copied": "Nokopēts",
+      "copy": "Kopēt",
+      "whatNextTitle": "Kas notiek tālāk",
+      "whatNext": {
+        "one": "Mūsu speciālisti izskata jūsu prasības.",
+        "two": "Mēs sagatavojam pielāgotu piedāvājumu un grafiku.",
+        "three": "Mēs sazināmies ar jums vienas darba dienas laikā."
+      },
+      "trackCta": "Izsekot pieprasījumu",
+      "homeCta": "Atpakaļ uz sākumu"
+    }
+  },
+  "Track": {
+    "eyebrow": "Izsekot pieprasījumu",
+    "title": "Pārbaudiet sava pieprasījuma statusu",
+    "subtitle": "Ievadiet izsekošanas numuru, ko saņēmāt, iesniedzot darbaspēka pieprasījumu.",
+    "placeholder": "piem., SG-2026-AB12CD",
+    "submit": "Izsekot pieprasījumu",
+    "searching": "Meklē…",
+    "notFoundTitle": "Pieprasījums nav atrasts",
+    "notFoundBody": "Mēs nevarējām atrast pieprasījumu ar šo izsekošanas numuru. Lūdzu, pārbaudiet un mēģiniet vēlreiz.",
+    "statusLabel": "Pašreizējais statuss",
+    "submittedLabel": "Iesniegts",
+    "industryLabel": "Nozare",
+    "workersLabel": "Pieprasītie darbinieki",
+    "status": {
+      "NEW": "Saņemts",
+      "IN_REVIEW": "Izskatīšanā",
+      "CONTACTED": "Sazinājāmies",
+      "IN_PROGRESS": "Procesā",
+      "SHORTLISTED": "Kandidāti atlasīti",
+      "FULFILLED": "Izpildīts",
+      "ON_HOLD": "Aizturēts",
+      "CLOSED": "Slēgts",
+      "REJECTED": "Slēgts"
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "Par mums",
+      "title": "Savienojam Uzbekistānas talantus ar pasauli — likumīgi un uzticami",
+      "subtitle": "Kopš 2016. gada Specialist Group ir uzticams tilts starp Uzbekistānas darbaspēku un starptautiskiem darba devējiem, kas veidots uz licencēšanas, apmācības un nekompromisa atbilstības pamata."
+    },
+    "mission": {
+      "eyebrow": "Mūsu misija",
+      "title": "Ētiska darbaspēka migrācija, kas darbojas ikvienam",
+      "body": "Mēs pastāvam, lai radītu dzīvi mainošas iespējas Uzbekistānas darbiniekiem, vienlaikus risinot reālu darbaspēka trūkumu starptautiskiem darba devējiem — vienmēr likuma ietvaros, vienmēr ar godīgumu. Katra darbā iekārtošana ir ilgtermiņa attiecības, nevis darījums."
+    },
+    "vision": {
+      "title": "Mūsu vīzija",
+      "body": "Būt uzticamākajam atlases partnerim no Centrālāzijas — globāli atzītam par atbilstību, kandidātu kvalitāti un to cilvēku un uzņēmumu panākumiem, kurus mēs savienojam."
+    },
+    "values": {
+      "eyebrow": "Mūsu vērtības",
+      "title": "Principi, kas vada katru darbā iekārtošanu",
+      "items": {
+        "integrity": {
+          "title": "Godīgums",
+          "description": "Mēs darbojamies caurskatāmi un likumīgi, neiekasējot maksas no darbiniekiem."
+        },
+        "quality": {
+          "title": "Kvalitāte",
+          "description": "Stingra pārbaude un apmācība, lai darba devēji saņemtu patiesi darbam gatavus cilvēkus."
+        },
+        "compliance": {
+          "title": "Atbilstība",
+          "description": "Pilnīga likuma ievērošana gan Uzbekistānā, gan galamērķa valstī."
+        },
+        "care": {
+          "title": "Rūpju pienākums",
+          "description": "Mēs aizsargājam darbinieku labklājību pirms nosūtīšanas, tās laikā un pēc tās."
+        },
+        "partnership": {
+          "title": "Partnerība",
+          "description": "Mēs veidojam ilgstošas attiecības gan ar darba devējiem, gan valsts iestādēm."
+        },
+        "reliability": {
+          "title": "Uzticamība",
+          "description": "Mēs konsekventi izpildām saskaņotos termiņus, daudzumus un standartus."
+        }
+      }
+    },
+    "story": {
+      "eyebrow": "Mūsu stāsts",
+      "title": "Gandrīz desmitgade uzticamu darbā iekārtošanu",
+      "body": "Tas, kas sākās kā mazs atlases birojs Taškentā, ir izaudzis par vienu no cienījamākajām licencētajām nodarbinātības aģentūrām Uzbekistānā. Mūsdienās mūsu komanda pārvalda atlasi, apmācību, dokumentāciju un nosūtīšanu darba devējiem 18 valstīs — apstrādājot tūkstošiem darbā iekārtošanu, vienlaikus saglabājot personisko apkalpošanu, kas mūs raksturoja no pirmās dienas."
+    }
+  },
+  "News": {
+    "eyebrow": "Ziņas un jaunumi",
+    "title": "Ieskati un paziņojumi",
+    "subtitle": "Regulējuma jaunumi, partnerību ziņas un viedokļi par starptautisko darbaspēka migrāciju.",
+    "readMore": "Lasīt rakstu",
+    "empty": "Vēl nav publicētu rakstu. Lūdzu, atgriezieties drīz.",
+    "backToNews": "Atpakaļ uz ziņām",
+    "publishedOn": "Publicēts",
+    "categoryLabel": "Kategorija"
+  },
+  "Newsletter": {
+    "title": "Esiet informēti",
+    "subtitle": "Neregulāri jaunumi par noteikumiem, galamērķa tirgiem un iespējām. Bez surogātpasta.",
+    "placeholder": "Jūsu e-pasta adrese",
+    "submit": "Abonēt",
+    "success": "Paldies par abonēšanu.",
+    "disclaimer": "Abonējot jūs piekrītat mūsu Privātuma politikai."
+  },
+  "Validation": {
+    "required": "Šis lauks ir obligāts",
+    "email": "Lūdzu, ievadiet derīgu e-pasta adresi",
+    "minLength": "Pārāk īss",
+    "maxLength": "Pārāk garš",
+    "min": "Vērtība ir pārāk maza",
+    "phone": "Lūdzu, ievadiet derīgu tālruņa numuru",
+    "consent": "Lai turpinātu, jums jāpiekrīt noteikumiem",
+    "fileSize": "Fails ir pārāk liels (maks. 5 MB)",
+    "fileType": "Neatbalstīts faila tips",
+    "number": "Lūdzu, ievadiet derīgu skaitli"
+  },
+  "Auth": {
+    "login": {
+      "title": "Pieslēgties",
+      "subtitle": "Piekļuve jūsu Specialist Group kontam.",
+      "email": "E-pasta adrese",
+      "password": "Parole",
+      "submit": "Pieslēgties",
+      "submitting": "Pieslēdzas…",
+      "error": "Nepareizs e-pasts vai parole.",
+      "forgot": "Aizmirsāt paroli?",
+      "noAccount": "Nepieciešams darba devēja konts?",
+      "contactUs": "Sazinieties ar mums"
+    }
+  },
+  "Portal": {
+    "title": "Darba devēju portāls",
+    "welcome": "Laipni lūdzam atpakaļ",
+    "nav": {
+      "dashboard": "Vadības panelis",
+      "requests": "Mani pieprasījumi",
+      "messages": "Ziņas",
+      "candidates": "Saglabātie kandidāti",
+      "notifications": "Paziņojumi",
+      "reports": "Atskaites",
+      "settings": "Iestatījumi"
+    },
+    "dashboard": {
+      "activeRequests": "Aktīvie pieprasījumi",
+      "savedCandidates": "Saglabātie kandidāti",
+      "unreadMessages": "Nelasītas ziņas",
+      "recentActivity": "Nesenā aktivitāte"
+    },
+    "signOut": "Iziet"
+  },
+  "Admin": {
+    "title": "Administratora panelis",
+    "nav": {
+      "overview": "Pārskats",
+      "requests": "Pieprasījumi",
+      "employers": "Darba devēji",
+      "candidates": "Kandidāti",
+      "messages": "Komunikācija",
+      "content": "Saturs",
+      "testimonials": "Atsauksmes",
+      "news": "Ziņas",
+      "license": "Licence",
+      "users": "Lietotāji",
+      "reports": "Atskaites"
+    },
+    "overview": {
+      "totalRequests": "Pieprasījumu kopskaits",
+      "newRequests": "Jauni pieprasījumi",
+      "employers": "Darba devēji",
+      "candidates": "Kandidāti",
+      "recentRequests": "Nesenie pieprasījumi",
+      "byIndustry": "Pieprasījumi pa nozarēm",
+      "byStatus": "Pieprasījumi pēc statusa"
+    },
+    "signOut": "Iziet"
+  },
+  "NotFound": {
+    "title": "Lapa nav atrasta",
+    "subtitle": "Meklētā lapa neeksistē vai ir pārvietota.",
+    "home": "Atpakaļ uz sākumu",
+    "contact": "Sazinieties ar mums"
+  },
+  "Error": {
+    "title": "Kaut kas nogāja greizi",
+    "subtitle": "Radās negaidīta kļūda. Lūdzu, mēģiniet vēlreiz.",
+    "retry": "Mēģināt vēlreiz",
+    "home": "Atpakaļ uz sākumu"
+  }
+}
