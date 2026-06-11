@@ -19,14 +19,14 @@ export default async function AdminLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
 
   const session = await auth();
   if (!session?.user || (session.user.role !== 'ADMIN' && session.user.role !== 'STAFF')) {
-    redirect({ href: { pathname: '/login', query: { callbackUrl: '/admin' } }, locale });
+    redirect({ href: { pathname: '/login', query: { callbackUrl: '/admin' } }, locale: locale as Locale });
   }
 
   const t = await getTranslations('Admin');

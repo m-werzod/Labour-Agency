@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, Mail, Phone, Paperclip, Building2, Globe, Users, CalendarDays } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { prisma } from '@/lib/prisma';
 import { industryByEnum } from '@/config/industries';
@@ -24,7 +23,7 @@ async function getRequest(id: string) {
 export default async function AdminRequestDetailPage({
   params,
 }: {
-  params: Promise<{ locale: Locale; id: string }>;
+  params: Promise<{ locale: string; id: string }>;
 }) {
   const { locale, id } = await params;
   setRequestLocale(locale);

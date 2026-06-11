@@ -1,6 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { RequestStatus } from '@prisma/client';
-import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { prisma } from '@/lib/prisma';
 import { industryByEnum } from '@/config/industries';
@@ -30,7 +29,7 @@ export default async function AdminRequestsPage({
   params,
   searchParams,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
   searchParams: Promise<{ status?: string }>;
 }) {
   const { locale } = await params;

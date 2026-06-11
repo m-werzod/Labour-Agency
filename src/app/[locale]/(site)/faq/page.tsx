@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { MessageCircleQuestion, ArrowRight } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { Link } from '@/i18n/navigation';
 import { FaqJsonLd } from '@/components/seo/json-ld';
@@ -13,13 +12,13 @@ import { Reveal } from '@/components/shared/reveal';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'faq', path: '/faq' });
 }
 
-export default async function FaqPage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function FaqPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tn = await getTranslations('Nav');

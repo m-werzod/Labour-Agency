@@ -12,14 +12,14 @@ export default async function PortalLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
 
   const session = await auth();
   if (!session?.user) {
-    redirect({ href: { pathname: '/login', query: { callbackUrl: '/portal' } }, locale });
+    redirect({ href: { pathname: '/login', query: { callbackUrl: '/portal' } }, locale: locale as Locale });
   }
 
   const t = await getTranslations('Portal');

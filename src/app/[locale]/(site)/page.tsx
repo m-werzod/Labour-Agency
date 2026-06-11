@@ -1,5 +1,4 @@
 import { setRequestLocale } from 'next-intl/server';
-import type { Locale } from '@/i18n/routing';
 import { Hero } from '@/components/sections/hero';
 import { LogosMarquee } from '@/components/sections/logos-marquee';
 import { ValueProp } from '@/components/sections/value-prop';
@@ -13,7 +12,7 @@ import { LicenseSection } from '@/components/sections/license-section';
 import { TestimonialsCarousel } from '@/components/sections/testimonials-carousel';
 import { CtaBanner } from '@/components/sections/cta-banner';
 
-export default async function HomePage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
 

@@ -1,6 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { BadgeCheck } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { prisma } from '@/lib/prisma';
 import { PageTitle } from '@/components/dashboard/page-title';
 import { Badge } from '@/components/ui/badge';
@@ -22,7 +21,7 @@ export const dynamic = 'force-dynamic';
 export default async function AdminEmployersPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

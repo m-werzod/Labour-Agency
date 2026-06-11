@@ -1,19 +1,19 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { siteConfig } from '@/config/site';
-import { routing, type Locale } from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
 
 const baseUrl = siteConfig.url.replace(/\/$/, '');
 
 /** Build a locale-prefixed absolute URL (default locale has no prefix). */
-export function localizedUrl(locale: Locale, path = '/'): string {
+export function localizedUrl(locale: string, path = '/'): string {
   const clean = path === '/' ? '' : path.replace(/\/$/, '');
   const prefix = locale === routing.defaultLocale ? '' : `/${locale}`;
   return `${baseUrl}${prefix}${clean}` || baseUrl;
 }
 
 interface BuildMetadataArgs {
-  locale: Locale;
+  locale: string;
   title: string | { default: string; template: string };
   description: string;
   path?: string;
@@ -91,7 +91,7 @@ export async function pageMetadata({
   path,
   noIndex,
 }: {
-  locale: Locale;
+  locale: string;
   page: string;
   path: string;
   noIndex?: boolean;

@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { buildMetadata } from '@/lib/seo';
 import { LoginForm } from '@/components/forms/login-form';
@@ -11,14 +10,14 @@ import { Skeleton } from '@/components/ui/skeleton';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Auth.login' });
   return buildMetadata({ locale, title: t('title'), description: t('subtitle'), path: '/login', noIndex: true });
 }
 
-export default async function LoginPage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function LoginPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('Auth.login');

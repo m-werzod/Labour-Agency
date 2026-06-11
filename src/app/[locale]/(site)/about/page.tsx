@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ShieldCheck, Award, Scale, HeartHandshake, Handshake, CircleCheckBig, Target, Eye, type LucideIcon } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { images } from '@/config/images';
 import { PageHeader } from '@/components/layout/page-header';
@@ -23,13 +22,13 @@ const values: { key: string; icon: LucideIcon }[] = [
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'about', path: '/about' });
 }
 
-export default async function AboutPage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tc = await getTranslations('Common');

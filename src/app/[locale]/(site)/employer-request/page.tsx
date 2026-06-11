@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { CheckCircle2, Clock, ShieldCheck, UserRound } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { PageHeader } from '@/components/layout/page-header';
 import { EmployerRequestForm } from '@/components/forms/employer-request-form';
@@ -12,7 +11,7 @@ const asideIcons = [Clock, CheckCircle2, ShieldCheck, UserRound];
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'employerRequest', path: '/employer-request' });
@@ -21,7 +20,7 @@ export async function generateMetadata({
 export default async function EmployerRequestPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

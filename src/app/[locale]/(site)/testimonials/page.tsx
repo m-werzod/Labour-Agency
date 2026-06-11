@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Star, MapPin } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { testimonials } from '@/config/testimonials';
 import { PageHeader } from '@/components/layout/page-header';
@@ -14,7 +13,7 @@ import { initials } from '@/lib/utils';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'testimonials', path: '/testimonials' });
@@ -23,7 +22,7 @@ export async function generateMetadata({
 export default async function TestimonialsPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

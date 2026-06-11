@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { PageHeader } from '@/components/layout/page-header';
 import { ServicesSection } from '@/components/sections/services-section';
@@ -11,13 +10,13 @@ import { CtaBanner } from '@/components/sections/cta-banner';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'services', path: '/services' });
 }
 
-export default async function ServicesPage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function ServicesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tn = await getTranslations('Nav');

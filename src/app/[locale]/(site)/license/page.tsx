@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { BreadcrumbJsonLd } from '@/components/seo/json-ld';
 import { localizedUrl } from '@/lib/seo';
@@ -11,13 +10,13 @@ import { CtaBanner } from '@/components/sections/cta-banner';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'license', path: '/license' });
 }
 
-export default async function LicensePage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function LicensePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tn = await getTranslations('Nav');

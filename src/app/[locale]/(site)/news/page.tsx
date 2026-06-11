@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ArrowRight, CalendarDays } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { Link } from '@/i18n/navigation';
 import { newsPosts } from '@/config/news';
@@ -16,13 +15,13 @@ import { formatDate } from '@/lib/utils';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'news', path: '/news' });
 }
 
-export default async function NewsPage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function NewsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tc = await getTranslations('Common');

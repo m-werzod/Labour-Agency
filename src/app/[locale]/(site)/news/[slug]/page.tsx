@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ArrowLeft, CalendarDays, UserRound } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { buildMetadata, localizedUrl } from '@/lib/seo';
 import { newsPosts, getNewsPost } from '@/config/news';
@@ -20,7 +19,7 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale; slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
   const post = getNewsPost(slug);
@@ -38,7 +37,7 @@ export async function generateMetadata({
 export default async function NewsArticlePage({
   params,
 }: {
-  params: Promise<{ locale: Locale; slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);

@@ -1,6 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Inbox, Sparkles, Building2, UsersRound, ArrowRight } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { prisma } from '@/lib/prisma';
 import { industryByEnum } from '@/config/industries';
@@ -41,7 +40,7 @@ export const dynamic = 'force-dynamic';
 export default async function AdminOverviewPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

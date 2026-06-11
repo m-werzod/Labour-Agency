@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { contactInfo } from '@/config/site';
 import { PageHeader } from '@/components/layout/page-header';
@@ -11,13 +10,13 @@ import { Reveal } from '@/components/shared/reveal';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'contact', path: '/contact' });
 }
 
-export default async function ContactPage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tc = await getTranslations('Common');

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import type { Locale } from '@/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
 import { contactInfo, siteConfig } from '@/config/site';
 import { PageHeader } from '@/components/layout/page-header';
@@ -9,7 +8,7 @@ import { LegalBody } from '@/components/layout/legal-body';
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return buildMetadata({
@@ -20,7 +19,7 @@ export async function generateMetadata({
   });
 }
 
-export default async function PrivacyPage({ params }: { params: Promise<{ locale: Locale }> }) {
+export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const tc = await getTranslations('Common');

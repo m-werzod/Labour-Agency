@@ -1,6 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ExternalLink, ShieldCheck } from 'lucide-react';
-import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { licenseInfo } from '@/config/site';
 import { PageTitle } from '@/components/dashboard/page-title';
@@ -11,7 +10,7 @@ export const dynamic = 'force-dynamic';
 export default async function AdminLicensePage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

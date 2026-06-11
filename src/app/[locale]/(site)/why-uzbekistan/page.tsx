@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import type { Locale } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/seo';
 import { PageHeader } from '@/components/layout/page-header';
 import { WhyUzbekistanSection } from '@/components/sections/why-uzbekistan-section';
@@ -18,7 +17,7 @@ const countryStats = [
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata({ locale, page: 'whyUzbekistan', path: '/why-uzbekistan' });
@@ -27,7 +26,7 @@ export async function generateMetadata({
 export default async function WhyUzbekistanPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
