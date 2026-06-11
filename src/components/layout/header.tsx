@@ -21,18 +21,7 @@ export function Header() {
   const t = useTranslations('Nav');
   const tc = useTranslations('Common');
   const pathname = usePathname();
-  const [scrolled, setScrolled] = React.useState(false);
   const [open, setOpen] = React.useState(false);
-
-  const isHome = pathname === '/';
-  const transparent = isHome && !scrolled;
-
-  React.useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12);
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
 
   // Close mobile menu on route change.
   React.useEffect(() => setOpen(false), [pathname]);
@@ -75,17 +64,10 @@ export function Header() {
       </div>
 
       {/* Main navigation */}
-      <div
-        className={cn(
-          'sticky top-0 z-50 transition-all duration-300 ease-premium',
-          transparent
-            ? 'bg-transparent'
-            : 'border-b border-border/70 bg-background/90 shadow-soft backdrop-blur-md supports-[backdrop-filter]:bg-background/75',
-        )}
-      >
+      <div className="sticky top-0 z-50 border-b border-border/70 bg-background/90 shadow-soft backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
         <nav className="container flex h-16 items-center justify-between gap-4 lg:h-20" aria-label="Primary">
           <Link href="/" aria-label={`${tc('home')} — Specialist Group`} className="shrink-0">
-            <Logo theme={transparent ? 'white' : 'default'} />
+            <Logo theme="default" />
           </Link>
 
           {/* Desktop nav */}
@@ -98,10 +80,8 @@ export function Header() {
                     href={item.href}
                     className={cn(
                       'rounded-md px-3.5 py-2 text-[0.9375rem] font-medium transition-colors',
-                      transparent
-                        ? 'text-white/85 hover:bg-white/10 hover:text-white'
-                        : 'text-foreground/80 hover:bg-accent hover:text-primary',
-                      active && (transparent ? 'text-white' : 'text-primary'),
+                      'text-foreground/80 hover:bg-accent hover:text-primary',
+                      active && 'text-primary',
                     )}
                   >
                     {t(item.key)}
@@ -126,7 +106,7 @@ export function Header() {
 
             {/* Compact language for tablet/mobile (utility bar hidden) */}
             <div className="lg:hidden">
-              <LanguageSwitcher variant={transparent ? 'light' : 'compact'} />
+              <LanguageSwitcher variant="compact" />
             </div>
 
             {/* Mobile menu */}
@@ -134,12 +114,7 @@ export function Header() {
               <SheetTrigger asChild>
                 <button
                   aria-label={tc('openMenu')}
-                  className={cn(
-                    'inline-flex size-11 items-center justify-center rounded-md transition-colors xl:hidden',
-                    transparent
-                      ? 'text-white hover:bg-white/10'
-                      : 'text-foreground hover:bg-accent',
-                  )}
+                  className="inline-flex size-11 items-center justify-center rounded-md transition-colors text-foreground hover:bg-accent xl:hidden"
                 >
                   <Menu className="size-6" />
                 </button>
