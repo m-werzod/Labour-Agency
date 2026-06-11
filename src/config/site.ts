@@ -27,8 +27,8 @@ export const licenseInfo = {
 } as const;
 
 export const contactInfo = {
-  email: 'recruitment@specialistgroup.uz',
-  salesEmail: 'sales@specialistgroup.uz',
+  email: 'labourmigrationuz@gmail.com',
+  salesEmail: 'labourmigrationuz@gmail.com',
   phone: '+998 71 200 00 78',
   phoneHref: '+998712000078',
   whatsapp: '+998 90 000 00 78',

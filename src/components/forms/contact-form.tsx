@@ -57,8 +57,9 @@ export function ContactForm() {
     }
   }
 
-  if (done) {
-    return (
+  return (
+    <div key={done ? 'success' : 'form'}>
+    {done ? (
       <div className="flex flex-col items-center justify-center rounded-2xl border border-secondary/30 bg-secondary/[0.05] p-10 text-center">
         <span className="flex size-14 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
           <CheckCircle2 className="size-7" />
@@ -66,10 +67,7 @@ export function ContactForm() {
         <h3 className="mt-5 font-display text-xl font-semibold text-primary">{t('successTitle')}</h3>
         <p className="mt-2 max-w-md text-muted-foreground">{t('successBody')}</p>
       </div>
-    );
-  }
-
-  return (
+    ) : (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-5">
       <input
         type="text"
@@ -128,5 +126,7 @@ export function ContactForm() {
         )}
       </Button>
     </form>
+    )}
+    </div>
   );
 }
