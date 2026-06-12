@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
+import { FloatingWhatsApp } from '@/components/layout/floating-whatsapp';
 import { WebsiteJsonLd } from '@/components/seo/json-ld';
 
 export default async function SiteLayout({
@@ -20,6 +21,7 @@ export default async function SiteLayout({
         {children}
       </main>
       <Footer />
+      <FloatingWhatsApp />
       <WebsiteJsonLd />
     </div>
   );
