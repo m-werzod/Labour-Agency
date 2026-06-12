@@ -5,7 +5,7 @@ import { licenseInfo } from '@/config/site';
 import { Button } from '@/components/ui/button';
 import { Reveal } from '@/components/shared/reveal';
 import { SectionHeader } from '@/components/shared/section-header';
-import { CertificateViewer } from './certificate-viewer';
+import { LicenseCarousel } from './license-carousel';
 
 const credentialRows = [
   { key: 'licenseNumber', value: licenseInfo.licenseNumber },
@@ -39,7 +39,7 @@ export function LicenseSection({ variant = 'preview' }: { variant?: 'preview' | 
 
         <div className="mt-12 grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
           <Reveal>
-            <CertificateViewer />
+            <LicenseCarousel />
           </Reveal>
 
           <Reveal delay={0.1} className="flex flex-col">
