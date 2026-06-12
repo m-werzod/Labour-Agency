@@ -49,7 +49,6 @@
       "description": "Enter your tracking number to view the live status of your workforce request."
     }
   },
-
   "Common": {
     "skipToContent": "Skip to content",
     "home": "Home",
@@ -90,7 +89,6 @@
     "noResults": "No results found",
     "back": "Back"
   },
-
   "Nav": {
     "home": "Home",
     "about": "About Us",
@@ -107,7 +105,6 @@
     "employerRequest": "Request Workforce",
     "requestWorkforce": "Request Workforce"
   },
-
   "Footer": {
     "about": "Specialist Group is a licensed private employment agency in Tashkent, Uzbekistan, recruiting, training and legally deploying pre-screened workers to international employers worldwide.",
     "columns": {
@@ -124,7 +121,6 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use"
   },
-
   "Home": {
     "hero": {
       "badge": "Government-Licensed Recruitment Agency · Uzbekistan",
@@ -150,7 +146,6 @@
       "secondary": "Book a consultation"
     }
   },
-
   "TrustBadges": {
     "eyebrow": "Why employers trust us",
     "items": {
@@ -172,7 +167,6 @@
       }
     }
   },
-
   "Stats": {
     "eyebrow": "Proven track record",
     "title": "Measured by the outcomes we deliver",
@@ -184,7 +178,6 @@
       "yearsExperience": "Years of experience"
     }
   },
-
   "Industries": {
     "eyebrow": "Industries we serve",
     "title": "Qualified talent for every sector",
@@ -245,7 +238,6 @@
       }
     }
   },
-
   "Services": {
     "eyebrow": "End-to-end recruitment",
     "title": "One partner for the entire labour migration journey",
@@ -286,7 +278,6 @@
       }
     }
   },
-
   "Process": {
     "eyebrow": "How it works",
     "title": "A clear, compliant six-step process",
@@ -319,7 +310,6 @@
       }
     }
   },
-
   "Training": {
     "eyebrow": "Workforce readiness",
     "title": "Workers prepared before they arrive",
@@ -343,7 +333,6 @@
       }
     }
   },
-
   "WhyUzbekistan": {
     "eyebrow": "Why Uzbekistan",
     "title": "A new global source of dependable talent",
@@ -382,7 +371,6 @@
       "annualEntrants": "New workers / year"
     }
   },
-
   "License": {
     "eyebrow": "License & Compliance",
     "title": "Fully licensed. Fully compliant.",
@@ -426,14 +414,12 @@
       }
     }
   },
-
   "Testimonials": {
     "eyebrow": "Client testimonials",
     "title": "Trusted by employers worldwide",
     "subtitle": "Long-term partnerships built on reliable people and transparent process.",
     "ratingLabel": "Average partner rating"
   },
-
   "Faq": {
     "eyebrow": "Frequently asked questions",
     "title": "Everything you need to know",
@@ -475,7 +461,6 @@
       }
     ]
   },
-
   "Contact": {
     "eyebrow": "Contact us",
     "title": "Let's build your workforce",
@@ -508,7 +493,6 @@
       "errorBody": "Your message could not be sent. Please try again or email us directly."
     }
   },
-
   "EmployerRequest": {
     "eyebrow": "Request workforce",
     "title": "Tell us what your operation needs",
@@ -568,7 +552,6 @@
       "homeCta": "Back to home"
     }
   },
-
   "Track": {
     "eyebrow": "Track your request",
     "title": "Check your request status",
@@ -594,7 +577,6 @@
       "REJECTED": "Closed"
     }
   },
-
   "About": {
     "hero": {
       "eyebrow": "About us",
@@ -644,9 +626,14 @@
       "eyebrow": "Our story",
       "title": "Nearly a decade of trusted placements",
       "body": "What began as a small Tashkent recruitment office has grown into one of Uzbekistan's most respected licensed employment agencies. Today our team manages recruitment, training, documentation and deployment for employers across 18 countries — handling thousands of placements while maintaining the personal service that defined us from day one."
+    },
+    "leadership": {
+      "eyebrow": "Leadership",
+      "title": "Our leadership",
+      "role": "The Director & CEO of the Labour Migration Agency",
+      "name": "Qodir Mamadjanov"
     }
   },
-
   "News": {
     "eyebrow": "News & updates",
     "title": "Insights & announcements",
@@ -657,7 +644,6 @@
     "publishedOn": "Published on",
     "categoryLabel": "Category"
   },
-
   "Newsletter": {
     "title": "Stay informed",
     "subtitle": "Occasional updates on regulations, destination markets and opportunities. No spam.",
@@ -666,7 +652,6 @@
     "success": "Thank you for subscribing.",
     "disclaimer": "By subscribing you agree to our Privacy Policy."
   },
-
   "Validation": {
     "required": "This field is required",
     "email": "Please enter a valid email address",
@@ -679,7 +664,6 @@
     "fileType": "Unsupported file type",
     "number": "Please enter a valid number"
   },
-
   "Auth": {
     "login": {
       "title": "Sign in",
@@ -694,7 +678,6 @@
       "contactUs": "Contact us"
     }
   },
-
   "Portal": {
     "title": "Employer Portal",
     "welcome": "Welcome back",
@@ -715,7 +698,6 @@
     },
     "signOut": "Sign out"
   },
-
   "Admin": {
     "title": "Admin Dashboard",
     "nav": {
@@ -742,14 +724,12 @@
     },
     "signOut": "Sign out"
   },
-
   "NotFound": {
     "title": "Page not found",
     "subtitle": "The page you're looking for doesn't exist or has been moved.",
     "home": "Back to home",
     "contact": "Contact us"
   },
-
   "Error": {
     "title": "Something went wrong",
     "subtitle": "An unexpected error occurred. Please try again.",

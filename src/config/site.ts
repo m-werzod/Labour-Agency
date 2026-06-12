@@ -29,10 +29,10 @@ export const licenseInfo = {
 export const contactInfo = {
   email: 'labourmigrationuz@gmail.com',
   salesEmail: 'labourmigrationuz@gmail.com',
-  phone: '+998 71 200 00 78',
-  phoneHref: '+998712000078',
-  whatsapp: '+998 90 000 00 78',
-  whatsappHref: '998900000078',
+  phone: '+998 88 866 5558',
+  phoneHref: '+998888665558',
+  whatsapp: '+998 90 944 5558',
+  whatsappHref: '998909445558',
   telegram: 'specialistgroup',
   address: {
     line1: 'Amir Temur Avenue 108',

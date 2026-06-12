@@ -72,15 +72,15 @@ export function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <ul className="hidden items-center gap-1 xl:flex">
+          <ul className="hidden min-w-0 items-center justify-center gap-0.5 xl:flex 2xl:gap-1">
             {mainNav.map((item) => {
               const active = pathname === item.href;
               return (
-                <li key={item.href}>
+                <li key={item.href} className="shrink-0">
                   <Link
                     href={item.href}
                     className={cn(
-                      'rounded-md px-3.5 py-2 text-[0.9375rem] font-medium transition-colors',
+                      'block whitespace-nowrap rounded-md px-2.5 py-2 text-sm font-medium leading-none transition-colors 2xl:px-3',
                       'text-foreground/80 hover:bg-accent hover:text-primary',
                       active && 'text-primary',
                     )}
