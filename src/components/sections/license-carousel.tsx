@@ -13,7 +13,7 @@ import { cn } from '@/lib/utils';
  * The director/award photo should be placed at /public/license/director.jpg
  * and the official certificate scan at /public/license/certificate.(jpg|pdf).
  */
-const DIRECTOR_PHOTO = '/license/director.jpg';
+const DIRECTOR_PHOTO = '/license/photo.jpg';
 const CERTIFICATE_IMAGE = '/license/certificate.jpg';
 const CERTIFICATE_PDF = '/license/certificate.pdf';
 
