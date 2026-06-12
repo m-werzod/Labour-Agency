@@ -142,6 +142,41 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         </div>
       </section>
 
+      {/* Leadership / Director */}
+      <section className="section bg-muted/30">
+        <div className="container">
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="eyebrow justify-center">
+              <span className="h-px w-6 bg-secondary/50" />
+              Leadership
+            </span>
+            <h2 className="mt-4 text-display-md text-primary">Our leadership</h2>
+          </div>
+
+          <Reveal className="mx-auto mt-10 max-w-sm">
+            <figure className="overflow-hidden rounded-2xl border border-border bg-card shadow-elevated">
+              <div className="relative aspect-square">
+                <SmartImage
+                  src="/team/director.jpg"
+                  alt="Qodir Mamadjanov — Director and Chief Executive Officer of the Labour Migration Agency"
+                  fill
+                  sizes="(max-width: 640px) 100vw, 420px"
+                  className="object-cover"
+                />
+              </div>
+              <figcaption className="border-t border-border p-6 text-center">
+                <p className="text-sm font-medium text-muted-foreground">
+                  The Director &amp; CEO of the Labour Migration Agency
+                </p>
+                <p className="mt-1 font-display text-2xl font-extrabold tracking-tight text-primary">
+                  Qodir Mamadjanov
+                </p>
+              </figcaption>
+            </figure>
+          </Reveal>
+        </div>
+      </section>
+
       <Stats />
       <CtaBanner />
     </>
