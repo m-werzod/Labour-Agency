@@ -735,5 +735,12 @@
     "subtitle": "An unexpected error occurred. Please try again.",
     "retry": "Try again",
     "home": "Back to home"
+  },
+  "Whatsapp": {
+    "title": "Chat with us",
+    "reply": "Typically replies within minutes",
+    "close": "Close",
+    "greeting": "👋 Hi there! Need skilled, licensed workers from Uzbekistan? Start a chat with our recruitment team on WhatsApp.",
+    "cta": "Start chat"
   }
 }

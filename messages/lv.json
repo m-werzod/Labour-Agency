@@ -735,5 +735,12 @@
     "subtitle": "Radās negaidīta kļūda. Lūdzu, mēģiniet vēlreiz.",
     "retry": "Mēģināt vēlreiz",
     "home": "Atpakaļ uz sākumu"
+  },
+  "Whatsapp": {
+    "title": "Sazinieties ar mums",
+    "reply": "Parasti atbildam dažu minūšu laikā",
+    "close": "Aizvērt",
+    "greeting": "👋 Sveiki! Vai nepieciešami kvalificēti, licencēti darbinieki no Uzbekistānas? Sāciet sarunu ar mūsu komandu WhatsApp.",
+    "cta": "Sākt sarunu"
   }
 }

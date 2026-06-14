@@ -735,5 +735,12 @@
     "subtitle": "Kutilmagan xatolik yuz berdi. Qayta urinib ko‘ring.",
     "retry": "Qayta urinish",
     "home": "Bosh sahifaga"
+  },
+  "Whatsapp": {
+    "title": "Bizga yozing",
+    "reply": "Odatda bir necha daqiqada javob beramiz",
+    "close": "Yopish",
+    "greeting": "👋 Salom! O‘zbekistondan malakali, qonuniy rasmiylashtirilgan ishchilar kerakmi? Jamoamizga WhatsApp orqali yozing.",
+    "cta": "Suhbatni boshlash"
   }
 }

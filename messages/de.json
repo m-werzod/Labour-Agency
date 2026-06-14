@@ -735,5 +735,12 @@
     "subtitle": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
     "retry": "Erneut versuchen",
     "home": "Zur Startseite"
+  },
+  "Whatsapp": {
+    "title": "Schreiben Sie uns",
+    "reply": "Antwortet in der Regel innerhalb von Minuten",
+    "close": "Schließen",
+    "greeting": "👋 Hallo! Brauchen Sie qualifizierte, lizenzierte Arbeitskräfte aus Usbekistan? Starten Sie einen Chat mit unserem Team auf WhatsApp.",
+    "cta": "Chat starten"
   }
 }

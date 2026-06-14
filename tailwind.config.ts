@@ -109,8 +109,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
-        display: ['var(--font-manrope)', 'var(--font-inter)', 'system-ui', 'sans-serif'],
+        // Times New Roman across the site (with serif fallbacks for non-Windows).
+        sans: ['"Times New Roman"', 'Times', 'Georgia', 'serif'],
+        display: ['"Times New Roman"', 'Times', 'Georgia', 'serif'],
       },
       fontSize: {
         'display-2xl': ['clamp(2.75rem, 6vw, 4.5rem)', { lineHeight: '1.05', letterSpacing: '-0.02em', fontWeight: '800' }],
